@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Scanner from '../components/Scanner';
 import axios from 'axios';
@@ -10,6 +10,12 @@ const Scan = () => {
   const [error, setError] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [uploadedImage, setUploadedImage] = useState(null);
+
+  // Clear any cached scan data when page loads
+  useEffect(() => {
+    setUploadedImage(null);
+    setError('');
+  }, []);
 
   const handleScanComplete = async (imageData) => {
     try {
