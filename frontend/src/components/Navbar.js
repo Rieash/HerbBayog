@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Leaf, Menu, X, Camera, BookOpen, Home, Scan, Info } from 'lucide-react';
+import { Leaf, Menu, X, Camera, BookOpen, Home, Scan, Info, Globe } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const location = useLocation();
+  const { t, changeLanguage, currentLanguage, languages } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,10 +25,10 @@ const Navbar = () => {
   }, [location]);
 
   const navLinks = [
-    { path: '/', label: 'Home', icon: <Home className="nav-icon" /> },
-    { path: '/scan', label: 'Scan', icon: <Scan className="nav-icon" /> },
-    { path: '/plants', label: 'Plants', icon: <BookOpen className="nav-icon" /> },
-    { path: '/about', label: 'About', icon: <Info className="nav-icon" /> }
+    { path: '/', label: t('nav.home'), icon: <Home className="nav-icon" /> },
+    { path: '/scan', label: t('nav.scan'), icon: <Scan className="nav-icon" /> },
+    { path: '/plants', label: t('nav.plants'), icon: <BookOpen className="nav-icon" /> },
+    { path: '/about', label: t('nav.about'), icon: <Info className="nav-icon" /> }
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -60,11 +63,39 @@ const Navbar = () => {
           ))}
         </div>
 
+        {/* Language Switcher */}
+        <div className="navbar-lang desktop">
+          <button
+            className="lang-switcher"
+            onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+          >
+            <Globe size={18} />
+            <span>{currentLanguage.flag}</span>
+          </button>
+          {isLangMenuOpen && (
+            <div className="lang-dropdown">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  className={`lang-option ${lang.code === currentLanguage.code ? 'active' : ''}`}
+                  onClick={() => {
+                    changeLanguage(lang.code);
+                    setIsLangMenuOpen(false);
+                  }}
+                >
+                  <span>{lang.flag}</span>
+                  <span>{lang.name}</span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
         {/* CTA Button */}
         <div className="navbar-cta desktop">
           <Link to="/scan" className="btn-scan">
             <Camera className="btn-scan-icon" />
-            <span>Start Scanning</span>
+            <span>{t('nav.scan')}</span>
           </Link>
         </div>
 
@@ -95,8 +126,25 @@ const Navbar = () => {
           ))}
           <Link to="/scan" className="mobile-cta">
             <Camera />
-            Start Scanning
+            {t('nav.scan')}
           </Link>
+
+          {/* Mobile Language Switcher */}
+          <div className="mobile-lang">
+            <span className="mobile-lang-label">Language:</span>
+            <div className="mobile-lang-options">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  className={`mobile-lang-btn ${lang.code === currentLanguage.code ? 'active' : ''}`}
+                  onClick={() => changeLanguage(lang.code)}
+                >
+                  <span>{lang.flag}</span>
+                  <span>{lang.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 

@@ -8,6 +8,7 @@ import Scan from './pages/Scan';
 import ScanResultPage from './pages/ScanResultPage';
 import About from './pages/About';
 import LoadingScreen from './components/LoadingScreen';
+import { LanguageProvider } from './contexts/LanguageContext';
 import './App.css';
 import './styles/global-animations.css';
 
@@ -78,7 +79,9 @@ function App() {
 
   return (
     <Router>
-      <AppContent />
+      <LanguageProvider>
+        <AppContent />
+      </LanguageProvider>
     </Router>
   );
 }
