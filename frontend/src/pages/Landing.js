@@ -117,7 +117,7 @@ const Landing = () => {
             </div>
           </FloatingElement>
           
-          <h1 className="hero-title-enhanced text-3xl md:text-4xl lg:text-5xl">
+          <h1 className="hero-title-enhanced">
             <span className="title-line">Your Pocket</span>
             <span className="title-line highlight">
               <UnderlineText>Herbal Expert</UnderlineText>
@@ -125,21 +125,21 @@ const Landing = () => {
             <span className="title-line">in Calbayog</span>
           </h1>
           
-          <p className="hero-subtitle-enhanced text-sm md:text-base lg:text-lg">
+          <p className="hero-subtitle-enhanced">
             Identify 40 Philippine medicinal plants instantly. Learn traditional remedies. 
             <strong> Preserve Filipino heritage.</strong>
           </p>
           
-          <div className="hero-highlights flex flex-wrap gap-2 md:gap-3">
+          <div className="hero-highlights">
             {highlights.map((item, idx) => (
-              <div key={idx} className="highlight-pill text-xs md:text-sm">
+              <div key={idx} className="highlight-pill">
                 {item.icon}
                 <span>{item.text}</span>
               </div>
             ))}
           </div>
           
-          <div className="hero-cta-enhanced flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="hero-cta-enhanced">
             <Link to="/scan" className="btn-primary-enhanced ripple">
               <Camera className="btn-icon" />
               <span>Start Scanning Free</span>
