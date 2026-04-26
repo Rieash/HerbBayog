@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Scanner from '../components/Scanner';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config';
 import './Scan.css';
 import '../styles/animations.css';
 
@@ -52,7 +53,7 @@ const Scan = () => {
       formData.append('image', file);
 
       console.log('[DEBUG] Sending request to backend...');
-      const response = await axios.post('/api/classify-api/', formData, {
+      const response = await axios.post(API_ENDPOINTS.CLASSIFY, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
