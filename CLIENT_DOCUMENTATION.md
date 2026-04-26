@@ -1,0 +1,333 @@
+# HerbBayog - Technical Documentation
+
+## Project Overview
+HerbBayog is a web-based medicinal plant identification system that uses AI to identify plants through image analysis. The system provides detailed information about medicinal plants including their uses, benefits, and preparation methods.
+
+## Technology Stack
+
+### Frontend
+- **Framework**: React 18
+- **Build Tool**: Create React App
+- **Styling**: CSS3 with responsive design
+- **Icons**: Lucide React
+- **Camera**: react-webcam
+- **HTTP Client**: Axios
+- **Routing**: React Router
+
+### Backend
+- **Framework**: Django 5.0.1
+- **API**: Django REST Framework 3.15.2
+- **Database**: PostgreSQL (Production), SQLite (Development)
+- **Plant Identification**: PlantNet API
+- **Static Files**: WhiteNoise
+- **CORS**: django-cors-headers
+- **Web Server**: Gunicorn
+
+### Deployment
+- **Frontend**: Netlify
+- **Backend**: Render.com
+- **Database**: Render PostgreSQL
+- **Version Control**: GitHub
+
+---
+
+## Frontend Code Structure
+
+```
+frontend/
+├── public/
+│   └── index.html          # Main HTML with viewport meta tag
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js       # Navigation bar component
+│   │   ├── Scanner.js      # Camera/upload component
+│   │   └── PhotoSubmission.js
+│   ├── pages/
+│   │   ├── LandingNew.js   # Landing page
+│   │   ├── About.js        # About page
+│   │   ├── Scan.js         # Scan page
+│   │   ├── ScanResultPage.js  # Results display
+│   │   ├── Plants.js       # Plant database
+│   │   └── PlantDetails.js # Individual plant details
+│   ├── data/
+│   │   └── dohPlantDatabase.js  # Plant information database
+│   ├── utils/
+│   │   └── plantNameMapping.js # Plant name normalization
+│   ├── App.js              # Main app component with routing
+│   └── index.js            # Entry point
+└── package.json
+```
+
+## Backend Code Structure
+
+```
+backend/
+├── herbbayog/
+│   ├── settings.py         # Development settings
+│   ├── settings_prod.py    # Production settings
+│   ├── urls.py             # URL routing
+│   └── wsgi.py             # WSGI configuration
+├── herbal_plants/
+│   ├── views.py            # API view functions
+│   ├── urls.py             # API URL patterns
+│   ├── plant_data.py       # Plant data management
+│   └── admin.py            # Django admin
+├── manage.py               # Django management script
+├── requirements.txt        # Python dependencies
+└── build.sh                # Build script for deployment
+```
+
+---
+
+## API Endpoints
+
+### 1. Plant Classification API
+**Endpoint**: `POST /api/classify-api/`
+
+**Description**: Identifies a plant from an uploaded image using PlantNet API.
+
+**Request**:
+- Method: POST
+- Content-Type: multipart/form-data
+- Body: `image` (file)
+
+**Response**:
+```json
+{
+  "success": true,
+  "prediction": {
+    "plant_name": "Lagundi",
+    "confidence": 0.95,
+    "is_reliable": true
+  },
+  "plant_details": {
+    "scientific_name": "Vitex negundo",
+    "common_names": ["Lagundi", "Five-leaved chaste tree"],
+    "uses": ["Cough relief", "Asthma treatment"],
+    "preparation": "Boil leaves and drink as tea",
+    "image_url": "/media/lagundi.jpg"
+  }
+}
+```
+
+### 2. Plant Database API
+**Endpoint**: `GET /api/plants/`
+
+**Description**: Retrieves all plants in the database.
+
+**Response**:
+```json
+[
+  {
+    "id": 1,
+    "name": "Lagundi",
+    "scientific_name": "Vitex negundo",
+    "uses": ["Cough relief", "Asthma"],
+    "image_url": "/media/lagundi.jpg"
+  }
+]
+```
+
+### 3. Health Check
+**Endpoint**: `GET /api/health/`
+
+**Description**: Checks if the API is running.
+
+**Response**:
+```json
+{
+  "status": "healthy",
+  "timestamp": "2024-04-26T12:00:00Z"
+}
+```
+
+---
+
+## Database Schema
+
+### Plant Table
+```python
+class Plant(models.Model):
+    name = models.CharField(max_length=200)
+    scientific_name = models.CharField(max_length=200)
+    common_names = models.JSONField()
+    uses = models.JSONField()
+    preparation = models.TextField()
+    image_url = models.CharField(max_length=500)
+    created_at = models.DateTimeField(auto_now_add=True)
+```
+
+---
+
+## Key Code Snippets
+
+### Frontend - Image Upload
+```javascript
+const handleImageUpload = async (file) => {
+  const formData = new FormData();
+  formData.append('image', file);
+  
+  const response = await axios.post('/api/classify-api/', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' }
+  });
+  
+  if (response.data.success) {
+    navigate('/scan-result', { 
+      state: { 
+        result: response.data, 
+        uploadedImage: imageUrl 
+      } 
+    });
+  }
+};
+```
+
+### Backend - PlantNet API Integration
+```python
+def identify_plant_with_plantnet(image_file):
+    """Identify plant using PlantNet API"""
+    api_url = "https://my-api.plantnet.org/v2/identify"
+    
+    with open(image_file, 'rb') as f:
+        files = {'images': f}
+        params = {
+            'include-related-images': 'true',
+            'no-reject': 'false',
+            'lang': 'en',
+            'type': 'kt'
+        }
+        response = requests.post(
+            api_url,
+            files=files,
+            params=params,
+            headers={'Api-Key': settings.PLANTNET_API_KEY}
+        )
+    
+    return response.json()
+```
+
+### Backend - API View
+```python
+@api_view(['POST'])
+def classify_plant_api(request):
+    """API endpoint for plant classification"""
+    if 'image' not in request.FILES:
+        return Response({'error': 'No image provided'}, status=400)
+    
+    image_file = request.FILES['image']
+    
+    # Identify plant using PlantNet
+    plantnet_result = identify_plant_with_plantnet(image_file)
+    
+    # Get plant details from database
+    plant_name = plantnet_result['results'][0]['species']['scientificName']
+    plant_details = get_plant_details(plant_name)
+    
+    return Response({
+        'success': True,
+        'prediction': {
+            'plant_name': plant_name,
+            'confidence': plantnet_result['results'][0]['score'],
+            'is_reliable': plantnet_result['results'][0]['score'] > 0.5
+        },
+        'plant_details': plant_details
+    })
+```
+
+---
+
+## Deployment URLs
+
+### Frontend (Netlify)
+- **URL**: https://deft-yeot-584dc6.netlify.app
+- **Status**: Live
+- **Features**: Responsive design, mobile-compatible
+
+### Backend (Render)
+- **URL**: https://herbbayog-api.onrender.com
+- **Status**: Deployed
+- **Database**: PostgreSQL on Render
+
+### GitHub Repository
+- **URL**: https://github.com/Rieash/HerbBayog-v1
+- **Branch**: main
+
+---
+
+## Environment Variables
+
+### Production (Render)
+```
+DJANGO_SETTINGS_MODULE=herbbayog.settings_prod
+DEBUG=False
+SECRET_KEY=<generated-secret-key>
+DATABASE_URL=<postgresql-url>
+FRONTEND_URL=https://deft-yeot-584dc6.netlify.app
+PLANTNET_API_KEY=<plantnet-api-key>
+```
+
+---
+
+## Security Features
+
+1. **CORS Configuration**: Only allows requests from authorized domains
+2. **HTTPS Only**: Production uses SSL/TLS encryption
+3. **Secret Key Management**: Environment variable for Django secret key
+4. **Database Security**: PostgreSQL with connection pooling
+5. **File Upload Limits**: 10MB maximum file size
+
+---
+
+## Performance Optimizations
+
+1. **Static Files**: Compressed and served via WhiteNoise
+2. **Database Connection Pooling**: 600-second connection reuse
+3. **Image Optimization**: Client-side compression before upload
+4. **Lazy Loading**: Components load on-demand
+5. **Code Splitting**: React automatic code splitting
+
+---
+
+## Mobile Responsiveness
+
+The frontend is fully responsive with:
+- Viewport meta tag for proper scaling
+- Media queries for breakpoints: 1024px, 968px, 768px
+- Fluid typography using CSS clamp()
+- Grid layouts that collapse to single column on mobile
+- Touch-friendly interface elements
+
+---
+
+## Plant Database
+
+The system includes information on Philippine medicinal plants from DOH-approved list:
+- Lagundi (Vitex negundo)
+- Sambong (Blumea balsamifera)
+- Akapulko (Cassia alata)
+- Ampalaya (Momordica charantia)
+- Bawang (Allium sativum)
+- Bayabas (Psidium guajava)
+- Niyog-niyogan (Quisqualis indica)
+- Tsaang Gubat (Carmona retusa)
+- Ulasimang Bato (Peperomia pellucida)
+- Yerba Buena (Clinopodium douglasii)
+
+---
+
+## Future Enhancements
+
+1. Offline support with Progressive Web App (PWA)
+2. User authentication and scan history
+3. Community contribution features
+4. Multi-language support
+5. Enhanced AI model integration
+6. Native mobile applications (iOS/Android)
+
+---
+
+## Contact Information
+
+**Project Name**: HerbBayog
+**Version**: 1.0
+**Last Updated**: April 2024
