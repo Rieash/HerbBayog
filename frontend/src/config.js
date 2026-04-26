@@ -1,5 +1,6 @@
 // API Configuration
-export const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://herbbayog-api.onrender.com';
+// Change this to your actual Render backend URL
+export const API_BASE_URL = 'https://herbbayog-api.onrender.com';
 
 export const API_ENDPOINTS = {
   CLASSIFY: `${API_BASE_URL}/api/classify-api/`,

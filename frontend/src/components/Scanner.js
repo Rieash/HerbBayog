@@ -153,7 +153,7 @@ const Scanner = ({ onScanComplete, onImageUpload, isAnalyzing, lastPrediction = 
       )}
 
       {/* Action Buttons */}
-      <div className="action-buttons">
+      <div className="action-buttons flex flex-col sm:flex-row gap-3 sm:gap-4">
         {cameraActive && (
           <button
             onClick={capture}
@@ -204,7 +204,7 @@ const Scanner = ({ onScanComplete, onImageUpload, isAnalyzing, lastPrediction = 
       <div className="contribute-section">
         <button
           onClick={() => setShowSubmission(true)}
-          className="btn-contribute"
+          className="btn-contribute text-sm md:text-base"
         >
           <PlusCircle className="btn-icon" />
           Help improve HerbBayog - Contribute a plant photo
@@ -222,11 +222,11 @@ const Scanner = ({ onScanComplete, onImageUpload, isAnalyzing, lastPrediction = 
 
       {/* Instructions */}
       <div className="instructions">
-        <h3 className="instructions-title">
+        <h3 className="instructions-title text-base md:text-lg">
           <Leaf className="title-icon" />
           Tips for Best Results
         </h3>
-        <ul className="instructions-list">
+        <ul className="instructions-list text-sm md:text-base">
           <li>Position the plant clearly in the center frame</li>
           <li>Use natural daylight for accurate colors</li>
           <li>Focus on leaves, flowers, or distinctive features</li>

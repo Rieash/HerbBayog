@@ -94,26 +94,26 @@ const Scan = () => {
 
   return (
     <div className="scan-page">
-      <div className="p-6 max-w-4xl mx-auto space-y-6">
+      <div className="p-4 md:p-6 max-w-4xl mx-auto space-y-4 md:space-y-6">
         {/* Header */}
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
             Plant Scanner
           </h1>
-          <p className="text-gray-600">
+          <p className="text-sm md:text-base text-gray-600">
             Use your camera or upload an image to identify medicinal plants
           </p>
         </div>
 
         {/* Error Message */}
         {error && (
-          <div className="bg-orange-50 border-2 border-orange-300 rounded-lg p-6 shadow-md">
-            <div className="flex items-center gap-3 mb-3">
-              <span className="text-2xl">📷</span>
-              <h3 className="text-orange-800 font-semibold text-lg">Photo Not Clear Enough</h3>
+          <div className="bg-orange-50 border-2 border-orange-300 rounded-lg p-4 md:p-6 shadow-md">
+            <div className="flex items-center gap-2 md:gap-3 mb-3">
+              <span className="text-xl md:text-2xl">📷</span>
+              <h3 className="text-orange-800 font-semibold text-base md:text-lg">Photo Not Clear Enough</h3>
             </div>
-            <p className="text-orange-700 ml-9 mb-3">{error}</p>
-            <div className="ml-9 bg-white/70 rounded-lg p-3 text-sm">
+            <p className="text-orange-700 ml-7 md:ml-9 mb-3 text-sm md:text-base">{error}</p>
+            <div className="ml-7 md:ml-9 bg-white/70 rounded-lg p-3 text-xs md:text-sm">
               <p className="font-semibold text-orange-800 mb-2">💡 Try these tips:</p>
               <ul className="text-orange-700 space-y-1 list-disc list-inside">
                 <li>Move closer so the leaf fills most of the frame</li>
@@ -136,52 +136,52 @@ const Scan = () => {
 
 
         {/* Instructions */}
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="card-shadow p-6 bg-gradient-to-br from-green-50 to-emerald-50">
-            <h3 className="font-semibold text-gray-800 mb-4 flex items-center gap-2">
-              <span className="text-xl">📸</span> Photo Tips for Best Results
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+          <div className="card-shadow p-4 md:p-6 bg-gradient-to-br from-green-50 to-emerald-50">
+            <h3 className="font-semibold text-gray-800 mb-3 md:mb-4 flex items-center gap-2">
+              <span className="text-lg md:text-xl">📸</span> Photo Tips for Best Results
             </h3>
-            <ul className="space-y-3 text-gray-600">
-              <li className="flex items-start gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                <span className="text-xl">☀️</span>
+            <ul className="space-y-2 md:space-y-3 text-gray-600 text-sm md:text-base">
+              <li className="flex items-start gap-2 md:gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
+                <span className="text-lg md:text-xl">☀️</span>
                 <div>
                   <strong className="text-gray-800 block">Good Lighting</strong>
-                  <span className="text-sm">Use natural daylight, avoid harsh shadows</span>
+                  <span className="text-xs md:text-sm">Use natural daylight, avoid harsh shadows</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                <span className="text-xl">🎯</span>
+              <li className="flex items-start gap-2 md:gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
+                <span className="text-lg md:text-xl">🎯</span>
                 <div>
                   <strong className="text-gray-800 block">Fill the Frame</strong>
-                  <span className="text-sm">Make the leaf take up 50%+ of the image</span>
+                  <span className="text-xs md:text-sm">Make the leaf take up 50%+ of the image</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                <span className="text-xl">🔍</span>
+              <li className="flex items-start gap-2 md:gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
+                <span className="text-lg md:text-xl">🔍</span>
                 <div>
                   <strong className="text-gray-800 block">Show Details</strong>
-                  <span className="text-sm">Capture leaf veins, edges, and stem clearly</span>
+                  <span className="text-xs md:text-sm">Capture leaf veins, edges, and stem clearly</span>
                 </div>
               </li>
-              <li className="flex items-start gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
-                <span className="text-xl">🌿</span>
+              <li className="flex items-start gap-2 md:gap-3 p-2 rounded-lg hover:bg-white/50 transition-colors">
+                <span className="text-lg md:text-xl">🌿</span>
                 <div>
                   <strong className="text-gray-800 block">Single Leaf</strong>
-                  <span className="text-sm">Focus on one leaf, avoid cluttered backgrounds</span>
+                  <span className="text-xs md:text-sm">Focus on one leaf, avoid cluttered backgrounds</span>
                 </div>
               </li>
             </ul>
-            <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-100">
-              <p className="text-sm text-blue-800">
+            <div className="mt-3 md:mt-4 p-3 bg-blue-50 rounded-lg border border-blue-100">
+              <p className="text-xs md:text-sm text-blue-800">
                 <strong>💡 Pro Tip:</strong> Our AI is trained on 7,900+ images with 98.6% accuracy. 
                 If unsure, it will show you the top 3 possibilities!
               </p>
             </div>
           </div>
 
-          <div className="card-shadow p-6">
-            <h3 className="font-semibold text-gray-800 mb-4">Supported Plants</h3>
-            <div className="grid grid-cols-2 gap-2 text-sm">
+          <div className="card-shadow p-4 md:p-6">
+            <h3 className="font-semibold text-gray-800 mb-3 md:mb-4">Supported Plants</h3>
+            <div className="grid grid-cols-2 gap-2 text-xs md:text-sm">
               <span className="text-gray-600">• Lagundi</span>
               <span className="text-gray-600">• Sambong</span>
               <span className="text-gray-600">• Tsaang Gubat</span>

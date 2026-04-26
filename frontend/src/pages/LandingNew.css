@@ -1755,8 +1755,41 @@
 
 @media (max-width: 768px) {
   .hero-section-enhanced {
-    padding: 6rem 4% 3rem;
+    padding: 4rem 4% 2rem;
     min-height: auto;
+  }
+  
+  .hero-title-enhanced {
+    font-size: 1.75rem !important;
+  }
+  
+  .hero-subtitle-enhanced {
+    font-size: 0.875rem !important;
+  }
+  
+  .hero-badge-enhanced {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .highlight-pill {
+    font-size: 0.7rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .btn-primary-enhanced,
+  .btn-secondary-enhanced {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+  }
+  
+  .stats-ticker {
+    font-size: 0.75rem;
+    padding: 0.75rem;
+  }
+  
+  .ticker-item {
+    font-size: 0.7rem;
   }
   
   .step-card-enhanced {

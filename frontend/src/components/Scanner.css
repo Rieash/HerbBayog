@@ -5,6 +5,51 @@
   padding: 2rem 1rem;
 }
 
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .scanner-container {
+    padding: 1rem 0.75rem;
+  }
+  
+  .camera-section {
+    max-width: 100%;
+    margin: 0 auto 1rem;
+    border-radius: 16px;
+  }
+  
+  .camera-placeholder {
+    padding: 1.5rem;
+  }
+  
+  .placeholder-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon-main {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .icon-accent {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .placeholder-title {
+    font-size: 1.25rem;
+  }
+  
+  .placeholder-text {
+    font-size: 0.875rem;
+  }
+  
+  .start-camera-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
 /* Camera Section */
 .camera-section {
   position: relative;

@@ -117,7 +117,7 @@ const Landing = () => {
             </div>
           </FloatingElement>
           
-          <h1 className="hero-title-enhanced">
+          <h1 className="hero-title-enhanced text-3xl md:text-4xl lg:text-5xl">
             <span className="title-line">Your Pocket</span>
             <span className="title-line highlight">
               <UnderlineText>Herbal Expert</UnderlineText>
@@ -125,21 +125,21 @@ const Landing = () => {
             <span className="title-line">in Calbayog</span>
           </h1>
           
-          <p className="hero-subtitle-enhanced">
+          <p className="hero-subtitle-enhanced text-sm md:text-base lg:text-lg">
             Identify 40 Philippine medicinal plants instantly. Learn traditional remedies. 
             <strong> Preserve Filipino heritage.</strong>
           </p>
           
-          <div className="hero-highlights">
+          <div className="hero-highlights flex flex-wrap gap-2 md:gap-3">
             {highlights.map((item, idx) => (
-              <div key={idx} className="highlight-pill">
+              <div key={idx} className="highlight-pill text-xs md:text-sm">
                 {item.icon}
                 <span>{item.text}</span>
               </div>
             ))}
           </div>
           
-          <div className="hero-cta-enhanced">
+          <div className="hero-cta-enhanced flex flex-col sm:flex-row gap-3 sm:gap-4">
             <Link to="/scan" className="btn-primary-enhanced ripple">
               <Camera className="btn-icon" />
               <span>Start Scanning Free</span>
@@ -333,7 +333,7 @@ const Landing = () => {
           </div>
         </AnimatedSection>
 
-        <StaggerContainer className="features-grid-enhanced">
+        <StaggerContainer className="features-grid-enhanced grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {features.map((feature, index) => (
             <TiltCard key={index}>
               <div 
