@@ -13,6 +13,7 @@ import {
   Share2,
   Bookmark
 } from 'lucide-react';
+import { API_ENDPOINTS } from '../config';
 import './PlantDetails.css';
 
 const PlantDetails = () => {
@@ -29,7 +30,7 @@ const PlantDetails = () => {
 
   const fetchPlantDetails = async () => {
     try {
-      const response = await fetch(`/api/plants/${id}/`);
+      const response = await fetch(`${API_ENDPOINTS.PLANTS}${id}/`);
       const data = await response.json();
       setPlant(data);
       setLoading(false);
