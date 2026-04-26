@@ -13,20 +13,22 @@ import {
 } from 'lucide-react';
 import { dohPlantDatabase } from '../data/dohPlantDatabase';
 import { getLocalName } from '../utils/plantNameMapping';
+import { useLanguage } from '../contexts/LanguageContext';
 import './ScanResultPage.css';
 
 const ScanResultPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { result, uploadedImage } = location.state || {};
+  const { t } = useLanguage();
 
   if (!result) {
     return (
       <div className="scan-result-error">
-        <h2>No scan result found</h2>
+        <h2>{t('scanResult.notFound')}</h2>
         <button onClick={() => navigate('/scan')} className="back-button">
           <ArrowLeft size={20} />
-          Back to Scan
+          {t('scanResult.backToScan')}
         </button>
       </div>
     );
@@ -48,7 +50,7 @@ const ScanResultPage = () => {
       <header className="scan-result-header">
         <button onClick={() => navigate('/scan')} className="back-button">
           <ArrowLeft size={24} />
-          <span>Back to Scan</span>
+          <span>{t('scanResult.backToScan')}</span>
         </button>
         <div className="scan-badge">
           <Sparkles size={18} />
@@ -107,7 +109,7 @@ const ScanResultPage = () => {
           <div className="confidence-badge" style={{ '--confidence': `${confidence}%` }}>
             <div className="confidence-ring">
               <span className="confidence-value">{confidence}%</span>
-              <span className="confidence-label">Confidence</span>
+              <span className="confidence-label">{t('scanResult.confidence')}</span>
             </div>
           </div>
 
@@ -123,7 +125,7 @@ const ScanResultPage = () => {
             </div>
             <div className="info-card">
               <Heart size={24} className="info-icon" />
-              <span className="info-label">Medicinal Uses</span>
+              <span className="info-label">{t('scanResult.medicinalUses')}</span>
               <span className="info-value">
                 {(plantInfo?.medicinal_uses || plantDetails.medicinal_uses || []).length || 0} Benefits
               </span>
@@ -161,7 +163,7 @@ const ScanResultPage = () => {
             <div className="uses-section">
               <h4>
                 <Heart size={18} />
-                Medicinal Uses
+                {t('scanResult.medicinalUses')}
               </h4>
               <ul className="uses-list">
                 {(plantInfo?.medicinal_uses || plantDetails.medicinal_uses || []).map((use, index) => (
@@ -179,7 +181,7 @@ const ScanResultPage = () => {
             <div className="uses-section">
               <h4>
                 <Heart size={18} />
-                Medicinal Uses
+                {t('scanResult.medicinalUses')}
               </h4>
               <ul className="uses-list">
                 {plantInfo.uses.map((use, index) => (
@@ -197,7 +199,7 @@ const ScanResultPage = () => {
             <div className="preparation-section">
               <h4>
                 <Beaker size={18} />
-                How to Prepare & Use
+                {t('scanResult.preparation')}
               </h4>
               {Array.isArray(plantInfo?.preparation || plantDetails.preparation) ? (
                 <ul className="preparation-list">
@@ -219,7 +221,7 @@ const ScanResultPage = () => {
             <div className="warnings-section">
               <h4>
                 <Shield size={18} />
-                Warnings & Precautions
+                {t('scanResult.safety')}
               </h4>
               <ul className="warnings-list">
                 {plantInfo.warnings.map((warning, index) => (
@@ -252,7 +254,7 @@ const ScanResultPage = () => {
           </button>
           <button className="action-btn secondary" onClick={() => navigate('/scan')}>
             <Camera size={20} />
-            Scan Another
+            {t('scanResult.scanAnother')}
           </button>
           <button className="action-btn share">
             <Share2 size={20} />

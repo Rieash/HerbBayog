@@ -128,6 +128,70 @@ export const translations = {
         }
       }
     },
+    // Plant Details
+    plantDetails: {
+      loading: 'Loading plant information...',
+      notFound: 'Plant Not Found',
+      backToPlants: 'Back to Plants',
+      category: 'Medicinal Herb',
+      tabs: {
+        overview: 'Overview',
+        medicinal: 'Medicinal Uses',
+        preparation: 'How to Prepare',
+        cultural: 'Cultural Info'
+      },
+      stats: {
+        preparation: 'Preparation',
+        preparationValue: '15-30 min',
+        storage: 'Storage',
+        storageValue: 'Cool, Dry',
+        safety: 'Safety',
+        safetyValue: 'Generally Safe'
+      },
+      overview: {
+        description: 'Description',
+        benefits: 'Key Benefits'
+      },
+      medicinal: {
+        title: 'Traditional Medicinal Uses',
+        notes: 'Important Notes',
+        notesText: 'Always consult with a healthcare provider before using herbal remedies, especially if you are pregnant, nursing, or taking medications.'
+      },
+      preparation: {
+        title: 'Preparation Methods',
+        tips: 'Pro Tips',
+        tip1: 'Use fresh leaves for best potency',
+        tip2: 'Harvest in the morning after dew dries',
+        tip3: 'Store in a cool, dry place away from sunlight',
+        tip4: 'Label preparations with date and plant name'
+      },
+      cultural: {
+        title: 'Cultural Significance',
+        noInfo: 'Information about cultural significance coming soon.',
+        heritage: 'Calbayog Heritage',
+        heritageText: 'This plant is part of the rich botanical heritage of Calbayog City, Samar province. Traditional healers (herbolarios) have used these remedies for generations, passing down knowledge through oral tradition.'
+      },
+      cta: {
+        title: 'Ready to identify this plant?',
+        subtitle: 'Use our AI scanner to identify plants instantly',
+        button: 'Scan Plant Now'
+      }
+    },
+    // Scan Result Page
+    scanResult: {
+      loading: 'Analyzing your plant...',
+      notFound: 'Plant Not Identified',
+      tryAgain: 'Try Again',
+      backToScan: 'Back to Scanner',
+      confidence: 'Confidence',
+      matches: 'Top Matches',
+      medicinalUses: 'Medicinal Uses',
+      preparation: 'How to Prepare',
+      safety: 'Safety Information',
+      disclaimer: 'Disclaimer: This is AI-generated information. Always consult a healthcare professional before using any herbal remedy.',
+      scanAnother: 'Scan Another Plant',
+      viewDetails: 'View Full Details'
+    },
     // Common
     common: {
       back: 'Back',
@@ -278,6 +342,70 @@ export const translations = {
           description: 'Tanan nga tanom gintsek-an labi ha DOH-approved lists nga may detalyado nga preparation methods ngan safety guidelines para ha tagsa nga tambal.'
         }
       }
+    },
+    // Plant Details
+    plantDetails: {
+      loading: 'Nag-load han impormasyon han tanom...',
+      notFound: 'An Tanom Diri Nakita',
+      backToPlants: 'Balik ha Mga Tanom',
+      category: 'Medicinal nga Tanom',
+      tabs: {
+        overview: 'Overview',
+        medicinal: 'Medicinal nga Gamit',
+        preparation: 'Paano I-andam',
+        cultural: 'Cultural nga Impormasyon'
+      },
+      stats: {
+        preparation: 'Pag-andam',
+        preparationValue: '15-30 min',
+        storage: 'Pagtagay',
+        storageValue: 'Malip-ot, Marugit',
+        safety: 'Kaluwasan',
+        safetyValue: 'Kasagaran nga Luwas'
+      },
+      overview: {
+        description: 'Deskripsyon',
+        benefits: 'Mga Importante nga Benefisyo'
+      },
+      medicinal: {
+        title: 'Tradisyonal nga Medicinal nga Gamit',
+        notes: 'Mga Importante nga Nota',
+        notesText: 'Palihug konsulta ha usa nga healthcare provider before paggamit han herbal remedies, labi na kon nagbados, nagpapasuso, o nagkuha hin mga tambal.'
+      },
+      preparation: {
+        title: 'Mga Paagi han Pag-andam',
+        tips: 'Mga Pro Tips',
+        tip1: 'Gamita an fresh nga dahon para ha maupay nga potency',
+        tip2: 'Anom ha aga pagkatapos magtugob an dew',
+        tip3: 'I-tagay ha malip-ot ngan marugit nga lugar waray adlaw',
+        tip4: 'I-label an mga andam nga may petsa ngan ngaran han tanom'
+      },
+      cultural: {
+        title: 'Cultural nga Significance',
+        noInfo: 'Impormasyon about cultural significance darudto na.',
+        heritage: 'Heritage han Calbayog',
+        heritageText: 'Ini nga tanom parte han rich botanical heritage han Calbayog City, Samar province. An mga traditional healers (herbolarios) nagamit hini nga mga tambal para ha mga henerasyon, nagpasa han knowledge through oral tradition.'
+      },
+      cta: {
+        title: 'Listo na para mag-ila hini nga tanom?',
+        subtitle: 'Gamita an aton AI scanner para mag-ila hin tanom ha direkta',
+        button: 'Iscan an Tanom Na'
+      }
+    },
+    // Scan Result Page
+    scanResult: {
+      loading: 'Nag-analyze han imo tanom...',
+      notFound: 'An Tanom Diri Ma-ila',
+      tryAgain: 'Sulayi Liwat',
+      backToScan: 'Balik ha Scanner',
+      confidence: 'Karahasaan',
+      matches: 'Mga Top nga Match',
+      medicinalUses: 'Medicinal nga Gamit',
+      preparation: 'Paano I-andam',
+      safety: 'Impormasyon han Kaluwasan',
+      disclaimer: 'Disclaimer: Ini AI-generated nga impormasyon. Palihug konsulta ha usa nga healthcare professional before paggamit hin bisan ano nga herbal remedy.',
+      scanAnother: 'Iscan an Iba nga Tanom',
+      viewDetails: 'Kitaa an Bug-os nga Detalye'
     },
     // Common
     common: {

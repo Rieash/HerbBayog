@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Camera, BookOpen, Heart, Shield, Users, Globe, Mail, MapPin, Sparkles, Zap, Award, Brain } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 import './About.css';
 
 // Animated counter hook
@@ -58,6 +59,7 @@ const StatCard = ({ number, label, suffix = '' }) => {
 
 const About = () => {
   const [visibleSections, setVisibleSections] = useState({});
+  const { t } = useLanguage();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -119,27 +121,26 @@ const About = () => {
         <div className="about-hero-content-enhanced">
           <div className="hero-badge">
             <Sparkles size={18} />
-            <span>Made in Calbayog, Philippines</span>
+            <span>{t('about.hero.badge')}</span>
           </div>
           <h1 className="about-hero-title-enhanced text-2xl md:text-3xl lg:text-4xl">
-            Bridging <span className="highlight">Tradition</span> & <span className="highlight">Technology</span>
+            {t('about.hero.title')}
           </h1>
           <p className="about-hero-subtitle-enhanced text-sm md:text-base lg:text-lg">
-            HerbBayog is dedicated to preserving Filipino herbal wisdom through 
-            cutting-edge AI, making traditional medicine accessible to everyone.
+            {t('about.hero.subtitle')}
           </p>
           <div className="hero-stats-row flex flex-wrap gap-2 md:gap-4">
             <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🇵🇭</span>
-              <span>Filipino Heritage</span>
+              <span>{t('about.hero.heritage')}</span>
             </div>
             <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🤖</span>
-              <span>AI-Powered</span>
+              <span>{t('about.hero.ai')}</span>
             </div>
             <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🏥</span>
-              <span>DOH Verified</span>
+              <span>{t('about.hero.doh')}</span>
             </div>
           </div>
         </div>
@@ -160,10 +161,9 @@ const About = () => {
               <div className="mission-icon-wrapper">
                 <Heart className="mission-icon" />
               </div>
-              <h3 className="text-base md:text-lg">Preserve Heritage</h3>
+              <h3 className="text-base md:text-lg">{t('about.mission.preserve.title')}</h3>
               <p className="text-sm md:text-base">
-                Document and safeguard traditional Filipino herbal knowledge that has been 
-                passed down through generations, ensuring it never fades away.
+                {t('about.mission.preserve.description')}
               </p>
               <div className="mission-tags">
                 <span className="mission-tag text-xs">Cultural</span>
@@ -176,10 +176,9 @@ const About = () => {
               <div className="mission-icon-wrapper">
                 <Brain className="mission-icon" />
               </div>
-              <h3 className="text-base md:text-lg">AI Innovation</h3>
+              <h3 className="text-base md:text-lg">{t('about.mission.innovation.title')}</h3>
               <p className="text-sm md:text-base">
-                Leverage DenseNet121 neural networks trained on 7,900+ images to identify 
-                plants with 98.6% accuracy, making identification instant and reliable.
+                {t('about.mission.innovation.description')}
               </p>
               <div className="mission-tags">
                 <span className="mission-tag text-xs">Technology</span>
@@ -192,10 +191,9 @@ const About = () => {
               <div className="mission-icon-wrapper">
                 <Shield className="mission-icon" />
               </div>
-              <h3 className="text-base md:text-lg">Verified Safety</h3>
+              <h3 className="text-base md:text-lg">{t('about.mission.safety.title')}</h3>
               <p className="text-sm md:text-base">
-                All plants are verified against DOH-approved lists with detailed 
-                preparation methods and safety guidelines for every remedy.
+                {t('about.mission.safety.description')}
               </p>
               <div className="mission-tags">
                 <span className="mission-tag">Safety</span>

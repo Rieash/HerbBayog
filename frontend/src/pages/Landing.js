@@ -12,12 +12,14 @@ import AnimatedPage, {
   AnimatedSection, TiltCard, FloatingElement, 
   StaggerContainer, MagneticButton, UnderlineText 
 } from '../components/AnimatedPage';
+import { useLanguage } from '../contexts/LanguageContext';
 import './LandingNew.css';
 
 const Landing = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeDemo, setActiveDemo] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setIsVisible(true);
@@ -35,35 +37,35 @@ const Landing = () => {
   const features = [
     {
       icon: <Scan className="feature-icon" />,
-      title: 'Instant Plant ID',
-      description: 'Point, scan, identify! Our AI recognizes 40 Philippine medicinal plants in seconds with 98.6% accuracy using your camera.',
+      title: t('landing.features.instant.title'),
+      description: t('landing.features.instant.description'),
       color: '#2D5016',
-      stat: '< 2 sec',
-      statLabel: 'Scan Time'
+      stat: t('landing.features.instant.stat'),
+      statLabel: t('landing.features.instant.statLabel')
     },
     {
       icon: <Brain className="feature-icon" />,
-      title: 'Deep Learning AI',
-      description: 'Powered by DenseNet121 neural network trained on 7,900+ images. Learns leaf patterns, textures, shapes for perfect identification.',
+      title: t('landing.features.ai.title'),
+      description: t('landing.features.ai.description'),
       color: '#4A7C23',
-      stat: '98.6%',
-      statLabel: 'Accuracy'
+      stat: t('landing.features.ai.stat'),
+      statLabel: t('landing.features.ai.statLabel')
     },
     {
       icon: <BookOpen className="feature-icon" />,
-      title: 'Herbal Wisdom',
-      description: 'Access traditional Filipino remedies, preparation methods, and cultural significance passed down through generations.',
+      title: t('landing.features.wisdom.title'),
+      description: t('landing.features.wisdom.description'),
       color: '#7CB342',
-      stat: '112',
-      statLabel: 'Plants'
+      stat: t('landing.features.wisdom.stat'),
+      statLabel: t('landing.features.wisdom.statLabel')
     },
     {
       icon: <Shield className="feature-icon" />,
-      title: 'Trusted & Verified',
-      description: 'All plant information verified against DOH-approved traditional medicines and scientific research databases.',
+      title: t('landing.features.trusted.title'),
+      description: t('landing.features.trusted.description'),
       color: '#558B2F',
-      stat: 'DOH',
-      statLabel: 'Approved'
+      stat: t('landing.features.trusted.stat'),
+      statLabel: t('landing.features.trusted.statLabel')
     }
   ];
 
@@ -99,10 +101,10 @@ const Landing = () => {
   }, []);
 
   const highlights = [
-    { icon: <Zap />, text: 'Real-time scanning' },
-    { icon: <Globe />, text: 'Works offline' },
-    { icon: <Award />, text: 'Clinically verified' },
-    { icon: <Users />, text: 'Community driven' }
+    { icon: <Zap />, text: t('landing.hero.highlights.accuracy') },
+    { icon: <Globe />, text: t('landing.hero.highlights.offline') },
+    { icon: <Award />, text: t('landing.hero.highlights.doh') },
+    { icon: <Users />, text: t('landing.hero.highlights.free') }
   ];
 
   return (
@@ -113,7 +115,7 @@ const Landing = () => {
           <FloatingElement animation="float-gentle" delay={0}>
             <div className="hero-badge-enhanced">
               <Sparkles className="badge-icon" />
-              <span>🌿 Trusted by 1,000+ Herbal Enthusiasts</span>
+              <span>{t('landing.hero.badge')}</span>
             </div>
           </FloatingElement>
           
@@ -126,8 +128,7 @@ const Landing = () => {
           </h1>
           
           <p className="hero-subtitle-enhanced">
-            Identify 40 Philippine medicinal plants instantly. Learn traditional remedies. 
-            <strong> Preserve Filipino heritage.</strong>
+            {t('landing.hero.subtitle')}
           </p>
           
           <div className="hero-highlights">
@@ -142,27 +143,27 @@ const Landing = () => {
           <div className="hero-cta-enhanced">
             <Link to="/scan" className="btn-primary-enhanced ripple">
               <Camera className="btn-icon" />
-              <span>Start Scanning Free</span>
+              <span>{t('landing.hero.cta.primary')}</span>
               <ArrowRight className="btn-arrow" />
             </Link>
             <a href="#how-it-works" className="btn-secondary-enhanced">
               <Play size={18} />
-              <span>How It Works</span>
+              <span>{t('landing.hero.cta.secondary')}</span>
             </a>
           </div>
 
           {/* Live Stats Ticker */}
           <div className="stats-ticker">
             <div className="ticker-content">
-              <span className="ticker-item">🌿 7,900+ Training Images</span>
+              <span className="ticker-item">🌿 {t('landing.hero.stats.images')}</span>
               <span className="ticker-separator">•</span>
-              <span className="ticker-item">🎯 98.6% AI Accuracy</span>
+              <span className="ticker-item">🎯 {t('landing.hero.stats.accuracy')}</span>
               <span className="ticker-separator">•</span>
-              <span className="ticker-item">🏥 DOH Approved Plants</span>
+              <span className="ticker-item">🏥 {t('landing.hero.stats.plants')}</span>
               <span className="ticker-separator">•</span>
-              <span className="ticker-item">📍 Calbayog Heritage</span>
+              <span className="ticker-item">📍 {t('landing.hero.stats.location')}</span>
               <span className="ticker-separator">•</span>
-              <span className="ticker-item">🧠 DenseNet121 AI</span>
+              <span className="ticker-item">🧠 {t('landing.hero.stats.ai')}</span>
             </div>
           </div>
         </AnimatedSection>

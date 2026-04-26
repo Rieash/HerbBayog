@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Scanner from '../components/Scanner';
 import axios from 'axios';
 import { API_ENDPOINTS } from '../config';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Scan.css';
 import '../styles/animations.css';
 
@@ -11,6 +12,7 @@ const Scan = () => {
   const [error, setError] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [uploadedImage, setUploadedImage] = useState(null);
+  const { t } = useLanguage();
 
   // Clear any cached scan data when page loads
   useEffect(() => {
@@ -98,10 +100,10 @@ const Scan = () => {
         {/* Header */}
         <div className="text-center">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-            Plant Scanner
+            {t('scan.title')}
           </h1>
           <p className="text-sm md:text-base text-gray-600">
-            Use your camera or upload an image to identify medicinal plants
+            {t('scan.subtitle')}
           </p>
         </div>
 
@@ -110,17 +112,17 @@ const Scan = () => {
           <div className="bg-orange-50 border-2 border-orange-300 rounded-lg p-4 md:p-6 shadow-md">
             <div className="flex items-center gap-2 md:gap-3 mb-3">
               <span className="text-xl md:text-2xl">📷</span>
-              <h3 className="text-orange-800 font-semibold text-base md:text-lg">Photo Not Clear Enough</h3>
+              <h3 className="text-orange-800 font-semibold text-base md:text-lg">{t('scan.error.title')}</h3>
             </div>
             <p className="text-orange-700 ml-7 md:ml-9 mb-3 text-sm md:text-base">{error}</p>
             <div className="ml-7 md:ml-9 bg-white/70 rounded-lg p-3 text-xs md:text-sm">
-              <p className="font-semibold text-orange-800 mb-2">💡 Try these tips:</p>
+              <p className="font-semibold text-orange-800 mb-2">💡 {t('scan.error.tips')}</p>
               <ul className="text-orange-700 space-y-1 list-disc list-inside">
-                <li>Move closer so the leaf fills most of the frame</li>
-                <li>Hold the camera steady to avoid blur</li>
-                <li>Use natural daylight (avoid shade or shadows)</li>
-                <li>Focus on a single leaf, not the whole plant</li>
-                <li>Make sure the leaf details (veins, edges) are visible</li>
+                <li>{t('scan.error.tip1')}</li>
+                <li>{t('scan.error.tip2')}</li>
+                <li>{t('scan.error.tip3')}</li>
+                <li>{t('scan.error.tip4')}</li>
+                <li>{t('scan.error.tip5')}</li>
               </ul>
             </div>
           </div>

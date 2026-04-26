@@ -14,6 +14,7 @@ import {
   Bookmark
 } from 'lucide-react';
 import { API_ENDPOINTS } from '../config';
+import { useLanguage } from '../contexts/LanguageContext';
 import './PlantDetails.css';
 
 const PlantDetails = () => {
@@ -23,6 +24,7 @@ const PlantDetails = () => {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
   const [isBookmarked, setIsBookmarked] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     fetchPlantDetails();
@@ -44,7 +46,7 @@ const PlantDetails = () => {
     return (
       <div className="plant-details-loading">
         <div className="loading-spinner-nature"></div>
-        <p>Loading plant information...</p>
+        <p>{t('plantDetails.loading')}</p>
       </div>
     );
   }
@@ -53,19 +55,19 @@ const PlantDetails = () => {
     return (
       <div className="plant-details-error">
         <AlertCircle className="error-icon" />
-        <h2>Plant Not Found</h2>
+        <h2>{t('plantDetails.notFound')}</h2>
         <button onClick={() => navigate('/plants')} className="btn-back">
-          <ArrowLeft /> Back to Plants
+          <ArrowLeft /> {t('plantDetails.backToPlants')}
         </button>
       </div>
     );
   }
 
   const tabs = [
-    { id: 'overview', label: 'Overview', icon: <Info size={18} /> },
-    { id: 'medicinal', label: 'Medicinal Uses', icon: <Heart size={18} /> },
-    { id: 'preparation', label: 'How to Prepare', icon: <Beaker size={18} /> },
-    { id: 'cultural', label: 'Cultural Info', icon: <Leaf size={18} /> }
+    { id: 'overview', label: t('plantDetails.tabs.overview'), icon: <Info size={18} /> },
+    { id: 'medicinal', label: t('plantDetails.tabs.medicinal'), icon: <Heart size={18} /> },
+    { id: 'preparation', label: t('plantDetails.tabs.preparation'), icon: <Beaker size={18} /> },
+    { id: 'cultural', label: t('plantDetails.tabs.cultural'), icon: <Leaf size={18} /> }
   ];
 
   return (
@@ -84,7 +86,7 @@ const PlantDetails = () => {
           </button>
           
           <div className="plant-hero-info">
-            <span className="plant-category">Medicinal Herb</span>
+            <span className="plant-category">{t('plantDetails.category')}</span>
             <h1 className="plant-name">{plant.name}</h1>
             <p className="plant-scientific">{plant.scientific_name}</p>
             
@@ -109,18 +111,18 @@ const PlantDetails = () => {
         <div className="plant-stats">
           <div className="stat-card">
             <Clock size={24} className="stat-icon" />
-            <span className="stat-label">Preparation</span>
-            <span className="stat-value">15-30 min</span>
+            <span className="stat-label">{t('plantDetails.stats.preparation')}</span>
+            <span className="stat-value">{t('plantDetails.stats.preparationValue')}</span>
           </div>
           <div className="stat-card">
             <Thermometer size={24} className="stat-icon" />
-            <span className="stat-label">Storage</span>
-            <span className="stat-value">Cool, Dry</span>
+            <span className="stat-label">{t('plantDetails.stats.storage')}</span>
+            <span className="stat-value">{t('plantDetails.stats.storageValue')}</span>
           </div>
           <div className="stat-card">
             <CheckCircle2 size={24} className="stat-icon" />
-            <span className="stat-label">Safety</span>
-            <span className="stat-value">Generally Safe</span>
+            <span className="stat-label">{t('plantDetails.stats.safety')}</span>
+            <span className="stat-value">{t('plantDetails.stats.safetyValue')}</span>
           </div>
         </div>
 
@@ -143,12 +145,12 @@ const PlantDetails = () => {
           {activeTab === 'overview' && (
             <div className="tab-panel overview-panel">
               <div className="panel-section">
-                <h3>Description</h3>
+                <h3>{t('plantDetails.overview.description')}</h3>
                 <p>{plant.description}</p>
               </div>
               
               <div className="panel-section">
-                <h3>Key Benefits</h3>
+                <h3>{t('plantDetails.overview.benefits')}</h3>
                 <div className="benefits-grid">
                   {plant.medicinal_uses?.slice(0, 4).map((use, idx) => (
                     <div key={idx} className="benefit-card">
@@ -166,7 +168,7 @@ const PlantDetails = () => {
           {activeTab === 'medicinal' && (
             <div className="tab-panel">
               <div className="panel-section">
-                <h3>Traditional Medicinal Uses</h3>
+                <h3>{t('plantDetails.medicinal.title')}</h3>
                 <ul className="uses-list">
                   {plant.medicinal_uses?.map((use, idx) => (
                     <li key={idx} className="use-item">
@@ -182,11 +184,10 @@ const PlantDetails = () => {
               <div className="panel-section warning-section">
                 <div className="warning-header">
                   <AlertCircle size={24} />
-                  <h3>Important Notes</h3>
+                  <h3>{t('plantDetails.medicinal.notes')}</h3>
                 </div>
                 <p className="warning-text">
-                  Always consult with a healthcare provider before using herbal remedies, 
-                  especially if you are pregnant, nursing, or taking medications.
+                  {t('plantDetails.medicinal.notesText')}
                 </p>
               </div>
             </div>
@@ -195,7 +196,7 @@ const PlantDetails = () => {
           {activeTab === 'preparation' && (
             <div className="tab-panel">
               <div className="panel-section">
-                <h3>Preparation Methods</h3>
+                <h3>{t('plantDetails.preparation.title')}</h3>
                 <div className="preparation-steps">
                   {plant.preparation_steps?.map((step, idx) => (
                     <div key={idx} className="prep-step">
@@ -209,12 +210,12 @@ const PlantDetails = () => {
               </div>
               
               <div className="panel-section tips-section">
-                <h3>💡 Pro Tips</h3>
+                <h3>💡 {t('plantDetails.preparation.tips')}</h3>
                 <ul className="tips-list">
-                  <li>Use fresh leaves for best potency</li>
-                  <li>Harvest in the morning after dew dries</li>
-                  <li>Store in a cool, dry place away from sunlight</li>
-                  <li>Label preparations with date and plant name</li>
+                  <li>{t('plantDetails.preparation.tip1')}</li>
+                  <li>{t('plantDetails.preparation.tip2')}</li>
+                  <li>{t('plantDetails.preparation.tip3')}</li>
+                  <li>{t('plantDetails.preparation.tip4')}</li>
                 </ul>
               </div>
             </div>
@@ -223,18 +224,16 @@ const PlantDetails = () => {
           {activeTab === 'cultural' && (
             <div className="tab-panel">
               <div className="panel-section">
-                <h3>Cultural Significance</h3>
+                <h3>{t('plantDetails.cultural.title')}</h3>
                 <div className="cultural-content">
-                  <p>{plant.cultural_relevance || 'Information about cultural significance coming soon.'}</p>
+                  <p>{plant.cultural_relevance || t('plantDetails.cultural.noInfo')}</p>
                 </div>
               </div>
               
               <div className="panel-section heritage-section">
-                <h3>Calbayog Heritage</h3>
+                <h3>{t('plantDetails.cultural.heritage')}</h3>
                 <p>
-                  This plant is part of the rich botanical heritage of Calbayog City, 
-                  Samar province. Traditional healers (herbolarios) have used these 
-                  remedies for generations, passing down knowledge through oral tradition.
+                  {t('plantDetails.cultural.heritageText')}
                 </p>
               </div>
             </div>
@@ -243,14 +242,14 @@ const PlantDetails = () => {
 
         {/* CTA Section */}
         <div className="plant-cta">
-          <h3>Ready to identify this plant?</h3>
-          <p>Use our AI scanner to identify plants instantly</p>
+          <h3>{t('plantDetails.cta.title')}</h3>
+          <p>{t('plantDetails.cta.subtitle')}</p>
           <button 
             onClick={() => navigate('/scan')}
             className="btn-scan-plant"
           >
             <Leaf size={20} />
-            Scan Plant Now
+            {t('plantDetails.cta.button')}
           </button>
         </div>
       </div>

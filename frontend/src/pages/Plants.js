@@ -10,6 +10,7 @@ import AnimatedPage, {
 import { MiniLoader } from '../components/LoadingScreen';
 import axios from 'axios';
 import { API_ENDPOINTS } from '../config';
+import { useLanguage } from '../contexts/LanguageContext';
 import './Plants.css';
 
 const Plants = () => {
@@ -21,17 +22,18 @@ const Plants = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [favorites, setFavorites] = useState([]);
+  const { t } = useLanguage();
 
   const categories = [
-    { id: 'all', label: 'All Plants', icon: '🌿', count: 10 },
-    { id: 'respiratory', label: 'Respiratory', icon: '🫁', count: 3 },
-    { id: 'digestive', label: 'Digestive', icon: '🍃', count: 5 },
-    { id: 'pain', label: 'Pain Relief', icon: '💊', count: 1 },
-    { id: 'diabetes', label: 'Diabetes', icon: '🩺', count: 1 },
-    { id: 'kidney', label: 'Kidney/UTI', icon: '🏥', count: 1 },
-    { id: 'skin', label: 'Skin Care', icon: '✨', count: 1 },
-    { id: 'cardiovascular', label: 'Heart Health', icon: '❤️', count: 1 },
-    { id: 'nutritional', label: 'Nutritional', icon: '🥗', count: 1 }
+    { id: 'all', label: t('plants.categories.all'), icon: '🌿', count: 10 },
+    { id: 'respiratory', label: t('plants.categories.respiratory'), icon: '🫁', count: 3 },
+    { id: 'digestive', label: t('plants.categories.digestive'), icon: '🍃', count: 5 },
+    { id: 'pain', label: t('plants.categories.pain'), icon: '💊', count: 1 },
+    { id: 'diabetes', label: t('plants.categories.diabetes'), icon: '🩺', count: 1 },
+    { id: 'kidney', label: t('plants.categories.kidney'), icon: '🏥', count: 1 },
+    { id: 'skin', label: t('plants.categories.skin'), icon: '✨', count: 1 },
+    { id: 'cardiovascular', label: t('plants.categories.cardiovascular'), icon: '❤️', count: 1 },
+    { id: 'nutritional', label: t('plants.categories.nutritional'), icon: '🥗', count: 1 }
   ];
 
   useEffect(() => {
@@ -140,13 +142,11 @@ const Plants = () => {
             </FloatingElement>
             
             <h1 className="plants-hero-title text-2xl md:text-3xl lg:text-4xl">
-              Discover <span className="gradient-text">10 DOH-Approved</span>
-              <br />Medicinal Plants
+              {t('plants.title')}
             </h1>
             
             <p className="plants-hero-subtitle text-sm md:text-base lg:text-lg">
-              Explore our comprehensive library of DOH-approved traditional medicines. 
-              Search by name, ailment, or category.
+              {t('plants.subtitle')}
             </p>
 
             {/* Search Bar */}
@@ -155,7 +155,7 @@ const Plants = () => {
                 <Search className="search-icon" />
                 <input
                   type="text"
-                  placeholder="Search plants, ailments, or remedies..."
+                  placeholder={t('plants.search')}
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="search-input-enhanced text-sm md:text-base"
