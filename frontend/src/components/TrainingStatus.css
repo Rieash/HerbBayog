@@ -1,0 +1,292 @@
+.training-status-card {
+  background: linear-gradient(135deg, #2d5016 0%, #1a3009 100%);
+  border-radius: 16px;
+  padding: 1.5rem;
+  color: white;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.training-status-card.training {
+  border: 2px solid #7CB342;
+  animation: pulse-border 2s ease-in-out infinite;
+}
+
+@keyframes pulse-border {
+  0%, 100% { border-color: #7CB342; }
+  50% { border-color: #a5d6a7; }
+}
+
+.status-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.status-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.status-icon {
+  width: 28px;
+  height: 28px;
+  color: #7CB342;
+}
+
+.live-badge {
+  background: #ff4444;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Training Active State */
+.training-active {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.pulse-animation {
+  animation: pulse-scale 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.spinner-large {
+  width: 64px;
+  height: 64px;
+  color: #7CB342;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.training-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+
+.training-subtext {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progress-bar-striped {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #7CB342 0%,
+    #a5d6a7 50%,
+    #7CB342 100%
+  );
+  background-size: 200% 100%;
+  animation: progress-stripes 1s linear infinite;
+  width: 100%;
+}
+
+@keyframes progress-stripes {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-icon {
+  width: 24px;
+  height: 24px;
+  color: #7CB342;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #7CB342;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Plants Section */
+.plants-section {
+  margin-bottom: 1.5rem;
+}
+
+.plants-section h4 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.plant-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.plant-progress.ready {
+  background: rgba(124, 179, 66, 0.2);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.plant-name {
+  font-weight: 500;
+  min-width: 80px;
+  font-size: 0.875rem;
+}
+
+.progress-track {
+  flex: 1;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #7CB342, #4A7C23);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.plant-progress.ready .progress-fill {
+  background: #7CB342;
+}
+
+.plant-count {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  min-width: 80px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.check-icon {
+  width: 16px;
+  height: 16px;
+  color: #7CB342;
+}
+
+/* Ready Notice */
+.ready-notice {
+  background: rgba(124, 179, 66, 0.2);
+  border: 1px solid #7CB342;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ready-notice p {
+  margin: 0;
+}
+
+.ready-notice .hint {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.5rem;
+}
+
+/* Last Retrain */
+.last-retrain {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.last-retrain p {
+  margin: 0.25rem 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Refresh Button */
+.refresh-btn {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background 0.2s;
+  margin-top: 1rem;
+}
+
+.refresh-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Loading State */
+.training-status.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+/* Error State */
+.training-status.error {
+  padding: 2rem;
+  text-align: center;
+  color: #ff6b6b;
+}

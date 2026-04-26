@@ -1,0 +1,2777 @@
+{
+  "Lagundi": {
+    "name": "Lagundi",
+    "scientific_name": "Vitex negundo",
+    "local_names": [
+      "Dangla",
+      "Five-leaved chaste tree",
+      "Chinese chastetree",
+      "Chaste tree",
+      "Vitex negundo",
+      "Chaste tree",
+      "Sambhalu",
+      "Nirgundi"
+    ],
+    "description": "Lagundi is a shrub that grows up to 5 meters tall. It has distinctive five-fingered leaves (palmate compound leaves) and small blue to lavender flowers. It is one of the most widely used medicinal plants in the Philippines, recognized by the Department of Health for its effectiveness.",
+    "medicinal_uses": [
+      "Relieves cough and asthma",
+      "Treats fever and colds",
+      "Reduces inflammation",
+      "Eases headache and rheumatism",
+      "Relieves abdominal pain"
+    ],
+    "preparation_steps": [
+      "Boil a handful of fresh or dried leaves in 2 cups of water for 15 minutes",
+      "Let it cool and strain the liquid",
+      "Drink as tea, 1 cup 3 times daily",
+      "For cough relief, add honey to taste"
+    ],
+    "cultural_relevance": "Lagundi has been used in Philippine traditional medicine for centuries. It is one of the ten herbal medicines endorsed by the Department of Health (DOH) for its proven medicinal properties. The plant is commonly found in backyards and is often the first remedy for cough and colds in Filipino households.",
+    "image_url": "/images/plants/lagundi.jpg",
+    "doh_approved": true,
+    "category": "Respiratory",
+    "detailed_description": "Lagundi (Vitex negundo) is one of the ten medicinal plants officially endorsed by the Philippine Department of Health (DOH) for its proven effectiveness in treating respiratory ailments including cough, asthma, and pharyngitis."
+  },
+  "Sambong": {
+    "name": "Sambong",
+    "scientific_name": "Blumea balsamifera",
+    "local_names": [
+      "Blumea camphor",
+      "Ngai camphor"
+    ],
+    "description": "Sambong is a coarse erect annual herb that grows up to 1.5 meters tall. It has soft, hairy leaves that emit a camphor-like scent when crushed. The plant produces yellow flowers in clusters at the top. It thrives in open grasslands and waste places throughout the Philippines.",
+    "medicinal_uses": [
+      "Dissolves kidney stones",
+      "Relieves diarrhea and dysentery",
+      "Reduces fever",
+      "Treats hypertension",
+      "Acts as diuretic and anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Wash fresh leaves thoroughly",
+      "Boil 10-15 leaves in 3 cups of water for 20 minutes",
+      "Strain and let cool",
+      "Drink 1 cup, 3 times daily after meals"
+    ],
+    "cultural_relevance": "Sambong is officially recognized by the Philippine Department of Health as a medicinal plant for its diuretic properties and effectiveness in treating kidney stones. It has been used by traditional healers (albularyo) for generations and remains a popular herbal remedy in rural communities.",
+    "image_url": "/images/plants/sambong.jpg",
+    "doh_approved": true,
+    "category": "Urinary/Kidney",
+    "detailed_description": "Sambong (Blumea balsamifera) is officially recognized by the Philippine DOH for its diuretic properties and effectiveness in dissolving kidney stones and treating urinary tract infections."
+  },
+  "Bayabas": {
+    "name": "Bayabas",
+    "scientific_name": "Psidium guajava",
+    "local_names": [
+      "Guava",
+      "Psidium guajava",
+      "Common guava",
+      "Lemon guava",
+      "Apple guava",
+      "Yellow guava"
+    ],
+    "description": "Bayabas (Guava) is a small evergreen tree or shrub that grows up to 10 meters tall. It has smooth, oblong to elliptic leaves with prominent veins. The bark is smooth and peels off in thin flakes. It produces white flowers and yellow-green edible fruits with pink or white flesh.",
+    "medicinal_uses": [
+      "Treats diarrhea and gastroenteritis",
+      "Relieves toothache (chew leaves)",
+      "Heals wounds and skin infections",
+      "Controls blood sugar levels",
+      "Treats mouth ulcers"
+    ],
+    "preparation_steps": [
+      "For diarrhea: Boil 10 fresh leaves in 2 cups of water for 10 minutes",
+      "For wound wash: Boil a handful of leaves until water turns brown",
+      "Cool and use to wash affected area 2-3 times daily",
+      "For mouthwash: Gargle with cooled boiled leaf water"
+    ],
+    "cultural_relevance": "Bayabas is ubiquitous in the Philippines, found in almost every backyard. It is one of the most important traditional medicines, especially for treating diarrhea in children. The leaves are readily available year-round, making it an accessible first-aid remedy in rural areas.",
+    "image_url": "/images/plants/bayabas.jpg",
+    "doh_approved": true,
+    "category": "Digestive",
+    "detailed_description": "Bayabas or Guava (Psidium guajava) is endorsed by the Philippine DOH as an effective treatment for diarrhea and amebiasis. The leaves contain tannins that provide antimicrobial and anti-inflammatory effects."
+  },
+  "Ampalaya": {
+    "name": "Ampalaya",
+    "scientific_name": "Momordica charantia",
+    "local_names": [
+      "Bitter melon",
+      "Bitter gourd",
+      "Momordica charantia",
+      "Karela",
+      "Balsam pear",
+      "Kugua",
+      "Foo gwa"
+    ],
+    "description": "Ampalaya is a climbing vine with stems that grow up to 5 meters long. It has long, flat, grass-like leaves and produces small white flowers. The bulb consists of 4-20 cloves enclosed in a white or pinkish papery skin. It has a pungent, characteristic odor.",
+    "medicinal_uses": [
+      "Lowers blood sugar (anti-diabetic)",
+      "Treats hemorrhoids",
+      "Relieves stomach problems",
+      "Boosts immune system",
+      "Detoxifies the blood"
+    ],
+    "preparation_steps": [
+      "Wash and slice fresh leaves or fruit",
+      "Boil 1 cup of sliced leaves in 2 cups water for 15 minutes",
+      "Alternatively, juice fresh leaves and mix with water",
+      "Drink 1/2 cup, twice daily before meals"
+    ],
+    "cultural_relevance": "Ampalaya is a staple vegetable in Filipino cuisine and medicine. The Department of Health recognizes its anti-diabetic properties. Despite its bitter taste, it is valued for its numerous health benefits and is often used in the traditional dish 'ginisang ampalaya.'",
+    "image_url": "/images/plants/ampalaya.jpg",
+    "doh_approved": true,
+    "category": "Diabetes",
+    "detailed_description": "Ampalaya or Bitter Melon (Momordica charantia) is recognized by the Philippine DOH for its anti-diabetic properties. It contains charantin and momordicin which help lower blood glucose levels."
+  },
+  "Malunggay": {
+    "name": "Malunggay",
+    "scientific_name": "Moringa oleifera",
+    "local_names": [
+      "Moringa",
+      "Drumstick tree",
+      "Horseradish tree",
+      "Moringa oleifera",
+      "Ben oil tree",
+      "Drumstick",
+      "Sahijan"
+    ],
+    "description": "Malunggay is a fast-growing, drought-resistant tree that can reach up to 10 meters in height. It has compound leaves with small oval leaflets, white fragrant flowers, and long, slender seed pods (drumsticks). Every part of the tree is edible and nutritious.",
+    "medicinal_uses": [
+      "Boosts milk production for nursing mothers",
+      "Rich source of vitamins and minerals",
+      "Improves immune system",
+      "Lowers blood sugar",
+      "Anti-inflammatory and antioxidant"
+    ],
+    "preparation_steps": [
+      "Collect fresh leaves and tender stems",
+      "Wash thoroughly in clean water",
+      "Add to soups, stews, or sauté with garlic",
+      "For tea: Steep fresh or dried leaves in hot water for 5 minutes"
+    ],
+    "cultural_relevance": "Malunggay is called the 'miracle tree' and 'nature's medicine cabinet.' It is a staple in Filipino kitchens, used in tinola, ginataan, and various dishes. Its nutritional value makes it essential for combating malnutrition in rural communities.",
+    "image_url": "/images/plants/malunggay.jpg",
+    "doh_approved": true,
+    "category": "Nutritional",
+    "detailed_description": "Malunggay (Moringa oleifera) is called the 'Miracle Tree' and is endorsed by the DOH as a nutritional supplement. It contains 7x more Vitamin C than oranges and 4x more Vitamin A than carrots."
+  },
+  "Niyog-niyogan": {
+    "name": "Niyog-niyogan",
+    "scientific_name": "Quisqualis indica",
+    "local_names": [
+      "Rangoon creeper",
+      "Chinese honeysuckle"
+    ],
+    "description": "Niyog-niyogan is a climbing vine with reddish-brown stems that can reach up to 8 meters. It produces elliptical leaves and showy fragrant flowers that change color from white to pink to red. The fruit is oblong and turns brown when mature.",
+    "medicinal_uses": [
+      "Expels intestinal worms",
+      "Treats fever",
+      "Relieves diarrhea",
+      "Reduces inflammation"
+    ],
+    "preparation_steps": [
+      "Collect mature seeds",
+      "Dry seeds in sunlight",
+      "Crack open and extract kernel",
+      "Take 1-2 kernels with water"
+    ],
+    "cultural_relevance": "Niyog-niyogan is primarily known as a deworming remedy in the Philippines. The plant is often grown as an ornamental vine due to its beautiful changing-color flowers.",
+    "image_url": "/images/plants/Niyog-niyogan.jfif",
+    "doh_approved": false,
+    "category": "Antiparasitic",
+    "detailed_description": "Niyog-niyogan (Quisqualis indica) is traditionally used as an anthelmintic to expel intestinal worms. The seeds contain quisqualic acid which is effective against Ascaris and other parasitic worms."
+  },
+  "Pansit-pansitan": {
+    "name": "Pansit-pansitan",
+    "scientific_name": "Peperomia pellucida",
+    "local_names": [
+      "Shiny bush",
+      "Man'to"
+    ],
+    "description": "Pansit-pansitan is a small, succulent annual herb that grows 15-45 cm tall. It has light green, fleshy, translucent leaves with heart-shaped bases. It thrives in damp, shaded areas.",
+    "medicinal_uses": [
+      "Relieves arthritis and gout",
+      "Lowers uric acid",
+      "Treats headache",
+      "Heals skin boils",
+      "Acts as diuretic"
+    ],
+    "preparation_steps": [
+      "Wash fresh whole plant",
+      "May be eaten raw in salads",
+      "For tea: Boil 1 cup in 2 cups water",
+      "Drink 1 cup, 3 times daily"
+    ],
+    "cultural_relevance": "Pansit-pansitan is commonly found in damp corners of Filipino homes. It is valued for treating gout and arthritis and is often eaten as a salad vegetable.",
+    "image_url": "/images/plants/pansit-pansitan.jpg",
+    "doh_approved": false,
+    "category": "Urinary/Arthritis",
+    "detailed_description": "Pansit-pansitan (Peperomia pellucida) is traditionally used for treating arthritis, gout, and kidney stones. It has diuretic and anti-inflammatory properties that help lower uric acid levels."
+  },
+  "Yerba Buena": {
+    "name": "Yerba Buena",
+    "scientific_name": "Clinopodium douglasii",
+    "local_names": [
+      "Peppermint",
+      "Spearmint"
+    ],
+    "description": "Yerba Buena is a perennial creeping herb with hairy, square stems. It has small, oval toothed leaves that emit a strong minty aroma when crushed. It produces small white or purple flowers.",
+    "medicinal_uses": [
+      "Relieves body aches",
+      "Treats cough and cold",
+      "Eases nausea",
+      "Reduces menstrual cramps",
+      "Relieves itching"
+    ],
+    "preparation_steps": [
+      "Collect fresh leaves",
+      "Boil 1 cup in 2 cups water",
+      "For inhalation: Inhale steam",
+      "Apply directly to painful areas"
+    ],
+    "cultural_relevance": "Yerba Buena (good herb) has been used by Filipino families for generations as a pain reliever. Its minty aroma makes it pleasant to use.",
+    "image_url": "/images/plants/yerba-buena.jpg",
+    "doh_approved": true,
+    "category": "Pain Relief",
+    "detailed_description": "Yerba Buena (Clinopodium douglasii) is one of the ten DOH-endorsed medicinal plants for pain relief. Its menthol content provides effective relief from body aches, headaches, and menstrual cramps."
+  },
+  "Bawang": {
+    "name": "Bawang",
+    "scientific_name": "Allium sativum",
+    "local_names": [
+      "Garlic",
+      "Allium sativum",
+      "Clove garlic",
+      "Common garlic",
+      "Cultivated garlic",
+      "Wild garlic",
+      "Spanish garlic"
+    ],
+    "description": "Bawang is a bulbous perennial plant that grows up to 1 meter tall. It has long, flat leaves and produces small white flowers. The bulb has 4-20 cloves with a pungent odor.",
+    "medicinal_uses": [
+      "Lowers blood pressure",
+      "Reduces cholesterol",
+      "Prevents blood clotting",
+      "Antibacterial",
+      "Boosts immune system"
+    ],
+    "preparation_steps": [
+      "Peel and crush 2-3 cloves",
+      "Let stand for 10 minutes",
+      "Swallow with water or mix with honey",
+      "Add to food daily"
+    ],
+    "cultural_relevance": "Bawang is indispensable in Filipino cooking and medicine. Every Filipino kitchen has garlic, used both as spice and medicine.",
+    "image_url": "/images/plants/bawang.jpg",
+    "doh_approved": true,
+    "category": "Cardiovascular",
+    "detailed_description": "Bawang or Garlic (Allium sativum) is recognized by the DOH for its cardiovascular benefits. It contains allicin which helps lower blood pressure, reduce cholesterol, and prevent blood clot formation."
+  },
+  "Akapulko": {
+    "name": "Akapulko",
+    "scientific_name": "Senna alata",
+    "local_names": [
+      "Ringworm bush",
+      "Candelabra bush",
+      "Senna alata",
+      "Cassia alata",
+      "Empress candle plant",
+      "Seven golden candles",
+      "Christmas candle",
+      "Candle bush"
+    ],
+    "description": "Akapulko is a coarse erect shrub that grows 1-3 meters tall. It has bright yellow flowers arranged in a candelabra shape. The leaves are compound with 8-12 leaflets.",
+    "medicinal_uses": [
+      "Treats fungal infections",
+      "Relieves scabies",
+      "Treats eczema",
+      "Laxative properties",
+      "Anti-bacterial for wounds"
+    ],
+    "preparation_steps": [
+      "Collect fresh mature leaves",
+      "Wash and crush",
+      "Apply to affected skin",
+      "For bath: Add to bath water"
+    ],
+    "cultural_relevance": "Akapulko is the go-to remedy for fungal skin infections. Its distinctive yellow flowers make it easy to identify.",
+    "image_url": "/images/plants/akapulko.jpg",
+    "doh_approved": true,
+    "category": "Skin/Fungal",
+    "detailed_description": "Akapulko or Ringworm Bush (Senna alata) is DOH-endorsed for treating fungal skin infections. The leaves contain chrysophanic acid which is effective against ringworm, scabies, and eczema."
+  },
+  "Tsaang Gubat": {
+    "name": "Tsaang Gubat",
+    "scientific_name": "Ehretia microphylla",
+    "local_names": [
+      "Wild tea",
+      "Forest tea"
+    ],
+    "description": "Tsaang Gubat is a shrub that grows 1-3 meters tall. It has small, oval leaves and produces small white flowers. It is commonly found in forests and wild areas.",
+    "medicinal_uses": [
+      "Treats diarrhea",
+      "Relieves stomach pain",
+      "Anti-diarrheal",
+      "Stomachic"
+    ],
+    "preparation_steps": [
+      "Collect fresh leaves",
+      "Wash thoroughly",
+      "Boil in water",
+      "Drink as tea"
+    ],
+    "cultural_relevance": "Tsaang Gubat is used as a tea substitute and for treating stomach ailments in rural communities.",
+    "image_url": "/images/plants/tsaang-gubat.jpg",
+    "doh_approved": true,
+    "category": "Digestive",
+    "detailed_description": "Tsaang Gubat (Ehretia microphylla) is endorsed by the Philippine DOH for treating diarrhea and stomach problems. It has anti-spasmodic and anti-diarrheal properties."
+  },
+  "Alagaw": {
+    "name": "Alagaw",
+    "scientific_name": "Premna odorata",
+    "local_names": [
+      "Fragrant premna"
+    ],
+    "description": "Alagaw is a shrub or small tree with fragrant leaves. It grows in forests and is used for respiratory ailments.",
+    "medicinal_uses": [
+      "Treats cough",
+      "Relieves asthma",
+      "Expectorant"
+    ],
+    "preparation_steps": [
+      "Boil leaves",
+      "Drink as tea",
+      "Inhale steam"
+    ],
+    "cultural_relevance": "Alagaw is used in traditional medicine for respiratory problems.",
+    "image_url": "/images/plants/alagaw.jpg",
+    "detailed_description": "Alagaw (Premna odorata) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats cough, Relieves asthma, Expectorant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Avocado": {
+    "name": "Avocado",
+    "scientific_name": "Persea americana",
+    "local_names": [
+      "Aguacate",
+      "Avocado pear",
+      "Alligator pear"
+    ],
+    "description": "Avocado is an evergreen tree that produces nutrient-dense fruits with creamy texture. The leaves are also used medicinally for kidney stones and respiratory problems.",
+    "medicinal_uses": [
+      "Rich in healthy fats and nutrients",
+      "Lowers cholesterol",
+      "Good for heart health",
+      "Treats kidney stones (leaves)",
+      "Relieves respiratory problems (leaves)",
+      "Anti-inflammatory",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit for nutrition",
+      "For leaves tea: Collect young leaves, wash thoroughly",
+      "Boil leaves in water for 10-15 minutes",
+      "Drink as tea, 2-3 times daily"
+    ],
+    "cultural_relevance": "Avocado is popular worldwide for its creamy, nutritious fruit. The leaves are traditionally used for kidney and respiratory problems.",
+    "image_url": "/images/plants/avocado.jpg",
+    "doh_approved": false,
+    "category": "Nutrition",
+    "detailed_description": "Avocado (Persea americana) is valued for its nutrient-rich fruit containing healthy fats, fiber, and vitamins. The leaves are used in traditional medicine for treating kidney stones and respiratory issues, containing beneficial flavonoids and phenolic compounds."
+  },
+  "Basil": {
+    "name": "Basil",
+    "scientific_name": "Ocimum basilicum",
+    "local_names": [
+      "Balanoi"
+    ],
+    "description": "Basil is an aromatic herb with oval leaves. It is widely used in cooking and traditional medicine.",
+    "medicinal_uses": [
+      "Relieves cough",
+      "Digestive aid",
+      "Anti-stress",
+      "Anti-bacterial"
+    ],
+    "preparation_steps": [
+      "Use fresh in cooking",
+      "Make tea with leaves",
+      "Inhale steam"
+    ],
+    "cultural_relevance": "Balanoi is used in Filipino cooking and for treating cough and colds.",
+    "image_url": "/images/plants/basil.jpg",
+    "detailed_description": "Basil (Ocimum basilicum) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Relieves cough, Digestive aid, Anti-stress. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Bignay": {
+    "name": "Bignay",
+    "scientific_name": "Antidesma bunius",
+    "local_names": [
+      "Chinese laurel",
+      "Salaan"
+    ],
+    "description": "Bignay is a small tree with leathery leaves. It produces small red fruits that are edible and medicinal.",
+    "medicinal_uses": [
+      "Treats fever",
+      "Anti-inflammatory",
+      "Rich in antioxidants"
+    ],
+    "preparation_steps": [
+      "Boil leaves or bark",
+      "Drink as tea",
+      "Eat fresh fruits"
+    ],
+    "cultural_relevance": "Bignay fruits are eaten fresh and used in traditional medicine for fever.",
+    "image_url": "/images/plants/bignay.jpg",
+    "detailed_description": "Bignay (Antidesma bunius) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats fever, Anti-inflammatory, Rich in antioxidants. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Calamansi": {
+    "name": "Calamansi",
+    "scientific_name": "Citrus microcarpa",
+    "local_names": [
+      "Philippine lime",
+      "Kalamansi"
+    ],
+    "description": "Calamansi is a small citrus fruit tree. The fruits are used for cooking and medicinal purposes.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Treats cough",
+      "Bleaching agent",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Squeeze juice",
+      "Mix with honey",
+      "Drink for colds"
+    ],
+    "cultural_relevance": "Calamansi is an essential ingredient in Filipino cuisine and home remedies.",
+    "image_url": "/images/plants/calamansi.jpg",
+    "detailed_description": "Calamansi (Citrus microcarpa) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Treats cough, Bleaching agent. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Carrot": {
+    "name": "Carrot",
+    "scientific_name": "Daucus carota",
+    "local_names": [
+      "Karot"
+    ],
+    "description": "Carrot is a root vegetable known for its bright orange color and high Vitamin A content. It is widely cultivated and consumed worldwide.",
+    "medicinal_uses": [
+      "Rich in Vitamin A",
+      "Good for eye health",
+      "Antioxidant properties",
+      "Boosts immune system"
+    ],
+    "preparation_steps": [
+      "Wash and peel",
+      "Eat raw or cooked",
+      "Make juice"
+    ],
+    "cultural_relevance": "Carrots are popular as a healthy snack and ingredient in Filipino dishes.",
+    "image_url": "/images/plants/Carrot.webp",
+    "detailed_description": "Carrot (Daucus carota) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin A, Good for eye health, Antioxidant properties. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cassava": {
+    "name": "Cassava",
+    "scientific_name": "Manihot esculenta",
+    "local_names": [
+      "Kamoteng kahoy",
+      "Balanghoy"
+    ],
+    "description": "Cassava is a woody shrub with starchy tuberous roots. It is a major source of carbohydrates.",
+    "medicinal_uses": [
+      "Energy source",
+      "Gluten-free",
+      "Starchy food"
+    ],
+    "preparation_steps": [
+      "Peel thoroughly",
+      "Cook well to remove toxins",
+      "Boil, fry, or bake"
+    ],
+    "cultural_relevance": "Cassava is an important staple food, especially in rural areas.",
+    "image_url": "/images/plants/cassava.jpg",
+    "detailed_description": "Cassava (Manihot esculenta) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Energy source, Gluten-free, Starchy food. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Coconut": {
+    "name": "Coconut",
+    "scientific_name": "Cocos nucifera",
+    "local_names": [
+      "Niyog",
+      "Buko"
+    ],
+    "description": "Coconut is a palm tree with versatile uses. Every part of the coconut tree is useful.",
+    "medicinal_uses": [
+      "Hydration",
+      "Rich in electrolytes",
+      "Antibacterial",
+      "Boosts immunity"
+    ],
+    "preparation_steps": [
+      "Drink fresh coconut water",
+      "Use coconut oil",
+      "Eat coconut meat"
+    ],
+    "cultural_relevance": "Coconut is called the 'Tree of Life' in the Philippines for its many uses.",
+    "image_url": "/images/plants/coconut.jpg",
+    "detailed_description": "Coconut (Cocos nucifera) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Hydration, Rich in electrolytes, Antibacterial. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cucumber": {
+    "name": "Cucumber",
+    "scientific_name": "Cucumis sativus",
+    "local_names": [
+      "Pipino"
+    ],
+    "description": "Cucumber is a widely cultivated plant in the gourd family. It has a mild, refreshing taste and high water content.",
+    "medicinal_uses": [
+      "Hydrating",
+      "Skin health",
+      "Aids digestion",
+      "Rich in vitamins"
+    ],
+    "preparation_steps": [
+      "Wash thoroughly",
+      "Slice and eat raw",
+      "Apply slices to skin"
+    ],
+    "cultural_relevance": "Cucumbers are used fresh in salads and as a natural beauty remedy.",
+    "image_url": "/images/plants/cucumber.jpg",
+    "detailed_description": "Cucumber (Cucumis sativus) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Hydrating, Skin health, Aids digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Dalandan": {
+    "name": "Dalandan",
+    "scientific_name": "Citrus aurantium",
+    "local_names": [
+      "Bitter orange",
+      "Seville orange"
+    ],
+    "description": "Dalandan is a citrus tree with sour fruits. The fruits are used for juice and traditional medicine.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Digestive aid",
+      "Appetite stimulant"
+    ],
+    "preparation_steps": [
+      "Squeeze juice",
+      "Drink fresh",
+      "Use peel for tea"
+    ],
+    "cultural_relevance": "Dalandan juice is a popular refreshment and traditional remedy.",
+    "image_url": "/images/plants/dalandan.jpg",
+    "detailed_description": "Dalandan (Citrus aurantium) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Digestive aid, Appetite stimulant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Dayap": {
+    "name": "Dayap",
+    "scientific_name": "Citrus hystrix",
+    "local_names": [
+      "Kaffir lime",
+      "Thai lime"
+    ],
+    "description": "Dayap is a citrus plant with bumpy fruits and aromatic leaves. It is used in cooking and medicine.",
+    "medicinal_uses": [
+      "Digestive aid",
+      "Cough remedy",
+      "Skin care"
+    ],
+    "preparation_steps": [
+      "Use leaves in cooking",
+      "Squeeze juice",
+      "Make tea from leaves"
+    ],
+    "cultural_relevance": "Dayap is valued for its aromatic properties in cooking and medicine.",
+    "image_url": "/images/plants/dayap.jpg",
+    "detailed_description": "Dayap (Citrus hystrix) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Digestive aid, Cough remedy, Skin care. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Duhat": {
+    "name": "Duhat",
+    "scientific_name": "Syzygium cumini",
+    "local_names": [
+      "Java plum",
+      "Jambolan"
+    ],
+    "description": "Duhat is a tree with oblong leaves and dark purple fruits. The bark and leaves are medicinal.",
+    "medicinal_uses": [
+      "Treats diabetes",
+      "Anti-diarrheal",
+      "Controls blood sugar"
+    ],
+    "preparation_steps": [
+      "Boil bark or leaves",
+      "Drink as tea",
+      "Eat fresh fruits"
+    ],
+    "cultural_relevance": "Duhat fruits are eaten fresh and used traditionally for diabetes.",
+    "image_url": "/images/plants/duhat.jpg",
+    "detailed_description": "Duhat (Syzygium cumini) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats diabetes, Anti-diarrheal, Controls blood sugar. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Eucalyptus": {
+    "name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "local_names": [
+      "Blue gum"
+    ],
+    "description": "Eucalyptus is a tall tree with aromatic leaves. It is known for its strong medicinal scent.",
+    "medicinal_uses": [
+      "Relieves cough",
+      "Decongestant",
+      "Antiseptic",
+      "Insect repellent"
+    ],
+    "preparation_steps": [
+      "Boil leaves",
+      "Inhale steam",
+      "Use oil for massage"
+    ],
+    "cultural_relevance": "Eucalyptus is used for respiratory problems and as a natural decongestant.",
+    "image_url": "/images/plants/eucalyptus.jpg",
+    "detailed_description": "Eucalyptus (Eucalyptus globulus) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Relieves cough, Decongestant, Antiseptic. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Ginger": {
+    "name": "Ginger",
+    "scientific_name": "Zingiber officinale",
+    "local_names": [
+      "Luya"
+    ],
+    "description": "Ginger is a flowering plant with aromatic rhizomes. It is widely used in cooking and medicine.",
+    "medicinal_uses": [
+      "Relieves nausea",
+      "Aids digestion",
+      "Anti-inflammatory",
+      "Treats colds"
+    ],
+    "preparation_steps": [
+      "Peel and slice",
+      "Boil for tea",
+      "Use in cooking"
+    ],
+    "cultural_relevance": "Luya is an essential ingredient in Filipino cuisine and home remedies.",
+    "image_url": "/images/plants/Ginger.webp",
+    "detailed_description": "Ginger (Zingiber officinale) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Relieves nausea, Aids digestion, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Gumamela": {
+    "name": "Gumamela",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "local_names": [
+      "China rose",
+      "Hibiscus"
+    ],
+    "description": "Gumamela is a shrub with large, showy flowers. The flowers and leaves have medicinal properties.",
+    "medicinal_uses": [
+      "Lowers blood pressure",
+      "Cough remedy",
+      "Hair conditioner"
+    ],
+    "preparation_steps": [
+      "Boil flowers or leaves",
+      "Drink as tea",
+      "Use decoction for hair"
+    ],
+    "cultural_relevance": "Gumamela flowers are used for tea and as a natural hair conditioner.",
+    "image_url": "/images/plants/gumamela.jpg",
+    "detailed_description": "Gumamela (Hibiscus rosa-sinensis) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Lowers blood pressure, Cough remedy, Hair conditioner. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Ipil-ipil": {
+    "name": "Ipil-ipil",
+    "scientific_name": "Leucaena leucocephala",
+    "local_names": [
+      "Lead tree",
+      "River tamarind"
+    ],
+    "description": "Ipil-ipil is a fast-growing tree with compound leaves. The seeds and pods are used medicinally.",
+    "medicinal_uses": [
+      "Intestinal worm expeller",
+      "Protein source",
+      "Fodder"
+    ],
+    "preparation_steps": [
+      "Roast seeds",
+      "Grind to powder",
+      "Take with caution"
+    ],
+    "cultural_relevance": "Ipil-ipil seeds are used traditionally for deworming, though with caution.",
+    "image_url": "/images/plants/Ipil-ipil.jpg",
+    "detailed_description": "Ipil-ipil (Leucaena leucocephala) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Intestinal worm expeller, Protein source, Fodder. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Jackfruit": {
+    "name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "local_names": [
+      "Langka"
+    ],
+    "description": "Jackfruit is a tree with large fruits and medicinal leaves. It is the largest tree-borne fruit.",
+    "medicinal_uses": [
+      "Boosts immunity",
+      "Aids digestion",
+      "Rich in nutrients"
+    ],
+    "preparation_steps": [
+      "Eat ripe fruit",
+      "Cook unripe fruit as vegetable",
+      "Boil leaves for tea"
+    ],
+    "cultural_relevance": "Langka is valued both as food and medicine in the Philippines.",
+    "image_url": "/images/plants/jackfruit.jpg",
+    "detailed_description": "Jackfruit (Artocarpus heterophyllus) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Boosts immunity, Aids digestion, Rich in nutrients. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Kakawate": {
+    "name": "Kakawate",
+    "scientific_name": "Gliricidia sepium",
+    "local_names": [
+      "Madre de cacao"
+    ],
+    "description": "Kakawate is a tree with compound leaves and pink flowers. It is used as live fence and medicine.",
+    "medicinal_uses": [
+      "Treats skin diseases",
+      "Insecticide",
+      "Rodenticide"
+    ],
+    "preparation_steps": [
+      "Crush leaves",
+      "Apply to skin",
+      "Make decoction"
+    ],
+    "cultural_relevance": "Madre de cacao is used for skin problems and as natural insecticide.",
+    "image_url": "/images/plants/kakawate.jpg",
+    "detailed_description": "Kakawate (Gliricidia sepium) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats skin diseases, Insecticide, Rodenticide. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Kamias": {
+    "name": "Kamias",
+    "scientific_name": "Averrhoa bilimbi",
+    "local_names": [
+      "Bilimbi",
+      "Cucumber tree"
+    ],
+    "description": "Kamias is a tree with sour, oblong fruits. The fruits and leaves are used for cooking and medicine.",
+    "medicinal_uses": [
+      "Treats cough",
+      "Bleaching agent",
+      "Anti-diabetic"
+    ],
+    "preparation_steps": [
+      "Make juice",
+      "Use in cooking",
+      "Apply to skin"
+    ],
+    "cultural_relevance": "Kamias is used for its sour taste in cooking and for skin bleaching.",
+    "image_url": "/images/plants/kamias.jpg",
+    "detailed_description": "Kamias (Averrhoa bilimbi) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats cough, Bleaching agent, Anti-diabetic. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Kamote": {
+    "name": "Kamote",
+    "scientific_name": "Ipomoea batatas",
+    "local_names": [
+      "Sweet potato"
+    ],
+    "description": "Kamote is a root crop with nutritious tubers and leaves. It is easy to grow and widely cultivated.",
+    "medicinal_uses": [
+      "Energy source",
+      "Rich in vitamins",
+      "Anti-diabetic potential"
+    ],
+    "preparation_steps": [
+      "Boil or bake",
+      "Cook leaves as vegetable",
+      "Make chips"
+    ],
+    "cultural_relevance": "Kamote is a staple food and valued for its nutritional benefits.",
+    "image_url": "/images/plants/sweet-potato-kamote.jpg",
+    "detailed_description": "Kamote (Ipomoea batatas) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Energy source, Rich in vitamins, Anti-diabetic potential. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Katakataka": {
+    "name": "Katakataka",
+    "scientific_name": "Kalanchoe pinnata",
+    "local_names": [
+      "Air plant",
+      "Life plant"
+    ],
+    "description": "Katakataka is a succulent plant with fleshy leaves. It can grow from leaf cuttings easily.",
+    "medicinal_uses": [
+      "Treats cough",
+      "Anti-inflammatory",
+      "Wound healing"
+    ],
+    "preparation_steps": [
+      "Warm leaves",
+      "Apply to affected area",
+      "Make tea from leaves"
+    ],
+    "cultural_relevance": "Katakataka is used for cough and as a poultice for wounds.",
+    "image_url": "/images/plants/katakataka.jpg",
+    "detailed_description": "Katakataka (Kalanchoe pinnata) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats cough, Anti-inflammatory, Wound healing. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Lemon": {
+    "name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "local_names": [
+      "Limon"
+    ],
+    "description": "Lemon is a citrus tree with sour yellow fruits. It is rich in Vitamin C and widely used.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Aids digestion",
+      "Skin lightening",
+      "Detoxifying"
+    ],
+    "preparation_steps": [
+      "Squeeze juice",
+      "Mix with warm water",
+      "Use in cooking"
+    ],
+    "cultural_relevance": "Lemon is used for its health benefits and in various home remedies.",
+    "image_url": "/images/plants/lemon.jpg",
+    "detailed_description": "Lemon (Citrus limon) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Aids digestion, Skin lightening. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mango": {
+    "name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "local_names": [
+      "Mangga"
+    ],
+    "description": "Mango is a tree with sweet, juicy fruits. The leaves and bark are also medicinal.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Anti-diabetic leaves",
+      "Treats cough",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Eat ripe fruit",
+      "Boil young leaves for tea",
+      "Make decoction from bark"
+    ],
+    "cultural_relevance": "Mango is the national fruit of the Philippines and widely loved.",
+    "image_url": "/images/plants/mango.jpg",
+    "detailed_description": "Mango (Mangifera indica) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Anti-diabetic leaves, Treats cough. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mango Ginger": {
+    "name": "Mango Ginger",
+    "scientific_name": "Curcuma amada",
+    "local_names": [
+      "Curcuma"
+    ],
+    "description": "Mango Ginger is a rhizome plant with mango-like aroma. It is used in cooking and medicine.",
+    "medicinal_uses": [
+      "Anti-inflammatory",
+      "Aids digestion",
+      "Relieves pain"
+    ],
+    "preparation_steps": [
+      "Grate rhizome",
+      "Use in cooking",
+      "Make tea"
+    ],
+    "cultural_relevance": "Mango ginger is used in traditional medicine and as a spice.",
+    "image_url": "/images/plants/mango-ginger.jpg",
+    "detailed_description": "Mango Ginger (Curcuma amada) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Anti-inflammatory, Aids digestion, Relieves pain. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mangosteen": {
+    "name": "Mangosteen",
+    "scientific_name": "Garcinia mangostana",
+    "local_names": [
+      "Manggis"
+    ],
+    "description": "Mangosteen is a tree with dark purple fruits and white sweet flesh. The rind is very medicinal.",
+    "medicinal_uses": [
+      "Rich in antioxidants",
+      "Anti-inflammatory",
+      "Boosts immunity",
+      "Anti-cancer potential"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Dry rind for tea",
+      "Make decoction"
+    ],
+    "cultural_relevance": "Mangosteen is called the 'queen of fruits' for its health benefits.",
+    "image_url": "/images/plants/mangosteen.jpg",
+    "detailed_description": "Mangosteen (Garcinia mangostana) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in antioxidants, Anti-inflammatory, Boosts immunity. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Oregano": {
+    "name": "Oregano",
+    "scientific_name": "Coleus amboinicus",
+    "local_names": [
+      "Cuban oregano",
+      "Indian borage"
+    ],
+    "description": "Oregano is a succulent herb with fleshy leaves and strong aroma. It is different from Mediterranean oregano.",
+    "medicinal_uses": [
+      "Relieves cough",
+      "Treats colds",
+      "Anti-asthmatic",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Boil leaves",
+      "Drink as tea",
+      "Inhale steam"
+    ],
+    "cultural_relevance": "Oregano is a popular home remedy for cough and asthma in the Philippines.",
+    "image_url": "/images/plants/oregano.jpg",
+    "detailed_description": "Oregano (Coleus amboinicus) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Relieves cough, Treats colds, Anti-asthmatic. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Pandan": {
+    "name": "Pandan",
+    "scientific_name": "Pandanus amaryllifolius",
+    "local_names": [
+      "Screwpine"
+    ],
+    "description": "Pandan is a plant with long, narrow leaves. It is widely used for its fragrant aroma in cooking.",
+    "medicinal_uses": [
+      "Mild laxative",
+      "Lowers blood pressure",
+      "Anti-rheumatic"
+    ],
+    "preparation_steps": [
+      "Tie leaves in knot",
+      "Add to rice while cooking",
+      "Make tea"
+    ],
+    "cultural_relevance": "Pandan is essential in Filipino cooking for its aromatic flavor.",
+    "image_url": "/images/plants/pandan.jpg",
+    "detailed_description": "Pandan (Pandanus amaryllifolius) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Mild laxative, Lowers blood pressure, Anti-rheumatic. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Papaya": {
+    "name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "local_names": [
+      "Kapayas",
+      "Pawpaw",
+      "Melon tree"
+    ],
+    "description": "Papaya is a tree with large, palmately lobed leaves. The fruit and leaves are both medicinal.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Rich in enzymes",
+      "Treats constipation",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Eat ripe fruit",
+      "Cook unripe fruit",
+      "Boil leaves for tea"
+    ],
+    "cultural_relevance": "Papaya is widely consumed and used for digestive health.",
+    "image_url": "/images/plants/papaya.png",
+    "doh_approved": false,
+    "category": "Digestive",
+    "detailed_description": "Papaya (Carica papaya) contains papain enzyme that aids digestion and helps break down proteins. The fruit and leaves are both medicinal and used traditionally for digestive health."
+  },
+  "Tanglad": {
+    "name": "Tanglad",
+    "scientific_name": "Cymbopogon citratus",
+    "local_names": [
+      "Lemongrass",
+      "Barbed wire grass",
+      "Citronella grass"
+    ],
+    "description": "Tanglad is a tall perennial grass with long, slender leaves and a strong lemon scent. It grows in clumps up to 2 meters tall and is widely cultivated throughout the Philippines.",
+    "medicinal_uses": [
+      "Relieves fever and colds",
+      "Aids digestion",
+      "Reduces anxiety and stress",
+      "Relieves muscle pain",
+      "Lowers cholesterol"
+    ],
+    "preparation_steps": [
+      "Wash fresh stalks and leaves thoroughly",
+      "Boil 2-3 stalks in 3 cups water for 10 minutes",
+      "Strain and let cool slightly",
+      "Drink as tea, 2-3 times daily"
+    ],
+    "cultural_relevance": "Tanglad is essential in Filipino cuisine, particularly in sinigang and various meat dishes. It is also widely used as a traditional remedy for fever and digestive problems in Calbayog and throughout Samar.",
+    "image_url": "/images/plants/tanglad.jpg",
+    "doh_approved": false,
+    "category": "Digestive/Fever",
+    "detailed_description": "Tanglad or Lemongrass (Cymbopogon citratus) is widely used in Philippine traditional medicine for its calming, digestive, and fever-reducing properties. It contains citral and geraniol which have antimicrobial and anti-inflammatory effects."
+  },
+  "Atis": {
+    "name": "Atis",
+    "scientific_name": "Annona squamosa",
+    "local_names": [
+      "Sugar apple",
+      "Custard apple",
+      "Sweetsop"
+    ],
+    "description": "Atis is a small deciduous tree with oblong leaves that produces sweet, creamy fruits with a distinctive scaly green skin. It grows well in tropical climates and is common in backyards across Samar.",
+    "medicinal_uses": [
+      "Treats fever and colds",
+      "Relieves diarrhea",
+      "Anti-spasmodic properties",
+      "Removes intestinal worms",
+      "Treats dysentery"
+    ],
+    "preparation_steps": [
+      "Collect fresh leaves",
+      "Wash thoroughly",
+      "Boil 1 cup leaves in 2 cups water for 15 minutes",
+      "Strain and drink warm, 2-3 times daily"
+    ],
+    "cultural_relevance": "Atis is a favorite backyard fruit tree in Calbayog and throughout the Visayas. The leaves have been used traditionally as a fever remedy for children, and the sweet fruit is enjoyed by all ages.",
+    "image_url": "/images/plants/atis.jpg",
+    "doh_approved": false,
+    "category": "Fever/Antiparasitic",
+    "detailed_description": "Atis (Annona squamosa) leaves are traditionally used in Philippine folk medicine for treating fever, diarrhea, and intestinal parasites. The fruit is rich in Vitamin C and dietary fiber."
+  },
+  "Gabi": {
+    "name": "Gabi",
+    "scientific_name": "Colocasia esculenta",
+    "local_names": [
+      "Taro",
+      "Dasheen",
+      "Eddo",
+      "Cocoyam"
+    ],
+    "description": "Gabi is a perennial herbaceous plant with large, heart-shaped leaves that can grow up to 1 meter long. The starchy corms and edible leaves are important food sources in the Philippines.",
+    "medicinal_uses": [
+      "Treats insect bites (crushed leaves)",
+      "Relieves body aches",
+      "Digestive aid",
+      "Anti-inflammatory",
+      "Source of dietary fiber"
+    ],
+    "preparation_steps": [
+      "For food: Peel corms, boil thoroughly to remove oxalates",
+      "For insect bites: Crush fresh leaves and apply to affected area",
+      "For tea: Boil clean leaves briefly, strain and drink"
+    ],
+    "cultural_relevance": "Gabi is a staple root crop in rural Samar and Calbayog. The leaves (laing) are cooked with coconut milk in the famous Bicol dish, though this preparation is also popular in Samar. It represents resilience as it grows well in wet conditions.",
+    "image_url": "/images/plants/gabi.jpg",
+    "doh_approved": false,
+    "category": "Nutritional/Anti-inflammatory",
+    "detailed_description": "Gabi or Taro (Colocasia esculenta) is an important root crop in the Philippines. The corms must be cooked thoroughly to remove calcium oxalate crystals. The leaves are used externally for insect bites and internally as a vegetable."
+  },
+  "Sampaguita": {
+    "name": "Sampaguita",
+    "scientific_name": "Jasminum sambac",
+    "local_names": [
+      "Arabian jasmine",
+      "Sambac jasmine"
+    ],
+    "description": "Sampaguita is a small shrub with fragrant white flowers that bloom year-round. It has glossy green leaves and is the national flower of the Philippines. It grows abundantly in warm, tropical climates like Calbayog.",
+    "medicinal_uses": [
+      "Relieves headaches",
+      "Calming and sedative effect",
+      "Treats eye infections",
+      "Used as poultice for wounds",
+      "Aromatherapy for stress relief"
+    ],
+    "preparation_steps": [
+      "For tea: Steep fresh flowers in hot water for 5 minutes",
+      "For headache: Crush flowers and apply to temples",
+      "For eye wash: Boil flowers, cool and use as gentle eye rinse",
+      "For aroma: String flowers into garlands for natural air freshener"
+    ],
+    "cultural_relevance": "Sampaguita is the national flower of the Philippines and holds deep cultural significance. In Calbayog, it is commonly used in religious offerings, worn as garlands (sampaguita necklaces), and grown in home gardens for its fragrance and beauty.",
+    "image_url": "/images/plants/sampaguita.jpg",
+    "doh_approved": false,
+    "category": "Aromatherapy/Relaxation",
+    "detailed_description": "Sampaguita (Jasminum sambac) is the Philippines' national flower. Its fragrant blooms are used in traditional medicine for headaches, relaxation, and as an aromatic remedy for stress and anxiety."
+  },
+  "Lanzones": {
+    "name": "Lanzones",
+    "scientific_name": "Lansium parasiticum",
+    "local_names": [
+      "Langsat",
+      "Longkong",
+      "Duku"
+    ],
+    "description": "Lanzones is a medium-sized fruit tree that produces clusters of sweet-sour yellowish fruits with translucent flesh. It has pinnate leaves and thrives in tropical climates, particularly in Southern Leyte and nearby areas like Calbayog.",
+    "medicinal_uses": [
+      "Treats fever",
+      "Anti-malarial properties (bark)",
+      "Repels mosquitoes (burning dried peels)",
+      "Treats diarrhea (fruit peel)",
+      "Rich in antioxidants"
+    ],
+    "preparation_steps": [
+      "For fever: Boil bark in water and drink as decoction",
+      "For mosquito repellent: Burn dried lanzones peels",
+      "For diarrhea: Boil fruit peels and drink liquid",
+      "Eat fresh fruit for vitamin C and antioxidants"
+    ],
+    "cultural_relevance": "Lanzones is celebrated in the Camiguin Lanzones Festival and is common in nearby regions including parts of Samar. In Calbayog, the fruit is enjoyed during harvest season and the tree provides shade in rural communities.",
+    "image_url": "/images/plants/lanzones.jpg",
+    "doh_approved": false,
+    "category": "Fever/Antioxidant",
+    "detailed_description": "Lanzones (Lansium parasiticum) is a popular tropical fruit native to Southeast Asia. The bark has traditional uses for fever and malaria, while the fruit is rich in vitamins and antioxidants."
+  },
+  "Balimbing": {
+    "name": "Balimbing",
+    "scientific_name": "Averrhoa carambola",
+    "local_names": [
+      "Star fruit",
+      "Five-corner",
+      "Carambola"
+    ],
+    "description": "Balimbing is a small tropical tree with compound leaves that produces distinctive star-shaped yellow fruits when sliced. The fruits are crisp, juicy, and range from sour to sweet depending on variety.",
+    "medicinal_uses": [
+      "Lowers blood pressure",
+      "Anti-inflammatory",
+      "Rich in Vitamin C",
+      "Treats cough and phlegm",
+      "Natural laxative"
+    ],
+    "preparation_steps": [
+      "Eat fresh ripe fruit for vitamins",
+      "For cough: Boil unripe fruit and drink juice",
+      "For high blood pressure: Drink fresh juice regularly",
+      "Add to salads for digestive health"
+    ],
+    "cultural_relevance": "Balimbing trees are common in backyards throughout Calbayog and Samar. The sour variety is used in cooking (sinigang, paksiw) while the sweet variety is eaten fresh. The star-shaped slices make it a decorative garnish for drinks and dishes.",
+    "image_url": "/images/plants/balimbing.jpg",
+    "doh_approved": false,
+    "category": "Cardiovascular/Digestive",
+    "detailed_description": "Balimbing or Star Fruit (Averrhoa carambola) is valued for its distinctive shape and health benefits. It contains oxalates and should be consumed in moderation by those with kidney issues. Rich in Vitamin C and antioxidants."
+  },
+  "Kalabasa": {
+    "name": "Kalabasa",
+    "scientific_name": "Cucurbita maxima",
+    "local_names": [
+      "Squash",
+      "Pumpkin",
+      "Winter squash"
+    ],
+    "description": "Kalabasa is a vine plant with large, lobed leaves and yellow-orange flowers. It produces large, round to elongated fruits with orange flesh and numerous seeds. It thrives in tropical climates and is extensively grown in Calbayog.",
+    "medicinal_uses": [
+      "Rich in Vitamin A (beta-carotene)",
+      "Boosts immune system",
+      "Good for eye health",
+      "Anti-inflammatory properties",
+      "Seeds used as dewormer"
+    ],
+    "preparation_steps": [
+      "Cook flesh in various dishes (ginataan, soup)",
+      "Boil young leaves and flowers as vegetable",
+      "Roast seeds and eat as deworming remedy",
+      "Make soup with flowers for respiratory health"
+    ],
+    "cultural_relevance": "Kalabasa is a staple vegetable in Calbayog cuisine, used in ginataang kalabasa, soups, and various traditional dishes. The flowers (bulaklak ng kalabasa) are highly prized as a vegetable and are believed to be good for the lungs.",
+    "image_url": "/images/plants/kalabasa.jpg",
+    "doh_approved": false,
+    "category": "Nutritional/Anti-inflammatory",
+    "detailed_description": "Kalabasa or Squash (Cucurbita maxima) is an important vegetable crop in the Philippines. The orange flesh is rich in beta-carotene and vitamins. The flowers, leaves, and seeds all have traditional medicinal and culinary uses."
+  },
+  "Alugbati": {
+    "name": "Alugbati",
+    "scientific_name": "Basella alba",
+    "local_names": [
+      "Malabar spinach",
+      "Vine spinach",
+      "Ceylon spinach",
+      "Indian spinach"
+    ],
+    "description": "Alugbati is a fast-growing, soft-stemmed climbing vine with thick, fleshy, heart-shaped leaves. It produces dark purple berries and thrives in hot, humid climates. It is commonly found in gardens throughout Calbayog.",
+    "medicinal_uses": [
+      "Laxative properties",
+      "Relieves ulcer pain",
+      "Rich in iron and vitamins",
+      "Good for anemia",
+      "Antioxidant properties"
+    ],
+    "preparation_steps": [
+      "Wash leaves thoroughly",
+      "Boil or steam as vegetable",
+      "Add to sinigang or sauté with garlic",
+      "Use as substitute for spinach in any dish"
+    ],
+    "cultural_relevance": "Alugbati is a common backyard vegetable in Calbayog households. It grows easily without much care and provides nutritious greens year-round. The purple juice from the berries is sometimes used as a natural food coloring.",
+    "image_url": "/images/plants/alugbati.jpg",
+    "doh_approved": false,
+    "category": "Nutritional/Digestive",
+    "detailed_description": "Alugbati (Basella alba) is a popular leafy vegetable in the Philippines, similar to spinach but more heat-tolerant. It is rich in iron, calcium, and vitamins A and C. The mucilaginous texture is similar to spinach when cooked."
+  },
+  "Kangkong": {
+    "name": "Kangkong",
+    "scientific_name": "Ipomoea aquatica",
+    "local_names": [
+      "Water spinach",
+      "Swamp cabbage",
+      "Kangkung"
+    ],
+    "description": "Kangkong is a semi-aquatic tropical plant with hollow stems and long, lance-shaped leaves. It grows prolifically in water or moist soil and is one of the most popular leafy vegetables in the Philippines.",
+    "medicinal_uses": [
+      "Mild laxative",
+      "Rich in iron and minerals",
+      "Lowers blood sugar",
+      "Good for digestion",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Wash thoroughly (especially if harvested from water)",
+      "Sauté with garlic and soy sauce (adobong kangkong)",
+      "Add to sinigang as green vegetable",
+      "Steam and serve with bagoong"
+    ],
+    "cultural_relevance": "Kangkong is the 'poor man's vegetable' in the Philippines due to its affordability and easy growth. In Calbayog, it grows wild in rice paddies, streams, and wetlands. Adobong kangkong is a beloved dish throughout the region.",
+    "image_url": "/images/plants/kangkong.jpg",
+    "doh_approved": false,
+    "category": "Nutritional/Digestive",
+    "detailed_description": "Kangkong (Ipomoea aquatica) is a popular leafy vegetable in Southeast Asia. It grows rapidly in aquatic or moist environments. Rich in iron, vitamins, and minerals. It is a staple green vegetable in Filipino cuisine."
+  },
+  "Neem": {
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "local_names": [
+      "Indian lilac",
+      "Margosa tree"
+    ],
+    "description": "Neem is a fast-growing tree with medicinal bark, leaves, and seeds. It has been used in traditional medicine for thousands of years.",
+    "medicinal_uses": [
+      "Treats skin diseases",
+      "Antibacterial",
+      "Antifungal",
+      "Boosts immunity",
+      "Dental care"
+    ],
+    "preparation_steps": [
+      "Boil leaves for tea",
+      "Apply oil to skin",
+      "Chew twigs for dental health"
+    ],
+    "cultural_relevance": "Neem is revered in traditional medicine and is commonly found in Indian and Southeast Asian communities.",
+    "image_url": "/images/plants/neem.jpg",
+    "doh_approved": false,
+    "category": "Trees",
+    "detailed_description": "Neem (Azadirachta indica) is a trees plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats skin diseases, Antibacterial, Antifungal. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Acacia": {
+    "name": "Acacia",
+    "scientific_name": "Acacia auriculiformis",
+    "local_names": [
+      "Auri",
+      "Earleaf acacia"
+    ],
+    "description": "Acacia is a fast-growing tree with yellow flowers and distinctive curved seed pods. Some species have medicinal bark.",
+    "medicinal_uses": [
+      "Treats diarrhea",
+      "Sore throat remedy",
+      "Antiseptic",
+      "Wound healing"
+    ],
+    "preparation_steps": [
+      "Boil bark for tea",
+      "Gargle decoction for sore throat",
+      "Apply bark powder to wounds"
+    ],
+    "cultural_relevance": "Acacia trees are common in the Philippines and used for various purposes including shade and timber.",
+    "image_url": "/images/plants/acacia.jpg",
+    "doh_approved": false,
+    "category": "Trees",
+    "detailed_description": "Acacia (Acacia auriculiformis) is a trees plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats diarrhea, Sore throat remedy, Antiseptic. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mahogany": {
+    "name": "Mahogany",
+    "scientific_name": "Swietenia macrophylla",
+    "local_names": [
+      "Big-leaf mahogany"
+    ],
+    "description": "Mahogany is a large tropical tree with compound leaves and valuable hardwood. The bark and seeds have traditional medicinal uses.",
+    "medicinal_uses": [
+      "Treats diarrhea",
+      "Fever reducer",
+      "Antimalarial properties"
+    ],
+    "preparation_steps": [
+      "Boil bark for tea",
+      "Use as fever remedy"
+    ],
+    "cultural_relevance": "Mahogany is prized for its timber and widely planted throughout the tropics.",
+    "image_url": "/images/plants/mahogany.jpg",
+    "doh_approved": false,
+    "category": "Trees",
+    "detailed_description": "Mahogany (Swietenia macrophylla) is a trees plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats diarrhea, Fever reducer, Antimalarial properties. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Narra": {
+    "name": "Narra",
+    "scientific_name": "Pterocarpus indicus",
+    "local_names": [
+      "Amboyna wood",
+      "Andaman redwood",
+      "New Guinea rosewood"
+    ],
+    "description": "Narra is the national tree of the Philippines. It has distinctive disc-shaped seed pods and produces red sap (kino).",
+    "medicinal_uses": [
+      "Treats mouth sores",
+      "Sore throat remedy",
+      "Antiseptic wash"
+    ],
+    "preparation_steps": [
+      "Apply sap to wounds",
+      "Gargle bark decoction",
+      "Use as mouthwash"
+    ],
+    "cultural_relevance": "Narra is the Philippines' national tree, known for its beautiful timber and medicinal red sap.",
+    "image_url": "/images/plants/narra.jpg",
+    "doh_approved": false,
+    "category": "Trees",
+    "detailed_description": "Narra (Pterocarpus indicus) is a trees plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats mouth sores, Sore throat remedy, Antiseptic wash. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Rosal": {
+    "name": "Rosal",
+    "scientific_name": "Gardenia jasminoides",
+    "local_names": [
+      "Cape jasmine",
+      "Gardenia"
+    ],
+    "description": "Rosal is an evergreen shrub with glossy dark green leaves and fragrant white flowers. It is widely cultivated for its beauty and fragrance.",
+    "medicinal_uses": [
+      "Calming sedative",
+      "Treats headaches",
+      "Reduces fever",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Steep flowers for tea",
+      "Inhale fragrance for relaxation",
+      "Apply flower paste to headaches"
+    ],
+    "cultural_relevance": "Rosal flowers are prized for their sweet fragrance and are often used in garlands and religious offerings.",
+    "image_url": "/images/plants/rosal.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Rosal (Gardenia jasminoides) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Calming sedative, Treats headaches, Reduces fever. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Champaca": {
+    "name": "Champaca",
+    "scientific_name": "Magnolia champaca",
+    "local_names": [
+      "Joy perfume tree",
+      "Yellow jade orchid tree"
+    ],
+    "description": "Champaca is a large evergreen tree with fragrant yellow-orange flowers. The flowers produce an essential oil used in perfumery.",
+    "medicinal_uses": [
+      "Stress relief",
+      "Antidepressant",
+      "Aphrodisiac",
+      "Skin care"
+    ],
+    "preparation_steps": [
+      "Inhale flower fragrance",
+      "Apply flower oil to skin",
+      "Make flower tea"
+    ],
+    "cultural_relevance": "Champaca flowers are highly valued for their exquisite fragrance and used in perfumery.",
+    "image_url": "/images/plants/champaca.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Champaca (Magnolia champaca) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Stress relief, Antidepressant, Aphrodisiac. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Ylang-ylang": {
+    "name": "Ylang-ylang",
+    "scientific_name": "Cananga odorata",
+    "local_names": [
+      "Cananga tree",
+      "Perfume tree"
+    ],
+    "description": "Ylang-ylang is a tropical tree with drooping branches and fragrant yellow flowers. The flowers produce essential oil used in aromatherapy.",
+    "medicinal_uses": [
+      "Reduces stress and anxiety",
+      "Lowers blood pressure",
+      "Aphrodisiac",
+      "Improves mood"
+    ],
+    "preparation_steps": [
+      "Inhale essential oil",
+      "Apply diluted oil to skin",
+      "Make flower tea"
+    ],
+    "cultural_relevance": "Ylang-ylang is famous for its essential oil used in aromatherapy and perfumery, particularly in Chanel No. 5.",
+    "image_url": "/images/plants/ylang-ylang.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Ylang-ylang (Cananga odorata) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Reduces stress and anxiety, Lowers blood pressure, Aphrodisiac. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Bougainvillea": {
+    "name": "Bougainvillea",
+    "scientific_name": "Bougainvillea spectabilis",
+    "local_names": [
+      "Paper flower",
+      "Bougainvillea"
+    ],
+    "description": "Bougainvillea is a woody vine with showy colorful bracts (modified leaves) surrounding small white flowers. It comes in various colors.",
+    "medicinal_uses": [
+      "Antidiabetic",
+      "Anti-inflammatory",
+      "Antibacterial",
+      "Cough remedy"
+    ],
+    "preparation_steps": [
+      "Boil bracts for tea",
+      "Apply leaf decoction to wounds",
+      "Gargle for sore throat"
+    ],
+    "cultural_relevance": "Bougainvillea is widely cultivated for its colorful display and is a common ornamental plant in tropical gardens.",
+    "image_url": "/images/plants/bougainvillea.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Bougainvillea (Bougainvillea spectabilis) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antidiabetic, Anti-inflammatory, Antibacterial. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Orchid": {
+    "name": "Orchid",
+    "scientific_name": "Dendrobium spp.",
+    "local_names": [
+      "Orchids"
+    ],
+    "description": "Orchids are diverse flowering plants with complex blooms. Many species have medicinal properties in traditional Asian medicine.",
+    "medicinal_uses": [
+      "Boosts immunity",
+      "Anti-aging",
+      "Improves eyesight",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Steep dried stems for tea",
+      "Eat as food supplement",
+      "Use in traditional medicine preparations"
+    ],
+    "cultural_relevance": "Orchids are prized for their beauty and some species are used in traditional Chinese medicine.",
+    "image_url": "/images/plants/orchid.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Orchid (Dendrobium spp.) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Boosts immunity, Anti-aging, Improves eyesight. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Sunflower": {
+    "name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "local_names": [
+      "Sunflower"
+    ],
+    "description": "Sunflower is a tall annual plant with large yellow flower heads and edible seeds. The seeds are highly nutritious.",
+    "medicinal_uses": [
+      "Rich in Vitamin E",
+      "Anti-inflammatory",
+      "Good for heart health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Eat raw or roasted seeds",
+      "Press seeds for oil",
+      "Make tea from leaves"
+    ],
+    "cultural_relevance": "Sunflowers are grown for their beautiful flowers and nutritious seeds.",
+    "image_url": "/images/plants/sunflower.jpg",
+    "doh_approved": false,
+    "category": "Ornamental/Nutritional",
+    "detailed_description": "Sunflower (Helianthus annuus) is a ornamental/nutritional plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin E, Anti-inflammatory, Good for heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Marigold": {
+    "name": "Marigold",
+    "scientific_name": "Tagetes erecta",
+    "local_names": [
+      "Aztec marigold",
+      "African marigold"
+    ],
+    "description": "Marigold is an annual plant with bright yellow, orange, or red flowers. The flowers have strong fragrance and medicinal properties.",
+    "medicinal_uses": [
+      "Antiseptic",
+      "Wound healing",
+      "Anti-inflammatory",
+      "Repels insects"
+    ],
+    "preparation_steps": [
+      "Apply flower paste to wounds",
+      "Make flower tea",
+      "Use as natural dye"
+    ],
+    "cultural_relevance": "Marigold flowers are used in traditional medicine and as offerings in Day of the Dead celebrations.",
+    "image_url": "/images/plants/marigold.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Marigold (Tagetes erecta) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antiseptic, Wound healing, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Daisy": {
+    "name": "Daisy",
+    "scientific_name": "Bellis perennis",
+    "local_names": [
+      "Common daisy",
+      "English daisy"
+    ],
+    "description": "Daisy is a small perennial herb with white petals and yellow centers. It has mild medicinal properties.",
+    "medicinal_uses": [
+      "Cough remedy",
+      "Digestive aid",
+      "Wound healing",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Make tea from flowers",
+      "Apply poultice to wounds",
+      "Use as garnish"
+    ],
+    "cultural_relevance": "Daisies are common wildflowers with traditional medicinal uses in Europe.",
+    "image_url": "/images/plants/daisy.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Daisy (Bellis perennis) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Cough remedy, Digestive aid, Wound healing. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Ixora": {
+    "name": "Ixora",
+    "scientific_name": "Ixora coccinea",
+    "local_names": [
+      "Jungle geranium",
+      "Flame of the woods",
+      "Jungle flame"
+    ],
+    "description": "Ixora is a shrub with glossy leaves and clusters of small tubular flowers in various colors. It is widely used in traditional medicine.",
+    "medicinal_uses": [
+      "Treats diarrhea",
+      "Reduces fever",
+      "Anti-inflammatory",
+      "Wound healing"
+    ],
+    "preparation_steps": [
+      "Boil leaves or roots for tea",
+      "Apply leaf paste to wounds",
+      "Use flower decoction"
+    ],
+    "cultural_relevance": "Ixora is a common ornamental shrub in tropical gardens with significant medicinal value in Ayurveda.",
+    "image_url": "/images/plants/ixora.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Ixora (Ixora coccinea) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Treats diarrhea, Reduces fever, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Rose": {
+    "name": "Rose",
+    "scientific_name": "Rosa damascena",
+    "local_names": [
+      "Damask rose"
+    ],
+    "description": "Rose is a perennial shrub with fragrant flowers in various colors. Rose petals and oil have numerous medicinal and cosmetic uses.",
+    "medicinal_uses": [
+      "Stress relief",
+      "Skin care",
+      "Digestive aid",
+      "Antidepressant"
+    ],
+    "preparation_steps": [
+      "Make rose tea",
+      "Apply rose oil to skin",
+      "Use rose water as toner"
+    ],
+    "cultural_relevance": "Roses are beloved worldwide for their beauty and fragrance, and rose products are used in cosmetics and medicine.",
+    "image_url": "/images/plants/rose.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Rose (Rosa damascena) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Stress relief, Skin care, Digestive aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Chrysanthemum": {
+    "name": "Chrysanthemum",
+    "scientific_name": "Chrysanthemum morifolium",
+    "local_names": [
+      "Mum",
+      "Chrysanth"
+    ],
+    "description": "Chrysanthemum is a perennial plant with showy flowers in many colors. The flowers are used in traditional Chinese medicine and tea.",
+    "medicinal_uses": [
+      "Reduces fever",
+      "Improves eyesight",
+      "Anti-inflammatory",
+      "Detoxifying"
+    ],
+    "preparation_steps": [
+      "Make flower tea",
+      "Use in traditional medicine",
+      "Apply as eye wash"
+    ],
+    "cultural_relevance": "Chrysanthemum tea is popular in East Asia for its cooling properties and health benefits.",
+    "image_url": "/images/plants/chrysanthemum.jpg",
+    "doh_approved": false,
+    "category": "Ornamental",
+    "detailed_description": "Chrysanthemum (Chrysanthemum morifolium) is a ornamental plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Reduces fever, Improves eyesight, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Pineapple": {
+    "name": "Pineapple",
+    "scientific_name": "Ananas comosus",
+    "local_names": [
+      "Piña"
+    ],
+    "description": "Pineapple is a tropical plant with spiky leaves and sweet, juicy fruit. The fruit contains bromelain, a digestive enzyme.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Anti-inflammatory",
+      "Boosts immunity",
+      "Rich in Vitamin C"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Drink pineapple juice",
+      "Use bromelain supplements"
+    ],
+    "cultural_relevance": "Pineapple is a major tropical fruit crop and the symbol of hospitality.",
+    "image_url": "/images/plants/pineapple.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Pineapple (Ananas comosus) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Anti-inflammatory, Boosts immunity. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Watermelon": {
+    "name": "Watermelon",
+    "scientific_name": "Citrullus lanatus",
+    "local_names": [
+      "Watermelon"
+    ],
+    "description": "Watermelon is a trailing vine with large, round fruit containing sweet, juicy red flesh. It is very hydrating.",
+    "medicinal_uses": [
+      "Hydrating",
+      "Rich in lycopene",
+      "Good for heart health",
+      "Muscle recovery"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Blend into juice",
+      "Add to salads"
+    ],
+    "cultural_relevance": "Watermelon is a refreshing summer fruit loved for its sweetness and hydration.",
+    "image_url": "/images/plants/watermelon.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Watermelon (Citrullus lanatus) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Hydrating, Rich in lycopene, Good for heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Strawberry": {
+    "name": "Strawberry",
+    "scientific_name": "Fragaria × ananassa",
+    "local_names": [
+      "Strawberry"
+    ],
+    "description": "Strawberry is a perennial herb with white flowers and red, juicy fruit with seeds on the outside.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Antioxidant",
+      "Good for heart health",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Eat fresh berries",
+      "Make into jam",
+      "Add to smoothies"
+    ],
+    "cultural_relevance": "Strawberries are beloved for their sweet flavor and are grown in cool climates.",
+    "image_url": "/images/plants/strawberry.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Strawberry (Fragaria × ananassa) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Antioxidant, Good for heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Orange": {
+    "name": "Orange",
+    "scientific_name": "Citrus sinensis",
+    "local_names": [
+      "Sweet orange"
+    ],
+    "description": "Orange is a citrus tree with fragrant white flowers and round orange fruits. It is the most commonly grown citrus worldwide.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Boosts immunity",
+      "Good for skin health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Squeeze for juice",
+      "Use peel for zest"
+    ],
+    "cultural_relevance": "Oranges are one of the most popular fruits globally, prized for their vitamin C content.",
+    "image_url": "/images/plants/orange.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Orange (Citrus sinensis) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Boosts immunity, Good for skin health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Rambutan": {
+    "name": "Rambutan",
+    "scientific_name": "Nephelium lappaceum",
+    "local_names": [
+      "Rambutan"
+    ],
+    "description": "Rambutan is a tropical tree with hairy red or yellow fruits containing sweet, translucent flesh surrounding a seed.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Iron source",
+      "Antioxidant",
+      "Boosts energy"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Add to fruit salads",
+      "Make preserves"
+    ],
+    "cultural_relevance": "Rambutan is a popular Southeast Asian fruit related to lychee, named for its hairy appearance.",
+    "image_url": "/images/plants/rambutan.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Rambutan (Nephelium lappaceum) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Iron source, Antioxidant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Durian": {
+    "name": "Durian",
+    "scientific_name": "Durio zibethinus",
+    "local_names": [
+      "King of fruits"
+    ],
+    "description": "Durian is a large tropical tree with spiky fruits containing creamy, strongly scented flesh. It is famous for its distinctive odor.",
+    "medicinal_uses": [
+      "Energy booster",
+      "Rich in nutrients",
+      "Aids digestion",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Eat fresh flesh",
+      "Make into desserts",
+      "Use in smoothies"
+    ],
+    "cultural_relevance": "Durian is known as the 'king of fruits' in Southeast Asia, beloved by some and reviled by others for its strong smell.",
+    "image_url": "/images/plants/durian.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Durian (Durio zibethinus) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Energy booster, Rich in nutrients, Aids digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Soursop": {
+    "name": "Soursop",
+    "scientific_name": "Annona muricata",
+    "local_names": [
+      "Graviola",
+      "Guyabano",
+      "Guanabana"
+    ],
+    "description": "Soursop is an evergreen tree with large, spiny green fruits containing white, fibrous, tart-sweet flesh.",
+    "medicinal_uses": [
+      "Anti-cancer potential",
+      "Boosts immunity",
+      "Aids digestion",
+      "Calming effect"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Make into juice",
+      "Use leaves for tea"
+    ],
+    "cultural_relevance": "Soursop is widely used in traditional medicine, and its fruit is popular in tropical regions.",
+    "image_url": "/images/plants/soursop.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Soursop (Annona muricata) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Anti-cancer potential, Boosts immunity, Aids digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Dragon Fruit": {
+    "name": "Dragon Fruit",
+    "scientific_name": "Hylocereus undatus",
+    "local_names": [
+      "Pitaya",
+      "Strawberry pear"
+    ],
+    "description": "Dragon fruit is a cactus vine with stunning night-blooming flowers and vibrant pink or yellow fruits with white or red flesh.",
+    "medicinal_uses": [
+      "Rich in antioxidants",
+      "Good for digestion",
+      "Boosts immunity",
+      "Lowers blood sugar"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Blend into smoothies",
+      "Add to salads"
+    ],
+    "cultural_relevance": "Dragon fruit is visually striking and has become popular worldwide for its health benefits.",
+    "image_url": "/images/plants/dragon-fruit.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Dragon Fruit (Hylocereus undatus) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in antioxidants, Good for digestion, Boosts immunity. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Pomegranate": {
+    "name": "Pomegranate",
+    "scientific_name": "Punica granatum",
+    "local_names": [
+      "Pomegranate"
+    ],
+    "description": "Pomegranate is a shrub with glossy leaves and distinctive round red fruits containing jewel-like seeds.",
+    "medicinal_uses": [
+      "Rich in antioxidants",
+      "Good for heart health",
+      "Anti-inflammatory",
+      "Boosts memory"
+    ],
+    "preparation_steps": [
+      "Eat fresh arils",
+      "Squeeze for juice",
+      "Use in cooking"
+    ],
+    "cultural_relevance": "Pomegranate has been cultivated for thousands of years and symbolizes fertility and prosperity.",
+    "image_url": "/images/plants/pomegranate.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Pomegranate (Punica granatum) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in antioxidants, Good for heart health, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Kiwi": {
+    "name": "Kiwi",
+    "scientific_name": "Actinidia deliciosa",
+    "local_names": [
+      "Chinese gooseberry",
+      "Kiwifruit"
+    ],
+    "description": "Kiwi is a woody vine with fuzzy brown fruits containing bright green flesh and tiny black seeds.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Good for digestion",
+      "Boosts immunity",
+      "Supports sleep"
+    ],
+    "preparation_steps": [
+      "Eat fresh fruit",
+      "Add to fruit salads",
+      "Blend into smoothies"
+    ],
+    "cultural_relevance": "Kiwi is known for its unique appearance and high vitamin C content.",
+    "image_url": "/images/plants/kiwi.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Kiwi (Actinidia deliciosa) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Good for digestion, Boosts immunity. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Blueberry": {
+    "name": "Blueberry",
+    "scientific_name": "Vaccinium corymbosum",
+    "local_names": [
+      "Blueberry"
+    ],
+    "description": "Blueberry is a shrub with small blue-purple berries that grow in clusters. The berries are rich in antioxidants.",
+    "medicinal_uses": [
+      "Rich in antioxidants",
+      "Good for brain health",
+      "Supports heart health",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Eat fresh berries",
+      "Add to breakfast foods",
+      "Bake into desserts"
+    ],
+    "cultural_relevance": "Blueberries are considered a superfood due to their high antioxidant content.",
+    "image_url": "/images/plants/blueberry.jpg",
+    "doh_approved": false,
+    "category": "Fruits",
+    "detailed_description": "Blueberry (Vaccinium corymbosum) is a fruits plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in antioxidants, Good for brain health, Supports heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cabbage": {
+    "name": "Cabbage",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "local_names": [
+      "Cabbage",
+      "Repolyo"
+    ],
+    "description": "Cabbage is a leafy vegetable with dense, round heads. It is widely cultivated and consumed worldwide.",
+    "medicinal_uses": [
+      "Rich in Vitamin C and K",
+      "Anti-inflammatory",
+      "Good for digestion",
+      "Supports heart health"
+    ],
+    "preparation_steps": [
+      "Eat raw in salads",
+      "Cook in soups or stews",
+      "Ferment into sauerkraut"
+    ],
+    "cultural_relevance": "Cabbage is a staple vegetable used in cuisines worldwide, from salads to kimchi.",
+    "image_url": "/images/plants/cabbage.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Cabbage (Brassica oleracea var. capitata) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C and K, Anti-inflammatory, Good for digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Okra": {
+    "name": "Okra",
+    "scientific_name": "Abelmoschus esculentus",
+    "local_names": [
+      "Lady's finger",
+      "Gumbo"
+    ],
+    "description": "Okra is a flowering plant with edible green seed pods that become gelatinous when cooked.",
+    "medicinal_uses": [
+      "Good for digestion",
+      "Rich in fiber",
+      "Supports blood sugar control",
+      "Folate source"
+    ],
+    "preparation_steps": [
+      "Cook in stews",
+      "Fry as vegetable",
+      "Add to soups"
+    ],
+    "cultural_relevance": "Okra is essential in Southern US cuisine and popular in Asian and African cooking.",
+    "image_url": "/images/plants/okra.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Okra (Abelmoschus esculentus) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Good for digestion, Rich in fiber, Supports blood sugar control. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "String Beans": {
+    "name": "String Beans",
+    "scientific_name": "Phaseolus vulgaris",
+    "local_names": [
+      "Green beans",
+      "Snap beans"
+    ],
+    "description": "String beans are annual vines with long, edible green pods. They are harvested before the seeds mature.",
+    "medicinal_uses": [
+      "Rich in fiber",
+      "Good source of vitamins",
+      "Supports bone health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Steam or boil",
+      "Stir-fry",
+      "Add to salads"
+    ],
+    "cultural_relevance": "String beans are a common garden vegetable enjoyed worldwide for their crunch and nutrition.",
+    "image_url": "/images/plants/string-beans.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "String Beans (Phaseolus vulgaris) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in fiber, Good source of vitamins, Supports bone health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Winged Bean": {
+    "name": "Winged Bean",
+    "scientific_name": "Psophocarpus tetragonolobus",
+    "local_names": [
+      "Goa bean",
+      "Four-angled bean"
+    ],
+    "description": "Winged bean is a tropical legume with distinctive four-winged pods. Almost all parts are edible.",
+    "medicinal_uses": [
+      "High protein content",
+      "Rich in vitamins",
+      "Good for digestion",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Cook pods as vegetable",
+      "Eat seeds",
+      "Use tubers like potatoes"
+    ],
+    "cultural_relevance": "Winged bean is a nutritious tropical crop that thrives in hot, humid climates.",
+    "image_url": "/images/plants/winged-bean.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Winged Bean (Psophocarpus tetragonolobus) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including High protein content, Rich in vitamins, Good for digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Chayote": {
+    "name": "Chayote",
+    "scientific_name": "Sechium edule",
+    "local_names": [
+      "Choko",
+      "Christophine"
+    ],
+    "description": "Chayote is a perennial vine with wrinkled, wrinkled green fruits that taste like a combination of cucumber and squash.",
+    "medicinal_uses": [
+      "Low calorie",
+      "Rich in fiber",
+      "Good for heart health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Boil or steam",
+      "Add to stews",
+      "Pickle"
+    ],
+    "cultural_relevance": "Chayote is popular in Latin American and Asian cuisines for its mild flavor.",
+    "image_url": "/images/plants/chayote.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Chayote (Sechium edule) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Low calorie, Rich in fiber, Good for heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Corn": {
+    "name": "Corn",
+    "scientific_name": "Zea mays",
+    "local_names": [
+      "Maize"
+    ],
+    "description": "Corn is a cereal grain with tall stalks and ears covered in husks. It is one of the most widely cultivated crops.",
+    "medicinal_uses": [
+      "Energy source",
+      "Rich in fiber",
+      "Supports eye health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Boil or grill",
+      "Make into flour",
+      "Pop as snack"
+    ],
+    "cultural_relevance": "Corn is a staple food in many cultures and used in countless products.",
+    "image_url": "/images/plants/corn.jpg",
+    "doh_approved": false,
+    "category": "Vegetables/Grains",
+    "detailed_description": "Corn (Zea mays) is a vegetables/grains plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Energy source, Rich in fiber, Supports eye health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Eggplant": {
+    "name": "Eggplant",
+    "scientific_name": "Solanum melongena",
+    "local_names": [
+      "Aubergine",
+      "Talong"
+    ],
+    "description": "Eggplant is a nightshade vegetable with glossy purple fruits and spongy flesh that absorbs flavors well.",
+    "medicinal_uses": [
+      "Rich in fiber",
+      "Supports heart health",
+      "Brain food",
+      "Low calorie"
+    ],
+    "preparation_steps": [
+      "Grill or roast",
+      "Use in curries",
+      "Make into dips"
+    ],
+    "cultural_relevance": "Eggplant is essential in Mediterranean and Asian cuisines, from ratatouille to adobo.",
+    "image_url": "/images/plants/eggplant.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Eggplant (Solanum melongena) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in fiber, Supports heart health, Brain food. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Pechay": {
+    "name": "Pechay",
+    "scientific_name": "Brassica rapa subsp. pekinensis",
+    "local_names": [
+      "Napa cabbage",
+      "Chinese cabbage"
+    ],
+    "description": "Pechay is a leafy vegetable with thick white ribs and crinkly green leaves. It is widely used in Asian cooking.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Low calorie",
+      "Supports digestion",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Stir-fry",
+      "Add to soups",
+      "Use in kimchi"
+    ],
+    "cultural_relevance": "Pechay is a staple vegetable in East Asian cuisine and widely grown in the Philippines.",
+    "image_url": "/images/plants/pechay.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Pechay (Brassica rapa subsp. pekinensis) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Low calorie, Supports digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mustasa": {
+    "name": "Mustasa",
+    "scientific_name": "Brassica juncea",
+    "local_names": [
+      "Mustard greens",
+      "Indian mustard"
+    ],
+    "description": "Mustasa is a leafy green with peppery flavor. The leaves, seeds, and stems are all edible.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Detoxifying",
+      "Supports digestion",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Cook as greens",
+      "Add to soups",
+      "Use seeds as spice"
+    ],
+    "cultural_relevance": "Mustasa leaves are used in sinigang and other Filipino dishes for their tangy flavor.",
+    "image_url": "/images/plants/mustasa.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Mustasa (Brassica juncea) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Detoxifying, Supports digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Bell Pepper": {
+    "name": "Bell Pepper",
+    "scientific_name": "Capsicum annuum",
+    "local_names": [
+      "Sweet pepper",
+      "Capsicum"
+    ],
+    "description": "Bell pepper is a cultivar with crisp, sweet fruits in various colors. It is not spicy like other peppers.",
+    "medicinal_uses": [
+      "Rich in Vitamin C",
+      "Antioxidant",
+      "Supports eye health",
+      "Low calorie"
+    ],
+    "preparation_steps": [
+      "Eat raw",
+      "Stuff and bake",
+      "Add to stir-fries"
+    ],
+    "cultural_relevance": "Bell peppers add color, crunch, and nutrition to dishes worldwide.",
+    "image_url": "/images/plants/bell-pepper.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Bell Pepper (Capsicum annuum) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in Vitamin C, Antioxidant, Supports eye health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cauliflower": {
+    "name": "Cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "local_names": [
+      "Cauliflower"
+    ],
+    "description": "Cauliflower is a vegetable with compact white flower heads. It has become popular as a low-carb substitute.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Supports brain health",
+      "Anti-inflammatory",
+      "Low calorie"
+    ],
+    "preparation_steps": [
+      "Steam or roast",
+      "Make into rice substitute",
+      "Use in soups"
+    ],
+    "cultural_relevance": "Cauliflower is versatile and has gained popularity as a healthy alternative to grains.",
+    "image_url": "/images/plants/cauliflower.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Cauliflower (Brassica oleracea var. botrytis) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Supports brain health, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Broccoli": {
+    "name": "Broccoli",
+    "scientific_name": "Brassica oleracea var. italica",
+    "local_names": [
+      "Broccoli"
+    ],
+    "description": "Broccoli is a vegetable with green flower heads, stalks, and small leaves. It is closely related to cauliflower.",
+    "medicinal_uses": [
+      "Rich in vitamins and minerals",
+      "Supports heart health",
+      "Anti-cancer properties",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Steam or roast",
+      "Add to stir-fries",
+      "Eat raw with dip"
+    ],
+    "cultural_relevance": "Broccoli is considered a superfood for its dense nutrient content.",
+    "image_url": "/images/plants/broccoli.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Broccoli (Brassica oleracea var. italica) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins and minerals, Supports heart health, Anti-cancer properties. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Lettuce": {
+    "name": "Lettuce",
+    "scientific_name": "Lactuca sativa",
+    "local_names": [
+      "Lettuce"
+    ],
+    "description": "Lettuce is a leafy vegetable with crisp leaves used primarily in salads. It comes in many varieties.",
+    "medicinal_uses": [
+      "Hydrating",
+      "Low calorie",
+      "Sleep aid",
+      "Bone health"
+    ],
+    "preparation_steps": [
+      "Use in salads",
+      "Add to sandwiches",
+      "Juice with other vegetables"
+    ],
+    "cultural_relevance": "Lettuce is the foundation of salads worldwide and provides hydration.",
+    "image_url": "/images/plants/lettuce.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Lettuce (Lactuca sativa) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Hydrating, Low calorie, Sleep aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Spinach": {
+    "name": "Spinach",
+    "scientific_name": "Spinacia oleracea",
+    "local_names": [
+      "Spinach"
+    ],
+    "description": "Spinach is a leafy green with tender leaves. It is famous for its high iron content.",
+    "medicinal_uses": [
+      "Rich in iron",
+      "Good for eyes",
+      "Bone health",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Eat raw in salads",
+      "Sauté as side dish",
+      "Add to smoothies"
+    ],
+    "cultural_relevance": "Spinach gained fame from Popeye and remains popular for its nutritional value.",
+    "image_url": "/images/plants/spinach.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Spinach (Spinacia oleracea) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in iron, Good for eyes, Bone health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Celery": {
+    "name": "Celery",
+    "scientific_name": "Apium graveolens",
+    "local_names": [
+      "Celery"
+    ],
+    "description": "Celery is a marshland plant with long fibrous stalks and leaves. It is known for being low calorie.",
+    "medicinal_uses": [
+      "Low calorie",
+      "Hydrating",
+      "Supports digestion",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Eat raw as snack",
+      "Add to soups",
+      "Use in salads"
+    ],
+    "cultural_relevance": "Celery is popular as a diet food and adds crunch to dishes.",
+    "image_url": "/images/plants/celery.jpg",
+    "doh_approved": false,
+    "category": "Vegetables",
+    "detailed_description": "Celery (Apium graveolens) is a vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Low calorie, Hydrating, Supports digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cilantro": {
+    "name": "Cilantro",
+    "scientific_name": "Coriandrum sativum",
+    "local_names": [
+      "Coriander leaves",
+      "Chinese parsley"
+    ],
+    "description": "Cilantro is an herb with delicate leaves and stems. The seeds are called coriander.",
+    "medicinal_uses": [
+      "Detoxifying",
+      "Antibacterial",
+      "Digestive aid",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Use fresh in cooking",
+      "Add to salsas",
+      "Garnish dishes"
+    ],
+    "cultural_relevance": "Cilantro is essential in Mexican, Indian, and Southeast Asian cuisines.",
+    "image_url": "/images/plants/cilantro.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Cilantro (Coriandrum sativum) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Detoxifying, Antibacterial, Digestive aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Mint": {
+    "name": "Mint",
+    "scientific_name": "Mentha spicata",
+    "local_names": [
+      "Spearmint"
+    ],
+    "description": "Mint is a perennial herb with aromatic leaves. It spreads quickly and is used in cooking and medicine.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Freshens breath",
+      "Relieves headaches",
+      "Calming effect"
+    ],
+    "preparation_steps": [
+      "Make tea",
+      "Add to dishes",
+      "Use in cocktails"
+    ],
+    "cultural_relevance": "Mint is versatile, used in everything from tea to toothpaste to cocktails.",
+    "image_url": "/images/plants/mint.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Mint (Mentha spicata) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Freshens breath, Relieves headaches. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Thyme": {
+    "name": "Thyme",
+    "scientific_name": "Thymus vulgaris",
+    "local_names": [
+      "Common thyme"
+    ],
+    "description": "Thyme is a small perennial shrub with tiny leaves. It is a staple in Mediterranean cooking.",
+    "medicinal_uses": [
+      "Antibacterial",
+      "Rich in antioxidants",
+      "Supports respiratory health",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Make tea",
+      "Use essential oil"
+    ],
+    "cultural_relevance": "Thyme has been used since ancient times for its culinary and medicinal properties.",
+    "image_url": "/images/plants/thyme.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Thyme (Thymus vulgaris) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antibacterial, Rich in antioxidants, Supports respiratory health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Parsley": {
+    "name": "Parsley",
+    "scientific_name": "Petroselinum crispum",
+    "local_names": [
+      "Parsley"
+    ],
+    "description": "Parsley is a biennial herb with curly or flat leaves. It is widely used as a garnish and flavoring.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Supports bone health",
+      "Anti-inflammatory",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Use as garnish",
+      "Add to sauces",
+      "Make into tea"
+    ],
+    "cultural_relevance": "Parsley is the world's most popular garnish and adds fresh flavor to dishes.",
+    "image_url": "/images/plants/parsley.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Parsley (Petroselinum crispum) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Supports bone health, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Chives": {
+    "name": "Chives",
+    "scientific_name": "Allium schoenoprasum",
+    "local_names": [
+      "Chives"
+    ],
+    "description": "Chives are a perennial herb with mild onion flavor and purple flowers. They are related to garlic and onions.",
+    "medicinal_uses": [
+      "Rich in vitamins",
+      "Antioxidant",
+      "Digestive aid",
+      "Bone health"
+    ],
+    "preparation_steps": [
+      "Sprinkle fresh on dishes",
+      "Add to dips",
+      "Use flowers as garnish"
+    ],
+    "cultural_relevance": "Chives add mild onion flavor and visual appeal to dishes.",
+    "image_url": "/images/plants/chives.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Chives (Allium schoenoprasum) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Rich in vitamins, Antioxidant, Digestive aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Dill": {
+    "name": "Dill",
+    "scientific_name": "Anethum graveolens",
+    "local_names": [
+      "Dill"
+    ],
+    "description": "Dill is an annual herb with feathery leaves and yellow flowers. The seeds are also used as spice.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Anti-inflammatory",
+      "Calming effect",
+      "Bone health"
+    ],
+    "preparation_steps": [
+      "Use leaves in cooking",
+      "Pickle with cucumbers",
+      "Make tea with seeds"
+    ],
+    "cultural_relevance": "Dill is essential in pickling and Scandinavian cuisine.",
+    "image_url": "/images/plants/dill.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Dill (Anethum graveolens) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Anti-inflammatory, Calming effect. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Fennel": {
+    "name": "Fennel",
+    "scientific_name": "Foeniculum vulgare",
+    "local_names": [
+      "Fennel"
+    ],
+    "description": "Fennel is a perennial herb with feathery leaves, yellow flowers, and edible bulb. It has anise-like flavor.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Anti-inflammatory",
+      "Supports heart health",
+      "Bone health"
+    ],
+    "preparation_steps": [
+      "Eat bulb raw or cooked",
+      "Use seeds as spice",
+      "Make tea"
+    ],
+    "cultural_relevance": "Fennel is used in Italian cooking and traditional medicine for digestion.",
+    "image_url": "/images/plants/fennel.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Fennel (Foeniculum vulgare) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Anti-inflammatory, Supports heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Laurel": {
+    "name": "Laurel",
+    "scientific_name": "Laurus nobilis",
+    "local_names": [
+      "Bay leaf",
+      "Bay laurel"
+    ],
+    "description": "Laurel is an evergreen shrub with aromatic leaves used as a culinary herb. The leaves are dried for use.",
+    "medicinal_uses": [
+      "Anti-inflammatory",
+      "Aids digestion",
+      "Supports respiratory health",
+      "Antimicrobial"
+    ],
+    "preparation_steps": [
+      "Add to soups and stews",
+      "Use in pickling",
+      "Make tea"
+    ],
+    "cultural_relevance": "Bay leaves are essential in bouquet garni and many slow-cooked dishes.",
+    "image_url": "/images/plants/laurel.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Laurel (Laurus nobilis) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Anti-inflammatory, Aids digestion, Supports respiratory health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Rosemary": {
+    "name": "Rosemary",
+    "scientific_name": "Rosmarinus officinalis",
+    "local_names": [
+      "Rosemary"
+    ],
+    "description": "Rosemary is a woody perennial herb with fragrant needle-like leaves and blue flowers.",
+    "medicinal_uses": [
+      "Improves memory",
+      "Anti-inflammatory",
+      "Antioxidant",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Make tea",
+      "Use essential oil"
+    ],
+    "cultural_relevance": "Rosemary is associated with memory and is popular in Mediterranean cuisine.",
+    "image_url": "/images/plants/rosemary.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Rosemary (Rosmarinus officinalis) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Improves memory, Anti-inflammatory, Antioxidant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Sage": {
+    "name": "Sage",
+    "scientific_name": "Salvia officinalis",
+    "local_names": [
+      "Common sage",
+      "Garden sage"
+    ],
+    "description": "Sage is a perennial herb with grayish leaves and purple flowers. It has a savory flavor.",
+    "medicinal_uses": [
+      "Cognitive benefits",
+      "Anti-inflammatory",
+      "Supports oral health",
+      "Digestive aid"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Make tea",
+      "Use in traditional medicine"
+    ],
+    "cultural_relevance": "Sage has been used for centuries for its medicinal and culinary properties.",
+    "image_url": "/images/plants/sage.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Sage (Salvia officinalis) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Cognitive benefits, Anti-inflammatory, Supports oral health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Tarragon": {
+    "name": "Tarragon",
+    "scientific_name": "Artemisia dracunculus",
+    "local_names": [
+      "French tarragon"
+    ],
+    "description": "Tarragon is a perennial herb with slender leaves and an anise-like flavor. It is essential in French cuisine.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Anti-inflammatory",
+      "Supports heart health",
+      "Appetite stimulant"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Make vinegar",
+      "Flavor sauces"
+    ],
+    "cultural_relevance": "Tarragon is one of the fines herbes of French cuisine.",
+    "image_url": "/images/plants/tarragon.jpg",
+    "doh_approved": false,
+    "category": "Herbs",
+    "detailed_description": "Tarragon (Artemisia dracunculus) is a herbs plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Anti-inflammatory, Supports heart health. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Turmeric": {
+    "name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "local_names": [
+      "Luyang dilaw",
+      "Indian saffron"
+    ],
+    "description": "Turmeric is a rhizomatous herb with bright yellow-orange color. It is widely used in Asian cooking and medicine.",
+    "medicinal_uses": [
+      "Anti-inflammatory",
+      "Antioxidant",
+      "Supports brain function",
+      "Aids digestion"
+    ],
+    "preparation_steps": [
+      "Use in curries",
+      "Make golden milk",
+      "Take as supplement"
+    ],
+    "cultural_relevance": "Turmeric is a staple in Indian cuisine and Ayurvedic medicine.",
+    "image_url": "/images/plants/turmeric.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Turmeric (Curcuma longa) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Anti-inflammatory, Antioxidant, Supports brain function. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Onion": {
+    "name": "Onion",
+    "scientific_name": "Allium cepa",
+    "local_names": [
+      "Onion",
+      "Sibuyas"
+    ],
+    "description": "Onion is a biennial plant with edible bulb and hollow leaves. It is one of the most widely used vegetables.",
+    "medicinal_uses": [
+      "Anti-inflammatory",
+      "Supports heart health",
+      "Antioxidant",
+      "Bone health"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Eat raw in salads",
+      "Caramelize for sweetness"
+    ],
+    "cultural_relevance": "Onions are fundamental to cooking worldwide and provide flavor base for countless dishes.",
+    "image_url": "/images/plants/onion.jpg",
+    "doh_approved": false,
+    "category": "Spices/Vegetables",
+    "detailed_description": "Onion (Allium cepa) is a spices/vegetables plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Anti-inflammatory, Supports heart health, Antioxidant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cinnamon": {
+    "name": "Cinnamon",
+    "scientific_name": "Cinnamomum verum",
+    "local_names": [
+      "True cinnamon",
+      "Ceylon cinnamon"
+    ],
+    "description": "Cinnamon is a spice from the inner bark of tropical evergreen trees. It has a warm, sweet flavor.",
+    "medicinal_uses": [
+      "Antioxidant",
+      "Anti-inflammatory",
+      "Lowers blood sugar",
+      "Heart health"
+    ],
+    "preparation_steps": [
+      "Use in baking",
+      "Add to beverages",
+      "Use in savory dishes"
+    ],
+    "cultural_relevance": "Cinnamon is one of the oldest known spices and remains popular worldwide.",
+    "image_url": "/images/plants/cinnamon.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Cinnamon (Cinnamomum verum) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antioxidant, Anti-inflammatory, Lowers blood sugar. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Black Pepper": {
+    "name": "Black Pepper",
+    "scientific_name": "Piper nigrum",
+    "local_names": [
+      "Peppercorn"
+    ],
+    "description": "Black pepper is a flowering vine with small fruits (peppercorns) that are dried and used as spice.",
+    "medicinal_uses": [
+      "Improves digestion",
+      "Anti-inflammatory",
+      "Antioxidant",
+      "Supports metabolism"
+    ],
+    "preparation_steps": [
+      "Grind fresh on food",
+      "Use in cooking",
+      "Add to beverages"
+    ],
+    "cultural_relevance": "Black pepper is the world's most traded spice and essential in most cuisines.",
+    "image_url": "/images/plants/black-pepper.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Black Pepper (Piper nigrum) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Improves digestion, Anti-inflammatory, Antioxidant. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cayenne Pepper": {
+    "name": "Cayenne Pepper",
+    "scientific_name": "Capsicum annuum",
+    "local_names": [
+      "Red pepper",
+      "Chili powder"
+    ],
+    "description": "Cayenne pepper is a cultivar with moderately hot red peppers. The dried peppers are ground into powder.",
+    "medicinal_uses": [
+      "Boosts metabolism",
+      "Pain relief",
+      "Digestive aid",
+      "Supports heart health"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Add to beverages",
+      "Take as supplement"
+    ],
+    "cultural_relevance": "Cayenne adds heat to dishes and has medicinal uses.",
+    "image_url": "/images/plants/cayenne-pepper.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Cayenne Pepper (Capsicum annuum) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Boosts metabolism, Pain relief, Digestive aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Clove": {
+    "name": "Clove",
+    "scientific_name": "Syzygium aromaticum",
+    "local_names": [
+      "Clove"
+    ],
+    "description": "Clove is an evergreen tree with aromatic flower buds that are dried and used as spice.",
+    "medicinal_uses": [
+      "Antimicrobial",
+      "Pain relief for teeth",
+      "Anti-inflammatory",
+      "Supports liver health"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Make clove tea",
+      "Use oil for dental pain"
+    ],
+    "cultural_relevance": "Cloves are used in cuisines worldwide and traditional medicine.",
+    "image_url": "/images/plants/clove.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Clove (Syzygium aromaticum) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antimicrobial, Pain relief for teeth, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Cardamom": {
+    "name": "Cardamom",
+    "scientific_name": "Elettaria cardamomum",
+    "local_names": [
+      "Cardamom",
+      "Queen of spices"
+    ],
+    "description": "Cardamom is a perennial herb with aromatic seeds. It is one of the world's most expensive spices.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Freshens breath",
+      "Anti-inflammatory",
+      "Supports heart health"
+    ],
+    "preparation_steps": [
+      "Use in cooking",
+      "Add to coffee/tea",
+      "Make into tea"
+    ],
+    "cultural_relevance": "Cardamom is essential in Indian cuisine and Scandinavian baking.",
+    "image_url": "/images/plants/cardamom.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Cardamom (Elettaria cardamomum) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Freshens breath, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Nutmeg": {
+    "name": "Nutmeg",
+    "scientific_name": "Myristica fragrans",
+    "local_names": [
+      "Nutmeg"
+    ],
+    "description": "Nutmeg is an evergreen tree with aromatic seeds. The seed covering is mace, also used as spice.",
+    "medicinal_uses": [
+      "Aids digestion",
+      "Brain health",
+      "Anti-inflammatory",
+      "Sleep aid"
+    ],
+    "preparation_steps": [
+      "Grate fresh into dishes",
+      "Add to beverages",
+      "Use in baking"
+    ],
+    "cultural_relevance": "Nutmeg is used in sweet and savory dishes worldwide.",
+    "image_url": "/images/plants/nutmeg.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Nutmeg (Myristica fragrans) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Aids digestion, Brain health, Anti-inflammatory. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Saffron": {
+    "name": "Saffron",
+    "scientific_name": "Crocus sativus",
+    "local_names": [
+      "Saffron",
+      "Red gold"
+    ],
+    "description": "Saffron is a crocus with red stigma threads that are dried and used as spice and dye. It is the world's most expensive spice.",
+    "medicinal_uses": [
+      "Antioxidant",
+      "Mood enhancer",
+      "Aids digestion",
+      "Supports eye health"
+    ],
+    "preparation_steps": [
+      "Soak in warm water or milk",
+      "Add to rice dishes",
+      "Use in desserts"
+    ],
+    "cultural_relevance": "Saffron is prized for its unique flavor, color, and medicinal properties.",
+    "image_url": "/images/plants/saffron.jpg",
+    "doh_approved": false,
+    "category": "Spices",
+    "detailed_description": "Saffron (Crocus sativus) is a spices plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Antioxidant, Mood enhancer, Aids digestion. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Tawa-tawa": {
+    "name": "Tawa-tawa",
+    "scientific_name": "Euphorbia hirta",
+    "local_names": [
+      "Asthma plant",
+      "Snake weed"
+    ],
+    "description": "Tawa-tawa is a small annual herb with hairy stems. It is one of the ten DOH-approved medicinal plants.",
+    "medicinal_uses": [
+      "Treats dengue fever",
+      "Asthma relief",
+      "Anti-diarrheal",
+      "Wound healing"
+    ],
+    "preparation_steps": [
+      "Boil for tea",
+      "Apply to wounds",
+      "Take as decoction"
+    ],
+    "cultural_relevance": "Tawa-tawa is widely used in the Philippines for dengue fever and respiratory problems.",
+    "image_url": "/images/plants/tawa-tawa.jpg",
+    "doh_approved": true,
+    "category": "Medicinal",
+    "detailed_description": "Tawa-tawa (Euphorbia hirta) is a medicinal plant DOH-endorsed in Philippine traditional medicine. It is known for its medicinal properties including Treats dengue fever, Asthma relief, Anti-diarrheal. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Noni": {
+    "name": "Noni",
+    "scientific_name": "Morinda citrifolia",
+    "local_names": [
+      "Indian mulberry",
+      "Cheese fruit"
+    ],
+    "description": "Noni is an evergreen tree with oval leaves and distinctive lumpy green fruits with strong odor.",
+    "medicinal_uses": [
+      "Boosts immunity",
+      "Anti-inflammatory",
+      "Pain relief",
+      "Antioxidant"
+    ],
+    "preparation_steps": [
+      "Drink noni juice",
+      "Use leaves for tea",
+      "Apply to skin"
+    ],
+    "cultural_relevance": "Noni has been used in Polynesian traditional medicine for over 2,000 years.",
+    "image_url": "/images/plants/noni.jpg",
+    "doh_approved": false,
+    "category": "Medicinal",
+    "detailed_description": "Noni (Morinda citrifolia) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Boosts immunity, Anti-inflammatory, Pain relief. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  },
+  "Aloe Vera": {
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "local_names": [
+      "Sabila",
+      "Burn plant"
+    ],
+    "description": "Aloe vera is a succulent with thick, fleshy leaves containing clear gel. It is widely used for skin conditions.",
+    "medicinal_uses": [
+      "Heals burns and wounds",
+      "Skin moisturizer",
+      "Digestive aid",
+      "Anti-inflammatory"
+    ],
+    "preparation_steps": [
+      "Apply gel to skin",
+      "Drink aloe juice",
+      "Use in cosmetics"
+    ],
+    "cultural_relevance": "Aloe vera is one of the most widely used medicinal plants for skin care.",
+    "image_url": "/images/plants/aloe-vera.jpg",
+    "doh_approved": false,
+    "category": "Medicinal",
+    "detailed_description": "Aloe Vera (Aloe barbadensis miller) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Heals burns and wounds, Skin moisturizer, Digestive aid. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices."
+  }
+}

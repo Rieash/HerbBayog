@@ -1,0 +1,38 @@
+# Root .gitignore for HerbBayog project
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Training data (backend already ignores this, but double-check)
+training/
+backend/training/
+
+# Log files
+*.log
+
+# Model files
+*.h5
+models/*.h5
+
+# Database files
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+temp/

@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: herbbayog-api
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn herbbayog.wsgi:application --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: DJANGO_SETTINGS_MODULE
+        value: herbbayog.settings_prod
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+    disk:
+      name: media
+      mountPath: /opt/render/project/src/media
+      sizeGB: 1
+    plan: free
+    autoDeploy: true

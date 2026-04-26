@@ -1,0 +1,136 @@
+{
+  "Lagundi": {
+    "name": "Lagundi",
+    "scientific_name": "Vitex negundo",
+    "local_names": ["Dangla", "Five-leaved chaste tree", "Chinese chastetree", "Chaste tree", "Vitex negundo", "Sambhalu", "Nirgundi"],
+    "description": "Lagundi (Vitex negundo) is one of the ten medicinal plants officially endorsed by the Philippine Department of Health (DOH) for its proven effectiveness in treating respiratory ailments. It is a shrub that grows up to 5 meters tall with distinctive five-fingered leaves and small blue to lavender flowers.",
+    "medicinal_uses": [
+      "Relieves cough and asthma (DOH-approved for respiratory ailments)",
+      "Treats fever and colds",
+      "Reduces inflammation and pharyngitis",
+      "Eases headache and rheumatism",
+      "Relieves abdominal pain",
+      "Acts as expectorant for productive cough"
+    ],
+    "preparation_steps": [
+      "Collect fresh or dried Lagundi leaves",
+      "Wash thoroughly in clean water",
+      "Boil 2-3 tablespoons of dried leaves OR 1 cup fresh leaves in 2 cups water for 10-15 minutes",
+      "Let it cool and strain the liquid",
+      "Drink as tea, 1 cup 3 times daily after meals",
+      "For cough relief, add honey to taste",
+      "For children: Use half the adult dosage"
+    ],
+    "warnings": [
+      "Not recommended for pregnant women",
+      "Consult doctor if symptoms persist after 3 days",
+      "May cause allergic reactions in some people",
+      "Keep out of reach of children when not in use"
+    ],
+    "cultural_relevance": "Lagundi has been used in Philippine traditional medicine for centuries. It is one of the ten herbal medicines endorsed by the Department of Health (DOH) for its proven medicinal properties. The plant is commonly found in backyards and is often the first remedy for cough and colds in Filipino households.",
+    "image_url": "/images/plants/lagundi.jpg",
+    "doh_approved": true,
+    "category": "Respiratory"
+  },
+  "Sambong": {
+    "name": "Sambong",
+    "scientific_name": "Blumea balsamifera",
+    "local_names": ["Blumea camphor", "Ngai camphor", "Dalapot"],
+    "description": "Sambong (Blumea balsamifera) is officially recognized by the Philippine DOH for its diuretic properties and effectiveness in treating kidney stones. It is a coarse erect annual herb that grows up to 1.5 meters tall with soft, hairy leaves that emit a camphor-like scent when crushed.",
+    "medicinal_uses": [
+      "Dissolves kidney stones (DOH-approved)",
+      "Relieves diarrhea and dysentery",
+      "Reduces fever",
+      "Treats hypertension",
+      "Acts as diuretic and anti-inflammatory",
+      "Relieves rheumatism and arthritis"
+    ],
+    "preparation_steps": [
+      "Collect fresh Sambong leaves, preferably mature ones",
+      "Wash leaves thoroughly in clean water to remove dirt",
+      "Boil 1 cup of chopped fresh leaves (or 1/2 cup dried) in 3 cups water",
+      "Simmer for 15-20 minutes over low heat",
+      "Strain and let cool to room temperature",
+      "Drink 1 cup, 3 times daily after meals",
+      "For external use: Use decoction as poultice for wounds"
+    ],
+    "warnings": [
+      "May increase urination frequency",
+      "Consult doctor before use with other medications",
+      "Not for long-term use without medical supervision",
+      "Pregnant women should consult a physician before use"
+    ],
+    "cultural_relevance": "Sambong is officially recognized by the Philippine Department of Health as a medicinal plant for its diuretic properties and effectiveness in treating kidney stones. It has been used by traditional healers (albularyo) for generations and remains a popular herbal remedy in rural communities.",
+    "image_url": "/images/plants/sambong.jpg",
+    "doh_approved": true,
+    "category": "Urinary/Kidney"
+  },
+  "Bayabas": {
+    "name": "Bayabas",
+    "scientific_name": "Psidium guajava",
+    "local_names": ["Guava", "Psidium guajava", "Common guava", "Lemon guava", "Apple guava", "Yellow guava"],
+    "description": "Bayabas or Guava (Psidium guajava) is one of the most important traditional medicines in the Philippines, endorsed by DOH for treating diarrhea and wounds. It is a small evergreen tree that grows up to 10 meters tall with smooth, oblong leaves and produces edible fruits.",
+    "medicinal_uses": [
+      "Treats diarrhea and gastroenteritis (DOH-approved anti-diarrheal)",
+      "Relieves toothache when leaves are chewed",
+      "Heals wounds and skin infections",
+      "Controls blood sugar levels",
+      "Treats mouth ulcers and gum problems",
+      "Acts as antibacterial and antiseptic"
+    ],
+    "preparation_steps": [
+      "For diarrhea: Collect 10-15 fresh Bayabas leaves, wash thoroughly",
+      "Boil in 2 cups water for 10-15 minutes until water turns brown",
+      "Strain and let cool",
+      "Drink 1 cup every 4-6 hours until diarrhea stops",
+      "For wound wash: Boil a handful of leaves until water is dark brown",
+      "Cool and use to wash affected area 2-3 times daily",
+      "For mouthwash: Gargle with cooled boiled leaf water",
+      "For toothache: Chew 2-3 young leaves directly"
+    ],
+    "warnings": [
+      "May cause constipation if overused",
+      "Pregnant women should consult doctor first",
+      "May interact with diabetes medication",
+      "Use clean leaves to avoid infection"
+    ],
+    "cultural_relevance": "Bayabas is ubiquitous in the Philippines, found in almost every backyard. It is one of the most important traditional medicines, especially for treating diarrhea in children. The leaves are readily available year-round, making it an accessible first-aid remedy in rural areas.",
+    "image_url": "/images/plants/bayabas.jpg",
+    "doh_approved": true,
+    "category": "Digestive"
+  },
+  "Ampalaya": {
+    "name": "Ampalaya",
+    "scientific_name": "Momordica charantia",
+    "local_names": ["Bitter melon", "Bitter gourd", "Momordica charantia", "Karela", "Balsam pear", "Kugua"],
+    "description": "Ampalaya or Bitter Melon (Momordica charantia) is widely used in the Philippines for managing diabetes. The DOH recognizes its anti-diabetic properties. It is a climbing vine that produces distinctive warty fruits that are bitter but highly medicinal.",
+    "medicinal_uses": [
+      "Lowers blood sugar (DOH-approved anti-diabetic)",
+      "Treatment of diabetes mellitus",
+      "Boosts immune system",
+      "Antioxidant properties",
+      "Treatment of skin diseases",
+      "Aids in weight management"
+    ],
+    "preparation_steps": [
+      "Wash and slice fresh Ampalaya fruit or collect young leaves",
+      "For tea: Boil 1 cup sliced leaves or fruit in 2 cups water for 15 minutes",
+      "Alternatively, juice fresh leaves and mix with equal amount of water",
+      "Drink 1/2 cup, twice daily before meals",
+      "For cooking: Can be cooked as vegetable dish (ginisang ampalaya with egg)",
+      "Seeds can be eaten (remove red covering) for additional benefits",
+      "Dried leaves can be powdered and stored for future use"
+    ],
+    "warnings": [
+      "Diabetics should monitor blood sugar closely when using",
+      "Pregnant women should avoid (may cause miscarriage)",
+      "May cause stomach upset in large amounts",
+      "Do not take with diabetes medication without doctor's advice",
+      "Bitter taste may be strong - honey can be added"
+    ],
+    "cultural_relevance": "Ampalaya is a staple vegetable in Filipino cuisine and medicine. The Department of Health recognizes its anti-diabetic properties. Despite its bitter taste, it is valued for its numerous health benefits and is often used in the traditional dish 'ginisang ampalaya.'",
+    "image_url": "/images/plants/ampalaya.jpg",
+    "doh_approved": true,
+    "category": "Diabetes"
+  }
+}

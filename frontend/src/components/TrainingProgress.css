@@ -1,0 +1,332 @@
+.training-progress-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  backdrop-filter: blur(4px);
+}
+
+.training-progress-modal {
+  background: linear-gradient(145deg, #1a4d0f 0%, #0d2607 100%);
+  border-radius: 24px;
+  padding: 2rem;
+  max-width: 450px;
+  width: 90%;
+  border: 2px solid #4A7C23;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  animation: modal-enter 0.5s ease-out;
+}
+
+.training-progress-modal.complete {
+  background: linear-gradient(145deg, #1a4d0f 0%, #2d5016 100%);
+  border-color: #7CB342;
+}
+
+@keyframes modal-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Header */
+.training-header {
+  margin-bottom: 1.5rem;
+}
+
+.header-icon {
+  width: 48px;
+  height: 48px;
+  color: #7CB342;
+  margin-bottom: 0.75rem;
+}
+
+.header-icon.pulse {
+  animation: brain-pulse 2s ease-in-out infinite;
+}
+
+.header-icon.sparkle {
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
+@keyframes brain-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+@keyframes sparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.2) rotate(180deg); }
+}
+
+.training-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+/* Plant Badge */
+.plant-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(74, 124, 35, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(124, 179, 66, 0.3);
+}
+
+.plant-name {
+  font-weight: 600;
+  color: #a5d6a7;
+  text-transform: capitalize;
+}
+
+.training-badge {
+  background: #7CB342;
+  color: #0d2607;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  animation: badge-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Progress Ring */
+.progress-section {
+  margin: 2rem 0;
+}
+
+.progress-ring {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.progress-ring svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.progress-ring-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 8;
+}
+
+.progress-ring-fill {
+  fill: none;
+  stroke: #7CB342;
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+  filter: drop-shadow(0 0 6px rgba(124, 179, 66, 0.5));
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.epoch-current {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7CB342;
+  line-height: 1;
+}
+
+.epoch-total {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.epoch-label {
+  display: block;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.25rem;
+}
+
+/* Status */
+.training-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.status-spinner {
+  width: 24px;
+  height: 24px;
+  color: #7CB342;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.status-message {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+/* Details */
+.training-details {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+}
+
+.detail-icon {
+  width: 18px;
+  height: 18px;
+  color: #7CB342;
+}
+
+/* Info */
+.training-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+
+/* Footer */
+.training-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.training-footer p {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+/* Success State */
+.success-animation {
+  margin-bottom: 1.5rem;
+}
+
+.success-circle {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(145deg, #7CB342, #4A7C23);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  animation: success-pop 0.5s ease-out;
+}
+
+@keyframes success-pop {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.success-icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.success-content h3 {
+  font-size: 1.5rem;
+  color: #7CB342;
+  margin-bottom: 0.75rem;
+}
+
+.success-message {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+}
+
+.improvement-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.improvement-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.improvement-label {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.25rem;
+}
+
+.improvement-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #7CB342;
+}
+
+.success-tip {
+  background: rgba(124, 179, 66, 0.2);
+  border: 1px solid rgba(124, 179, 66, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  color: #a5d6a7;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.continue-btn {
+  width: 100%;
+  background: linear-gradient(145deg, #7CB342, #4A7C23);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.continue-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(124, 179, 66, 0.3);
+}

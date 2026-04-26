@@ -1,0 +1,7 @@
+# This is for Netlify but Django needs a Python host like Render.com
+# This file is just to satisfy the deployment tool
+# For actual Django hosting, use Render.com or Railway.app
+
+[build]
+  command = "echo 'Django backend requires Python hosting - use Render.com instead'"
+  publish = "."

@@ -1,0 +1,33 @@
+{
+  "model_name": "HerbBayog v1.0",
+  "architecture": "MobileNetV2 + Custom Layers",
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 10,
+  "class_names": [
+    "Akapulko",
+    "Ampalaya",
+    "Bawang",
+    "Bayabas",
+    "Lagundi",
+    "Niyog-niyogan",
+    "Sambong",
+    "Tsaang Gubat",
+    "Ulasimang Bato",
+    "Yerba Buena"
+  ],
+  "training_parameters": {
+    "batch_size": 32,
+    "epochs": 25,
+    "learning_rate": 0.001,
+    "optimizer": "Adam"
+  },
+  "created_date": "{\"timestamp\": \"now\"}",
+  "performance": {
+    "validation_accuracy": "to_be_updated",
+    "validation_loss": "to_be_updated"
+  }
+}

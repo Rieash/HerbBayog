@@ -1,0 +1,85 @@
+/* Scan Page Styles */
+
+/* Page wrapper - adds space below fixed header */
+.scan-page {
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+/* Analysis Section */
+.analysis-section {
+  background: linear-gradient(135deg, #f8faf8 0%, #e8f5e9 100%);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Feedback Section */
+.feedback-section {
+  margin: 1rem 0;
+}
+
+.btn-feedback {
+  width: 100%;
+  padding: 0.875rem;
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
+  border: 2px solid #ff6b6b;
+  border-radius: 12px;
+  color: #c92a2a;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-feedback:hover {
+  background: linear-gradient(135deg, #ff6b6b, #c92a2a);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(201, 42, 42, 0.3);
+}
+
+/* Low Confidence Warning Banner */
+.low-confidence-banner {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #856404;
+  font-weight: 500;
+}
+
+.low-confidence-banner::before {
+  content: '⚠️';
+  font-size: 1.2rem;
+}
+
+/* Scan Error */
+.scan-error {
+  text-align: center;
+  padding: 2rem;
+  color: #dc2626;
+}
+
+.scan-error button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #2D5016, #4A7C23);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scan-error button:hover {
+  background: linear-gradient(135deg, #3d6a1e, #5a9c2f);
+}

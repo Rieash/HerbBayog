@@ -1,0 +1,151 @@
+{
+  "contributions": [
+    {
+      "id": "20260411_092204_76706fc9",
+      "timestamp": "2026-04-11T09:22:04.361136",
+      "plant_name": "Lagundi",
+      "file_path": "D:\\HerbBayog\\backend\\contributions\\Lagundi\\20260411_092204_76706fc9_480x640_q92.jpg",
+      "filename": "20260411_092204_76706fc9_480x640_q92.jpg",
+      "image_info": {
+        "width": 480,
+        "height": 640,
+        "file_size_bytes": 32432,
+        "quality_score": 92,
+        "format": "JPEG"
+      },
+      "contribution_type": "correction",
+      "ai_prediction": null,
+      "contributor_info": {
+        "source": "photo_submission_modal",
+        "submission_id": 8,
+        "latitude": 12.06828170586909,
+        "longitude": 124.58984324605863
+      },
+      "notes": "User submission via PhotoSubmission modal. Location: ",
+      "status": "approved",
+      "batch_id": null,
+      "review_notes": null,
+      "verified_by": "auto"
+    },
+    {
+      "id": "20260411_101003_92b03b0e",
+      "timestamp": "2026-04-11T10:10:03.476677",
+      "plant_name": "Lagundi",
+      "file_path": "D:\\HerbBayog\\backend\\contributions\\Lagundi\\20260411_101003_92b03b0e_512x396_q82.jpg",
+      "filename": "20260411_101003_92b03b0e_512x396_q82.jpg",
+      "image_info": {
+        "width": 512,
+        "height": 396,
+        "file_size_bytes": 71467,
+        "quality_score": 82,
+        "format": "JPEG"
+      },
+      "contribution_type": "correction",
+      "ai_prediction": null,
+      "contributor_info": {
+        "source": "photo_submission_modal",
+        "submission_id": 9,
+        "latitude": 12.068274270239622,
+        "longitude": 124.58983224107632
+      },
+      "notes": "User submission via PhotoSubmission modal. Location: ",
+      "status": "approved",
+      "batch_id": null,
+      "review_notes": null,
+      "verified_by": "auto"
+    },
+    {
+      "id": "20260411_101048_76706fc9",
+      "timestamp": "2026-04-11T10:10:48.660086",
+      "plant_name": "Lagundi",
+      "file_path": "D:\\HerbBayog\\backend\\contributions\\Lagundi\\20260411_101048_76706fc9_480x640_q92.jpg",
+      "filename": "20260411_101048_76706fc9_480x640_q92.jpg",
+      "image_info": {
+        "width": 480,
+        "height": 640,
+        "file_size_bytes": 32432,
+        "quality_score": 92,
+        "format": "JPEG"
+      },
+      "contribution_type": "correction",
+      "ai_prediction": null,
+      "contributor_info": {
+        "source": "photo_submission_modal",
+        "submission_id": 10,
+        "latitude": 12.068274270239623,
+        "longitude": 124.58983224107637
+      },
+      "notes": "User submission via PhotoSubmission modal. Location: ",
+      "status": "approved",
+      "batch_id": null,
+      "review_notes": null,
+      "verified_by": "auto"
+    },
+    {
+      "id": "20260411_110333_2e74aea9",
+      "timestamp": "2026-04-11T11:03:33.265533",
+      "plant_name": "Lagundi",
+      "file_path": "D:\\HerbBayog\\backend\\contributions\\Lagundi\\20260411_110333_2e74aea9_800x600_q80.jpg",
+      "filename": "20260411_110333_2e74aea9_800x600_q80.jpg",
+      "image_info": {
+        "width": 800,
+        "height": 600,
+        "file_size_bytes": 272357,
+        "quality_score": 80,
+        "format": "JPEG"
+      },
+      "contribution_type": "correction",
+      "ai_prediction": null,
+      "contributor_info": {
+        "source": "photo_submission_modal",
+        "submission_id": 11,
+        "latitude": 12.068269162851106,
+        "longitude": 124.58982358831096
+      },
+      "notes": "User submission via PhotoSubmission modal. Location: ",
+      "status": "approved",
+      "batch_id": null,
+      "review_notes": null,
+      "verified_by": "auto"
+    },
+    {
+      "id": "20260411_110349_4f869419",
+      "timestamp": "2026-04-11T11:03:49.909677",
+      "plant_name": "Lagundi",
+      "file_path": "D:\\HerbBayog\\backend\\contributions\\Lagundi\\20260411_110349_4f869419_4608x3456_q100.jpg",
+      "filename": "20260411_110349_4f869419_4608x3456_q100.jpg",
+      "image_info": {
+        "width": 4608,
+        "height": 3456,
+        "file_size_bytes": 7093711,
+        "quality_score": 100,
+        "format": "JPEG"
+      },
+      "contribution_type": "correction",
+      "ai_prediction": null,
+      "contributor_info": {
+        "source": "photo_submission_modal",
+        "submission_id": 12,
+        "latitude": 12.068269162851106,
+        "longitude": 124.58982358831096
+      },
+      "notes": "User submission via PhotoSubmission modal. Location: ",
+      "status": "approved",
+      "batch_id": null,
+      "review_notes": null,
+      "verified_by": "auto"
+    }
+  ],
+  "stats": {
+    "total_contributions": 5,
+    "by_plant": {
+      "Lagundi": 5
+    },
+    "by_status": {
+      "pending": 0,
+      "approved": 5,
+      "rejected": 0,
+      "used_for_training": 0
+    }
+  }
+}

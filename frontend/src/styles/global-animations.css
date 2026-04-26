@@ -1,0 +1,576 @@
+/* ========================================
+   HERBBAYOG GLOBAL ANIMATION SYSTEM
+   Fancy, Optimized, Micro-interactions
+   ======================================== */
+
+/* ===== CSS VARIABLES ===== */
+:root {
+  /* Timing Functions */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Durations */
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 600ms;
+  --duration-slower: 1000ms;
+  
+  /* Stagger Delays */
+  --stagger-base: 50ms;
+}
+
+/* ===== PAGE TRANSITIONS ===== */
+.page-enter {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: all var(--duration-slow) var(--ease-out-expo);
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all var(--duration-normal) ease-out;
+}
+
+/* ===== SCROLL REVEAL ANIMATIONS ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all var(--duration-slow) var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all var(--duration-slow) var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+.reveal-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: all var(--duration-slow) var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all var(--duration-slow) var(--ease-spring);
+  will-change: opacity, transform;
+}
+
+.reveal-scale.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.reveal-rotate {
+  opacity: 0;
+  transform: rotateY(-90deg);
+  transition: all var(--duration-slower) var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+.reveal-rotate.active {
+  opacity: 1;
+  transform: rotateY(0);
+}
+
+/* Stagger children */
+.stagger-children > * {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.stagger-children.active > * {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all var(--duration-slow) var(--ease-out-expo);
+}
+
+.stagger-children.active > *:nth-child(1) { transition-delay: calc(var(--stagger-base) * 0); }
+.stagger-children.active > *:nth-child(2) { transition-delay: calc(var(--stagger-base) * 1); }
+.stagger-children.active > *:nth-child(3) { transition-delay: calc(var(--stagger-base) * 2); }
+.stagger-children.active > *:nth-child(4) { transition-delay: calc(var(--stagger-base) * 3); }
+.stagger-children.active > *:nth-child(5) { transition-delay: calc(var(--stagger-base) * 4); }
+.stagger-children.active > *:nth-child(6) { transition-delay: calc(var(--stagger-base) * 5); }
+
+/* ===== MICRO-INTERACTIONS ===== */
+/* Hover Lift Effect */
+.hover-lift {
+  transition: transform var(--duration-fast) var(--ease-out-expo),
+              box-shadow var(--duration-fast) var(--ease-out-expo);
+  will-change: transform;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Scale Effect */
+.hover-scale {
+  transition: transform var(--duration-fast) var(--ease-spring);
+  will-change: transform;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Hover Glow Effect */
+.hover-glow {
+  transition: all var(--duration-fast) ease;
+  position: relative;
+}
+
+.hover-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #7CB342, #4A7C23, #2D5016);
+  border-radius: inherit;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity var(--duration-fast) ease;
+  filter: blur(8px);
+}
+
+.hover-glow:hover::before {
+  opacity: 0.5;
+}
+
+/* Magnetic Button Effect */
+.magnetic-btn {
+  transition: transform var(--duration-fast) var(--ease-out-expo);
+  will-change: transform;
+}
+
+/* Ripple Effect */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width var(--duration-normal) ease, height var(--duration-normal) ease;
+}
+
+.ripple:active::after {
+  width: 200px;
+  height: 200px;
+}
+
+/* ===== BUTTON ANIMATIONS ===== */
+/* Primary Button */
+.btn-fancy {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #2D5016 0%, #4A7C23 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out-expo);
+  box-shadow: 0 4px 15px rgba(45, 80, 22, 0.3);
+}
+
+.btn-fancy::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left var(--duration-slow) ease;
+}
+
+.btn-fancy:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(45, 80, 22, 0.4);
+}
+
+.btn-fancy:hover::before {
+  left: 100%;
+}
+
+.btn-fancy:active {
+  transform: translateY(-1px);
+}
+
+/* Shake Animation for errors */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-5px); }
+  30% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  70% { transform: translateX(5px); }
+  90% { transform: translateX(-5px); }
+}
+
+.shake {
+  animation: shake 0.5s ease;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.bounce {
+  animation: bounce 1s ease infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease infinite;
+}
+
+/* ===== LOADING ANIMATIONS ===== */
+/* Nature Loading Spinner */
+.spinner-nature {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.spinner-nature::before,
+.spinner-nature::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 4px solid transparent;
+}
+
+.spinner-nature::before {
+  border-top-color: #7CB342;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-nature::after {
+  border-right-color: #4A7C23;
+  animation: spin 1.5s linear infinite reverse;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Skeleton Loading */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Typing Dots */
+.typing-dots {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.typing-dots span {
+  width: 8px;
+  height: 8px;
+  background: #7CB342;
+  border-radius: 50%;
+  animation: typing 1.4s ease infinite;
+}
+
+.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-10px); }
+}
+
+/* ===== CARD ANIMATIONS ===== */
+/* 3D Card Flip */
+.card-3d {
+  perspective: 1000px;
+}
+
+.card-3d-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform var(--duration-slow);
+  transform-style: preserve-3d;
+}
+
+.card-3d:hover .card-3d-inner {
+  transform: rotateY(180deg);
+}
+
+.card-3d-front,
+.card-3d-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-3d-back {
+  transform: rotateY(180deg);
+}
+
+/* Tilt Effect */
+.tilt-card {
+  transition: transform var(--duration-fast) ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Card Stack Animation */
+@keyframes cardStack {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) rotateX(-30deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+
+.card-stack {
+  animation: cardStack 0.6s var(--ease-out-expo) backwards;
+}
+
+/* ===== FLOATING ANIMATIONS ===== */
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-5px) rotate(1deg); }
+  75% { transform: translateY(5px) rotate(-1deg); }
+}
+
+.float-gentle {
+  animation: float-gentle 6s ease-in-out infinite;
+}
+
+@keyframes float-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.float-bob {
+  animation: float-bob 3s ease-in-out infinite;
+}
+
+@keyframes float-orbit {
+  0% { transform: rotate(0deg) translateX(20px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(20px) rotate(-360deg); }
+}
+
+.float-orbit {
+  animation: float-orbit 8s linear infinite;
+}
+
+/* ===== GRADIENT ANIMATIONS ===== */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #2D5016, #4A7C23, #7CB342, #33691E);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* ===== PARTICLE EFFECTS ===== */
+.particle {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.6;
+  animation: particle-float linear infinite;
+}
+
+@keyframes particle-float {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* ===== NEON/GLOW EFFECTS ===== */
+.neon-text {
+  color: #7CB342;
+  text-shadow: 
+    0 0 5px #7CB342,
+    0 0 10px #7CB342,
+    0 0 20px #7CB342,
+    0 0 40px #2D5016;
+  animation: neon-flicker 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-flicker {
+  0%, 100% { opacity: 1; }
+  41% { opacity: 1; }
+  42% { opacity: 0.8; }
+  43% { opacity: 1; }
+}
+
+/* ===== UNDERLINE ANIMATIONS ===== */
+.underline-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #7CB342, #2D5016);
+  transition: width var(--duration-normal) var(--ease-out-expo);
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+/* ===== IMAGE EFFECTS ===== */
+/* Ken Burns Effect */
+.ken-burns {
+  animation: ken-burns 20s ease infinite alternate;
+}
+
+@keyframes ken-burns {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.1) translate(-2%, -2%); }
+}
+
+/* Image Reveal */
+.image-reveal {
+  clip-path: inset(0 100% 0 0);
+  animation: image-reveal 1s var(--ease-out-expo) forwards;
+}
+
+@keyframes image-reveal {
+  to { clip-path: inset(0 0 0 0); }
+}
+
+/* ===== SCROLLBAR STYLING ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7CB342, #4A7C23);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4A7C23, #2D5016);
+}
+
+/* ===== SELECTION STYLING ===== */
+::selection {
+  background: rgba(124, 179, 66, 0.3);
+  color: #2D5016;
+}
+
+/* ===== PERFORMANCE OPTIMIZATIONS ===== */
+/* Containment for better performance */
+.contain-paint {
+  contain: paint;
+}
+
+.contain-layout {
+  contain: layout;
+}
+
+.contain-strict {
+  contain: strict;
+}
+
+/* GPU Acceleration */
+.gpu-accelerate {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Content Visibility for off-screen elements */
+.lazy-render {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
