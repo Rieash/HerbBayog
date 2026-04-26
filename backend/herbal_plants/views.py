@@ -199,7 +199,11 @@ def get_plant_details(plant_name):
                 'medicinal_uses': plant_info.get('medicinal_uses', []),
                 'preparation_steps': plant_info.get('preparation_steps', []),
                 'cultural_relevance': plant_info.get('cultural_relevance', ''),
-                'image_url': plant_info.get('image_url', None)
+                'image_url': plant_info.get('image_url', None),
+                'translations': plant_info.get('translations', {}),
+                'category': plant_info.get('category', 'general'),
+                'doh_approved': plant_info.get('doh_approved', False),
+                'detailed_description': plant_info.get('detailed_description', plant_info['description'])
             }
         
         # Try to get from Django database as fallback
@@ -439,7 +443,10 @@ def list_plants(request):
                     'cultural_relevance': info.get('cultural_relevance', ''),
                     'image_url': info.get('image_url', None),
                     'category': info.get('category', 'general'),
-                    'doh_approved': info.get('doh_approved', False)
+                    'doh_approved': info.get('doh_approved', False),
+                    'translations': info.get('translations', {}),
+                    'detailed_description': info.get('detailed_description', info['description']),
+                    'local_names': info.get('local_names', [])
                 })
             
             return JsonResponse({'plants': plants_data})
@@ -580,7 +587,8 @@ def plant_detail(request, plant_id):
                         'category': info.get('category', 'general'),
                         'doh_approved': info.get('doh_approved', False),
                         'detailed_description': info.get('detailed_description', info['description']),
-                        'local_names': info.get('local_names', [])
+                        'local_names': info.get('local_names', []),
+                        'translations': info.get('translations', {})
                     }
                     return JsonResponse(plant_data)
         
