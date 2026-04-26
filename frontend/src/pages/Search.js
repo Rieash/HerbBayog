@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search as SearchIcon, Leaf, Clock, AlertCircle } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Search = () => {
   const [plants, setPlants] = useState([]);
@@ -8,6 +9,16 @@ const Search = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [selectedPlant, setSelectedPlant] = useState(null);
+  const { language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (plant, field) => {
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && plant.translations?.[translationKey]?.[field]) {
+      return plant.translations[translationKey][field];
+    }
+    return plant[field];
+  };
 
   useEffect(() => {
     fetchPlants();
@@ -121,13 +132,13 @@ const Search = () => {
                   <p className="text-gray-500 italic mb-3">
                     {plant.scientific_name}
                   </p>
-                  {plant.description && (
+                  {getTranslatedContent(plant, 'description') && (
                     <p className="text-gray-600 mb-3 line-clamp-2">
-                      {plant.description}
+                      {getTranslatedContent(plant, 'description')}
                     </p>
                   )}
                   <div className="flex flex-wrap gap-2">
-                    {plant.medicinal_uses.slice(0, 3).map((use, index) => (
+                    {(getTranslatedContent(plant, 'medicinal_uses') || plant.medicinal_uses).slice(0, 3).map((use, index) => (
                       <span
                         key={index}
                         className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm"
@@ -182,10 +193,10 @@ const Search = () => {
               </div>
               
               <div className="p-6 space-y-6">
-                {selectedPlant.description && (
+                {getTranslatedContent(selectedPlant, 'description') && (
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Description</h3>
-                    <p className="text-gray-600">{selectedPlant.description}</p>
+                    <p className="text-gray-600">{getTranslatedContent(selectedPlant, 'description')}</p>
                   </div>
                 )}
 
@@ -195,7 +206,7 @@ const Search = () => {
                     Medicinal Uses
                   </h3>
                   <div className="grid gap-2">
-                    {selectedPlant.medicinal_uses.map((use, index) => (
+                    {(getTranslatedContent(selectedPlant, 'medicinal_uses') || selectedPlant.medicinal_uses).map((use, index) => (
                       <div key={index} className="flex items-start">
                         <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                         <span className="text-gray-600">{use}</span>
@@ -210,7 +221,7 @@ const Search = () => {
                     Preparation Steps
                   </h3>
                   <div className="space-y-3">
-                    {selectedPlant.preparation_steps.map((step, index) => (
+                    {(getTranslatedContent(selectedPlant, 'preparation_steps') || selectedPlant.preparation_steps).map((step, index) => (
                       <div key={index} className="flex">
                         <div className="flex-shrink-0 w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-semibold text-sm mr-3">
                           {index + 1}
@@ -221,10 +232,10 @@ const Search = () => {
                   </div>
                 </div>
 
-                {selectedPlant.cultural_relevance && (
+                {getTranslatedContent(selectedPlant, 'cultural_relevance') && (
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-2">Cultural Relevance</h3>
-                    <p className="text-gray-600">{selectedPlant.cultural_relevance}</p>
+                    <p className="text-gray-600">{getTranslatedContent(selectedPlant, 'cultural_relevance')}</p>
                   </div>
                 )}
               </div>

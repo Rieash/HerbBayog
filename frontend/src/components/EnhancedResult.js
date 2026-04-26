@@ -2,9 +2,20 @@ import React, { useState } from 'react';
 import { CheckCircle2, AlertCircle, HelpCircle, TrendingUp, Camera, Sparkles, ArrowLeft, Leaf, Heart, FlaskConical, AlertTriangle } from 'lucide-react';
 import './EnhancedResult.css';
 import { getLocalName } from '../utils/plantNameMapping';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const EnhancedResult = ({ result, isOpen, onClose, onFeedback, onRetake }) => {
   const [showDetails, setShowDetails] = useState(false);
+  const { language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (data, field) => {
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && data?.translations?.[translationKey]?.[field]) {
+      return data.translations[translationKey][field];
+    }
+    return data?.[field];
+  };
   
   if (!isOpen || !result) return null;
 
@@ -488,13 +499,13 @@ const EnhancedResult = ({ result, isOpen, onClose, onFeedback, onRetake }) => {
         {hasPlantDetails && (
           <div className="plant-details-section">
             <h3><Sparkles className="section-icon" /> About This Plant</h3>
-            <p className="plant-description">{plant_details.description}</p>
+            <p className="plant-description">{getTranslatedContent(plant_details, 'description') || plant_details.description}</p>
             
-            {plant_details.medicinal_uses?.length > 0 && (
+            {(getTranslatedContent(plant_details, 'medicinal_uses') || plant_details.medicinal_uses)?.length > 0 && (
               <div className="detail-section">
                 <h4>🌱 Medicinal Uses</h4>
                 <ul>
-                  {plant_details.medicinal_uses.slice(0, 3).map((use, i) => (
+                  {(getTranslatedContent(plant_details, 'medicinal_uses') || plant_details.medicinal_uses).slice(0, 3).map((use, i) => (
                     <li key={i}>{use}</li>
                   ))}
                 </ul>
@@ -553,15 +564,15 @@ const EnhancedResult = ({ result, isOpen, onClose, onFeedback, onRetake }) => {
             {/* Description */}
             <div className="detail-section">
               <h3>🌿 About</h3>
-              <p>{plantInfo?.description || `Our AI has identified this plant as ${plantName}. Detailed medicinal information for this specific plant is being added to our database soon.`}</p>
+              <p>{getTranslatedContent(plant_details, 'description') || plantInfo?.description || `Our AI has identified this plant as ${plantName}. Detailed medicinal information for this specific plant is being added to our database soon.`}</p>
             </div>
             
             {/* Medicinal Uses */}
-            {plantInfo?.medicinalUses && (
+            {(getTranslatedContent(plant_details, 'medicinal_uses') || plantInfo?.medicinalUses) && (
               <div className="detail-section">
                 <h3>❤️ Medicinal Uses</h3>
                 <ul>
-                  {plantInfo.medicinalUses.map((use, idx) => (
+                  {(getTranslatedContent(plant_details, 'medicinal_uses') || plantInfo.medicinalUses).map((use, idx) => (
                     <li key={idx}>{use}</li>
                   ))}
                 </ul>
@@ -569,11 +580,11 @@ const EnhancedResult = ({ result, isOpen, onClose, onFeedback, onRetake }) => {
             )}
             
             {/* Preparation */}
-            {plantInfo?.preparation && (
+            {(getTranslatedContent(plant_details, 'preparation_steps') || plantInfo?.preparation) && (
               <div className="detail-section">
                 <h3>🧪 How to Prepare</h3>
                 <ol>
-                  {plantInfo.preparation.map((step, idx) => (
+                  {(getTranslatedContent(plant_details, 'preparation_steps') || plantInfo.preparation).map((step, idx) => (
                     <li key={idx}>{step}</li>
                   ))}
                 </ol>

@@ -1,9 +1,20 @@
 import React, { useState } from 'react';
 import { CheckCircle, Clock, AlertCircle, Leaf, Loader2 } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
   const [imageLoading, setImageLoading] = useState(true);
   const [imageError, setImageError] = useState(false);
+  const { language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (field) => {
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && plant.translations?.[translationKey]?.[field]) {
+      return plant.translations[translationKey][field];
+    }
+    return plant[field];
+  };
   
   if (!isVisible) return null;
   
@@ -92,7 +103,7 @@ const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
           <div>
             <h3 className="font-semibold text-gray-800 mb-2">Description</h3>
             <p className="text-gray-600 leading-relaxed">
-              {plant.description || 'No description available for this plant.'}
+              {getTranslatedContent('description') || 'No description available for this plant.'}
             </p>
           </div>
 
@@ -102,9 +113,9 @@ const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
               <Clock className="w-5 h-5 mr-2 text-green-600" />
               Medicinal Uses
             </h3>
-            {plant.medicinal_uses && plant.medicinal_uses.length > 0 ? (
+            {(getTranslatedContent('medicinal_uses') || plant.medicinal_uses) && (getTranslatedContent('medicinal_uses') || plant.medicinal_uses).length > 0 ? (
               <div className="grid gap-2">
-                {plant.medicinal_uses.map((use, index) => (
+                {(getTranslatedContent('medicinal_uses') || plant.medicinal_uses).map((use, index) => (
                   <div key={index} className="flex items-start bg-green-50 p-2 rounded-lg">
                     <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                     <span className="text-gray-600">{use}</span>
@@ -122,9 +133,9 @@ const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
               <AlertCircle className="w-5 h-5 mr-2 text-green-600" />
               Preparation Steps
             </h3>
-            {plant.preparation_steps && plant.preparation_steps.length > 0 ? (
+            {(getTranslatedContent('preparation_steps') || plant.preparation_steps) && (getTranslatedContent('preparation_steps') || plant.preparation_steps).length > 0 ? (
               <div className="space-y-3">
-                {plant.preparation_steps.map((step, index) => (
+                {(getTranslatedContent('preparation_steps') || plant.preparation_steps).map((step, index) => (
                   <div key={index} className="flex bg-green-50 p-3 rounded-lg">
                     <div className="flex-shrink-0 w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-semibold text-sm mr-3">
                       {index + 1}
@@ -142,7 +153,7 @@ const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
           <div>
             <h3 className="font-semibold text-gray-800 mb-2">Cultural Relevance</h3>
             <p className="text-gray-600 leading-relaxed">
-              {plant.culturalRelevance || plant.cultural_relevance || 'Cultural information not available.'}
+              {getTranslatedContent('culturalRelevance') || getTranslatedContent('cultural_relevance') || 'Cultural information not available.'}
             </p>
           </div>
 

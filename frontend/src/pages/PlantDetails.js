@@ -28,8 +28,9 @@ const PlantDetails = () => {
 
   // Helper function to get translated content
   const getTranslatedContent = (field) => {
-    if (language === 'waray' && plant.translations?.waray?.[field]) {
-      return plant.translations.waray[field];
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && plant.translations?.[translationKey]?.[field]) {
+      return plant.translations[translationKey][field];
     }
     return plant[field];
   };

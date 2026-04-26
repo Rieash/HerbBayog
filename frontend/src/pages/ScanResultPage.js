@@ -24,8 +24,9 @@ const ScanResultPage = () => {
 
   // Helper function to get translated content
   const getTranslatedContent = (plantData, field) => {
-    if (language === 'waray' && plantData?.translations?.waray?.[field]) {
-      return plantData.translations.waray[field];
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && plantData?.translations?.[translationKey]?.[field]) {
+      return plantData.translations[translationKey][field];
     }
     return plantData?.[field];
   };

@@ -4,10 +4,21 @@ import { CheckCircle2, AlertCircle, ArrowLeft, Leaf, Heart, FlaskConical, Info, 
 import './PlantIdentificationResult.css';
 import { getLocalName } from '../utils/plantNameMapping';
 import { dohPlantDatabase } from '../data/dohPlantDatabase';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const PlantIdentificationResult = ({ result, uploadedImage, isOpen, onClose, onFeedback }) => {
   const [view, setView] = useState('result'); // 'result' | 'details'
   const [animatedConfidence, setAnimatedConfidence] = useState(0);
+  const { language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (data, field) => {
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && data?.translations?.[translationKey]?.[field]) {
+      return data.translations[translationKey][field];
+    }
+    return data?.[field];
+  };
   
   useEffect(() => {
     if (isOpen && result) {
@@ -269,14 +280,14 @@ const PlantIdentificationResult = ({ result, uploadedImage, isOpen, onClose, onF
                       {/* Description */}
                       <section className="detail-section-modern">
                         <h3><Leaf size={18} /> About</h3>
-                        <p>{plantInfo.description}</p>
+                        <p>{getTranslatedContent(plantDetails, 'description') || plantInfo.description}</p>
                       </section>
 
                       {/* Medicinal Uses */}
                       <section className="detail-section-modern">
                         <h3><Heart size={18} /> Medicinal Uses</h3>
                         <ul className="uses-list">
-                          {plantInfo.uses.map((use, idx) => (
+                          {(getTranslatedContent(plantDetails, 'medicinal_uses') || plantInfo.uses).map((use, idx) => (
                             <motion.li 
                               key={idx}
                               initial={{ opacity: 0, x: -10 }}
@@ -294,7 +305,7 @@ const PlantIdentificationResult = ({ result, uploadedImage, isOpen, onClose, onF
                       <section className="detail-section-modern">
                         <h3><FlaskConical size={18} /> How to Prepare</h3>
                         <ol className="prep-list">
-                          {plantInfo.preparation.map((step, idx) => (
+                          {(getTranslatedContent(plantDetails, 'preparation_steps') || plantInfo.preparation).map((step, idx) => (
                             <motion.li 
                               key={idx}
                               initial={{ opacity: 0, x: -10 }}

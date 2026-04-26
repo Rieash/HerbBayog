@@ -22,7 +22,16 @@ const Plants = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [favorites, setFavorites] = useState([]);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (plant, field) => {
+    const translationKey = language === 'war' ? 'waray' : null;
+    if (translationKey && plant.translations?.[translationKey]?.[field]) {
+      return plant.translations[translationKey][field];
+    }
+    return plant[field];
+  };
 
   const categories = [
     { id: 'all', label: t('plants.categories.all'), icon: '🌿', count: 10 },
@@ -88,6 +97,7 @@ const Plants = () => {
         medicinal_uses: plant.medicinal_uses || plant.properties || [],
         description: plant.description || plant.medicinal_value || '',
         category: plant.category || 'general',
+        translations: plant.translations || {},
         featured: plant.featured || index < 6 // First 6 are featured
       }));
       
@@ -267,10 +277,10 @@ const Plants = () => {
                     <div className="plant-card-content">
                       <h3 className="plant-name">{plant.name}</h3>
                       <p className="plant-scientific">{plant.scientific_name}</p>
-                      <p className="plant-description">{plant.description}</p>
+                      <p className="plant-description">{getTranslatedContent(plant, 'description')}</p>
                       
                       <div className="plant-tags">
-                        {plant.medicinal_uses.slice(0, 3).map((use, idx) => (
+                        {(getTranslatedContent(plant, 'medicinal_uses') || plant.medicinal_uses).slice(0, 3).map((use, idx) => (
                           <span key={idx} className="plant-tag">{use}</span>
                         ))}
                       </div>
