@@ -24,7 +24,15 @@ const PlantDetails = () => {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('overview');
   const [isBookmarked, setIsBookmarked] = useState(false);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (field) => {
+    if (language === 'waray' && plant.translations?.waray?.[field]) {
+      return plant.translations.waray[field];
+    }
+    return plant[field];
+  };
 
   useEffect(() => {
     fetchPlantDetails();
@@ -146,13 +154,13 @@ const PlantDetails = () => {
             <div className="tab-panel overview-panel">
               <div className="panel-section">
                 <h3>{t('plantDetails.overview.description')}</h3>
-                <p>{plant.description}</p>
+                <p>{getTranslatedContent('description')}</p>
               </div>
               
               <div className="panel-section">
                 <h3>{t('plantDetails.overview.benefits')}</h3>
                 <div className="benefits-grid">
-                  {plant.medicinal_uses?.slice(0, 4).map((use, idx) => (
+                  {getTranslatedContent('medicinal_uses')?.slice(0, 4).map((use, idx) => (
                     <div key={idx} className="benefit-card">
                       <div className="benefit-icon">
                         <Leaf size={20} />
@@ -170,7 +178,7 @@ const PlantDetails = () => {
               <div className="panel-section">
                 <h3>{t('plantDetails.medicinal.title')}</h3>
                 <ul className="uses-list">
-                  {plant.medicinal_uses?.map((use, idx) => (
+                  {getTranslatedContent('medicinal_uses')?.map((use, idx) => (
                     <li key={idx} className="use-item">
                       <div className="use-bullet">{idx + 1}</div>
                       <div className="use-content">
@@ -198,7 +206,7 @@ const PlantDetails = () => {
               <div className="panel-section">
                 <h3>{t('plantDetails.preparation.title')}</h3>
                 <div className="preparation-steps">
-                  {plant.preparation_steps?.map((step, idx) => (
+                  {getTranslatedContent('preparation_steps')?.map((step, idx) => (
                     <div key={idx} className="prep-step">
                       <div className="step-number-large">{idx + 1}</div>
                       <div className="step-content">
@@ -226,7 +234,7 @@ const PlantDetails = () => {
               <div className="panel-section">
                 <h3>{t('plantDetails.cultural.title')}</h3>
                 <div className="cultural-content">
-                  <p>{plant.cultural_relevance || t('plantDetails.cultural.noInfo')}</p>
+                  <p>{getTranslatedContent('cultural_relevance') || t('plantDetails.cultural.noInfo')}</p>
                 </div>
               </div>
               

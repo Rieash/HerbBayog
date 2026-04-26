@@ -20,7 +20,15 @@ const ScanResultPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { result, uploadedImage } = location.state || {};
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  // Helper function to get translated content
+  const getTranslatedContent = (plantData, field) => {
+    if (language === 'waray' && plantData?.translations?.waray?.[field]) {
+      return plantData.translations.waray[field];
+    }
+    return plantData?.[field];
+  };
 
   if (!result) {
     return (
@@ -155,7 +163,7 @@ const ScanResultPage = () => {
             About this Plant
           </h3>
           <p className="description">
-            {plantInfo?.description || plantDetails.description || `The ${plantName} is a medicinal plant commonly found in the Philippines. It has been traditionally used for various health benefits.`}
+            {getTranslatedContent(plantInfo || plantDetails, 'description') || `The ${plantName} is a medicinal plant commonly found in the Philippines. It has been traditionally used for various health benefits.`}
           </p>
 
           {/* Medicinal Uses */}
@@ -166,7 +174,7 @@ const ScanResultPage = () => {
                 {t('scanResult.medicinalUses')}
               </h4>
               <ul className="uses-list">
-                {(plantInfo?.medicinal_uses || plantDetails.medicinal_uses || []).map((use, index) => (
+                {(getTranslatedContent(plantInfo || plantDetails, 'medicinal_uses') || plantInfo?.medicinal_uses || plantDetails.medicinal_uses || []).map((use, index) => (
                   <li key={index} className="use-item">
                     <span className="use-bullet">•</span>
                     {use}
@@ -195,15 +203,15 @@ const ScanResultPage = () => {
           )}
 
           {/* Preparation */}
-          {(plantInfo?.preparation || plantDetails.preparation) && (
+          {(plantInfo?.preparation || plantDetails.preparation || plantDetails.preparation_steps) && (
             <div className="preparation-section">
               <h4>
                 <Beaker size={18} />
                 {t('scanResult.preparation')}
               </h4>
-              {Array.isArray(plantInfo?.preparation || plantDetails.preparation) ? (
+              {Array.isArray(getTranslatedContent(plantInfo || plantDetails, 'preparation_steps') || plantInfo?.preparation || plantDetails.preparation) ? (
                 <ul className="preparation-list">
-                  {(plantInfo?.preparation || plantDetails.preparation).map((step, index) => (
+                  {(getTranslatedContent(plantInfo || plantDetails, 'preparation_steps') || plantInfo?.preparation || plantDetails.preparation).map((step, index) => (
                     <li key={index} className="preparation-item">
                       <span className="prep-number">{index + 1}.</span>
                       {step}
@@ -211,7 +219,7 @@ const ScanResultPage = () => {
                   ))}
                 </ul>
               ) : (
-                <p>{plantInfo?.preparation || plantDetails.preparation}</p>
+                <p>{getTranslatedContent(plantInfo || plantDetails, 'preparation_steps') || plantInfo?.preparation || plantDetails.preparation}</p>
               )}
             </div>
           )}
@@ -235,13 +243,13 @@ const ScanResultPage = () => {
           )}
 
           {/* Cultural Significance */}
-          {(plantInfo?.cultural_significance || plantDetails.cultural_significance) && (
+          {(plantInfo?.cultural_significance || plantDetails.cultural_significance || plantDetails.cultural_relevance) && (
             <div className="cultural-section">
               <h4>
                 <Sparkles size={18} />
                 Cultural Significance
               </h4>
-              <p>{plantInfo?.cultural_significance || plantDetails.cultural_significance}</p>
+              <p>{getTranslatedContent(plantInfo || plantDetails, 'cultural_relevance') || plantInfo?.cultural_significance || plantDetails.cultural_significance}</p>
             </div>
           )}
         </section>
