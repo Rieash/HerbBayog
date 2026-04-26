@@ -9,6 +9,7 @@ import AnimatedPage, {
 } from '../components/AnimatedPage';
 import { MiniLoader } from '../components/LoadingScreen';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config';
 import './Plants.css';
 
 const Plants = () => {
@@ -70,7 +71,7 @@ const Plants = () => {
     try {
       setLoading(true);
       // Fetch real plants from backend API
-      const response = await axios.get('/api/plants/');
+      const response = await axios.get(API_ENDPOINTS.PLANTS);
       const plantData = response.data.plants || response.data;
       
       // Filter for DOH-approved plants only
@@ -138,26 +139,26 @@ const Plants = () => {
               </span>
             </FloatingElement>
             
-            <h1 className="plants-hero-title">
+            <h1 className="plants-hero-title text-2xl md:text-3xl lg:text-4xl">
               Discover <span className="gradient-text">10 DOH-Approved</span>
               <br />Medicinal Plants
             </h1>
             
-            <p className="plants-hero-subtitle">
+            <p className="plants-hero-subtitle text-sm md:text-base lg:text-lg">
               Explore our comprehensive library of DOH-approved traditional medicines. 
               Search by name, ailment, or category.
             </p>
 
             {/* Search Bar */}
-            <div className="search-container-enhanced">
-              <div className="search-input-wrapper">
+            <div className="search-container-enhanced flex flex-col sm:flex-row gap-3">
+              <div className="search-input-wrapper flex-1">
                 <Search className="search-icon" />
                 <input
                   type="text"
                   placeholder="Search plants, ailments, or remedies..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="search-input-enhanced"
+                  className="search-input-enhanced text-sm md:text-base"
                 />
                 {searchTerm && (
                   <button 
@@ -189,11 +190,11 @@ const Plants = () => {
 
         {/* Category Filter */}
         <AnimatedSection animation="reveal" delay={200}>
-          <div className="category-filter">
+          <div className="category-filter flex flex-wrap gap-2">
             {categories.map(cat => (
               <button
                 key={cat.id}
-                className={`category-pill ${selectedCategory === cat.id ? 'active' : ''}`}
+                className={`category-pill text-xs md:text-sm ${selectedCategory === cat.id ? 'active' : ''}`}
                 onClick={() => setSelectedCategory(cat.id)}
               >
                 <span className="cat-icon">{cat.icon}</span>

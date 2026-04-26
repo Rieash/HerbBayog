@@ -121,23 +121,23 @@ const About = () => {
             <Sparkles size={18} />
             <span>Made in Calbayog, Philippines</span>
           </div>
-          <h1 className="about-hero-title-enhanced">
+          <h1 className="about-hero-title-enhanced text-2xl md:text-3xl lg:text-4xl">
             Bridging <span className="highlight">Tradition</span> & <span className="highlight">Technology</span>
           </h1>
-          <p className="about-hero-subtitle-enhanced">
+          <p className="about-hero-subtitle-enhanced text-sm md:text-base lg:text-lg">
             HerbBayog is dedicated to preserving Filipino herbal wisdom through 
             cutting-edge AI, making traditional medicine accessible to everyone.
           </p>
-          <div className="hero-stats-row">
-            <div className="hero-stat">
+          <div className="hero-stats-row flex flex-wrap gap-2 md:gap-4">
+            <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🇵🇭</span>
               <span>Filipino Heritage</span>
             </div>
-            <div className="hero-stat">
+            <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🤖</span>
               <span>AI-Powered</span>
             </div>
-            <div className="hero-stat">
+            <div className="hero-stat text-xs md:text-sm">
               <span className="hero-stat-icon">🏥</span>
               <span>DOH Verified</span>
             </div>
@@ -154,20 +154,20 @@ const About = () => {
             <p className="section-subtitle">Three pillars that drive everything we do</p>
           </div>
 
-          <div className="mission-grid-enhanced">
+          <div className="mission-grid-enhanced grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <div className="mission-card">
               <div className="mission-card-glow"></div>
               <div className="mission-icon-wrapper">
                 <Heart className="mission-icon" />
               </div>
-              <h3>Preserve Heritage</h3>
-              <p>
+              <h3 className="text-base md:text-lg">Preserve Heritage</h3>
+              <p className="text-sm md:text-base">
                 Document and safeguard traditional Filipino herbal knowledge that has been 
                 passed down through generations, ensuring it never fades away.
               </p>
               <div className="mission-tags">
-                <span className="mission-tag">Cultural</span>
-                <span className="mission-tag">Heritage</span>
+                <span className="mission-tag text-xs">Cultural</span>
+                <span className="mission-tag text-xs">Heritage</span>
               </div>
             </div>
 
@@ -176,14 +176,14 @@ const About = () => {
               <div className="mission-icon-wrapper">
                 <Brain className="mission-icon" />
               </div>
-              <h3>AI Innovation</h3>
-              <p>
+              <h3 className="text-base md:text-lg">AI Innovation</h3>
+              <p className="text-sm md:text-base">
                 Leverage DenseNet121 neural networks trained on 7,900+ images to identify 
                 plants with 98.6% accuracy, making identification instant and reliable.
               </p>
               <div className="mission-tags">
-                <span className="mission-tag">Technology</span>
-                <span className="mission-tag">Accuracy</span>
+                <span className="mission-tag text-xs">Technology</span>
+                <span className="mission-tag text-xs">Accuracy</span>
               </div>
             </div>
 
@@ -192,8 +192,8 @@ const About = () => {
               <div className="mission-icon-wrapper">
                 <Shield className="mission-icon" />
               </div>
-              <h3>Verified Safety</h3>
-              <p>
+              <h3 className="text-base md:text-lg">Verified Safety</h3>
+              <p className="text-sm md:text-base">
                 All plants are verified against DOH-approved lists with detailed 
                 preparation methods and safety guidelines for every remedy.
               </p>
