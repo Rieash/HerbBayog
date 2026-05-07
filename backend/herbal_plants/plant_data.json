@@ -635,7 +635,7 @@
     "image_url": "/images/plants/avocado.jpg",
     "doh_approved": false,
     "category": "Nutrition",
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true,
     "detailed_description": "Avocado (Persea americana) is valued for its nutrient-rich fruit containing healthy fats, fiber, and vitamins. The leaves are used in traditional medicine for treating kidney stones and respiratory issues, containing beneficial flavonoids and phenolic compounds.",
     "translations": {
@@ -1283,7 +1283,7 @@
         "detailed_description": "An Jackfruit (Artocarpus heterophyllus) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Boosts immunity, Aids digestion, Rich in nutrients. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Kakawate": {
@@ -1364,8 +1364,8 @@
         "detailed_description": "An Kamias (Averrhoa bilimbi) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats cough, Bleaching agent, Anti-diabetic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
-    "local_to_calbayog": true
+    "is_herbal": true,
+    "local_to_calbayog": false
   },
   "Kamote": {
     "name": "Kamote",
@@ -1404,7 +1404,7 @@
         "detailed_description": "An Kamote (Ipomoea batatas) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy source, Rich in vitamins, Anti-diabetic potential. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Katakataka": {
@@ -1487,8 +1487,8 @@
         "detailed_description": "An Lemon (Citrus limon) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Aids digestion, Skin lightening. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": true,
-    "local_to_calbayog": true
+    "is_herbal": false,
+    "local_to_calbayog": false
   },
   "Mango": {
     "name": "Mango",
@@ -1740,7 +1740,7 @@
         "detailed_description": "An Papaya (Carica papaya) in nagpapakita hin papain enzyme nga nagtulong ha digestion ngan natutulungan pag-break down hin proteins. An prutas ngan mga bulong in pareho medicinal ngan gingagamit ha traditional nga paagi para ha digestive health."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Tanglad": {
@@ -1840,7 +1840,7 @@
         "detailed_description": "An Atis (Annona squamosa) nga mga bulong in gingagamit ha traditional nga paagi ha Philippine folk medicine para ha pagtambal hin fever, diarrhea, ngan intestinal parasites. An prutas in rich ha Vitamin C ngan dietary fiber."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Gabi": {
@@ -2088,7 +2088,7 @@
         "detailed_description": "An Kalabasa o Squash (Cucurbita maxima) in importante nga vegetable crop ha Pilipinas. An orange flesh in rich ha beta-carotene ngan vitamins. An mga burak, mga bulong, ngan mga seeds tanan in mayda traditional medicinal ngan culinary uses."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Alugbati": {
@@ -2139,7 +2139,7 @@
         "detailed_description": "An Alugbati (Basella alba) in usa nga popular leafy vegetable ha Pilipinas, pareho ha spinach pero mas heat-tolerant. Ini in rich ha iron, calcium, ngan vitamins A ngan C. An mucilaginous texture in pareho ha spinach nga ginaluto."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Kangkong": {
@@ -2189,7 +2189,7 @@
         "detailed_description": "An Kangkong (Ipomoea aquatica) in usa nga popular leafy vegetable ha Southeast Asia. Ini in magtubo rapidly ha aquatic o moist environments. Rich ha iron, vitamins, ngan minerals. Ini in usa nga staple green vegetable ha Filipino cuisine."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Neem": {
@@ -3122,8 +3122,8 @@
         "detailed_description": "An Durian (Durio zibethinus) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy booster, Rich in nutrients, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
-    "local_to_calbayog": true
+    "is_herbal": true,
+    "local_to_calbayog": false
   },
   "Soursop": {
     "name": "Soursop",
@@ -3168,8 +3168,8 @@
         "detailed_description": "An Soursop (Annona muricata) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-cancer potential, Boosts immunity, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
-    "local_to_calbayog": true
+    "is_herbal": true,
+    "local_to_calbayog": false
   },
   "Dragon Fruit": {
     "name": "Dragon Fruit",
@@ -3437,7 +3437,7 @@
         "detailed_description": "An Okra (Abelmoschus esculentus) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Good for digestion, Rich in fiber, Supports blood sugar control. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "String Beans": {
@@ -3706,7 +3706,7 @@
         "detailed_description": "An Pechay (Brassica rapa subsp. pekinensis) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Low calorie, Supports digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Mustasa": {
@@ -3751,7 +3751,7 @@
         "detailed_description": "An Mustasa (Brassica juncea) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Detoxifying, Supports digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
     },
-    "is_herbal": false,
+    "is_herbal": true,
     "local_to_calbayog": true
   },
   "Bell Pepper": {
@@ -4150,7 +4150,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Parsley": {
     "name": "Parsley",
@@ -4194,7 +4194,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Chives": {
     "name": "Chives",
@@ -4282,7 +4282,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Fennel": {
     "name": "Fennel",
@@ -4326,7 +4326,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Laurel": {
     "name": "Laurel",
@@ -4549,7 +4549,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Onion": {
     "name": "Onion",
@@ -4594,7 +4594,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Cinnamon": {
     "name": "Cinnamon",
@@ -4639,7 +4639,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Black Pepper": {
     "name": "Black Pepper",
@@ -4683,7 +4683,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Cayenne Pepper": {
     "name": "Cayenne Pepper",
@@ -4772,7 +4772,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Cardamom": {
     "name": "Cardamom",
@@ -4996,7 +4996,7 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   },
   "Aloe Vera": {
     "name": "Aloe Vera",
@@ -5041,6 +5041,6 @@
       }
     },
     "is_herbal": true,
-    "local_to_calbayog": true
+    "local_to_calbayog": false
   }
 }

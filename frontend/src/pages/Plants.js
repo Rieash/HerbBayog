@@ -112,10 +112,7 @@ const Plants = () => {
       }));
       
             
-      console.log('Sample plant data:', transformedPlants[0]);
-      console.log('All plants have names:', transformedPlants.every(p => p.name));
-      console.log('All plants have descriptions:', transformedPlants.every(p => p.description));
-      
+            
       setPlants(transformedPlants);
       setFilteredPlants(transformedPlants);
       setLoading(false);
