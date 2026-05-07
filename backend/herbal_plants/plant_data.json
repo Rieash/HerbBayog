@@ -309,7 +309,9 @@
         "cultural_relevance": "An Niyog-niyogan in principalmente ginkilala komo usa nga deworming remedy ha Pilipinas. An tanom in agsob gintanom komo usa nga ornamental vine tungod han iya magupay nga changing-color nga mga burak.",
         "detailed_description": "An Niyog-niyogan (Quisqualis indica) in gingagamit ha traditional nga paagi komo usa nga anthelmintic para pagpalayas han intestinal worms. An mga seeds in naglalaman hin quisqualic acid nga epektibo laban ha Ascaris ngan iba nga parasitic worms."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Pansit-pansitan": {
     "name": "Pansit-pansitan",
@@ -356,7 +358,9 @@
         "cultural_relevance": "An Pansit-pansitan in komun nga mahiagi ha damp nga mga corner han Filipino homes. Ginkikilala ini para ha pagtambal han gout ngan arthritis ngan agsob in kaonon komo usa nga salad vegetable.",
         "detailed_description": "An Pansit-pansitan (Peperomia pellucida) in gingagamit ha traditional nga paagi para ha pagtambal han arthritis, gout, ngan kidney stones. Mayda ini diuretic ngan anti-inflammatory nga mga kabtang nga nagtulong pagbaba han uric acid levels."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Yerba Buena": {
     "name": "Yerba Buena",
@@ -403,7 +407,9 @@
         "cultural_relevance": "An Yerba Buena (maupay nga herb) in gingagamit han Filipino families para ha mga henerasyon komo usa nga pain reliever. An iya minty aroma nagpapahimuot hini nga maupay gamiton.",
         "detailed_description": "An Yerba Buena (Clinopodium douglasii) in usa ha mga napulo nga DOH-endorsed nga medicinal nga tanom para ha pain relief. An iya menthol content in naghatag hin epektibo nga relief tikang ha body aches, headaches, ngan menstrual cramps."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Bawang": {
     "name": "Bawang",
@@ -455,7 +461,9 @@
         "cultural_relevance": "An Bawang in indispensable ha Filipino cooking ngan tambal. Tagsa nga Filipino kitchen in may garlic, gingagamit pareho komo spice ngan tambal.",
         "detailed_description": "An Bawang o Garlic (Allium sativum) in ginkilala han DOH para ha iya cardiovascular nga mga benefits. Ini in naglalaman hin allicin nga nagtulong pagbaba han blood pressure, pagpaka-ubos han cholesterol, ngan pagprevenir han blood clot formation."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Akapulko": {
     "name": "Akapulko",
@@ -508,7 +516,9 @@
         "cultural_relevance": "An Akapulko in an go-to remedy para ha fungal skin infections. An iya distinctive yellow nga mga burak nagpapadali hini nga ma-ila.",
         "detailed_description": "An Akapulko o Ringworm Bush (Senna alata) in DOH-endorsed para ha pagtambal han fungal skin infections. An mga bulong in naglalaman hin chrysophanic acid nga epektibo laban ha ringworm, scabies, ngan eczema."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Tsaang Gubat": {
     "name": "Tsaang Gubat",
@@ -553,7 +563,9 @@
         "cultural_relevance": "An Tsaang Gubat in gingagamit komo usa nga tsaa substitute ngan para ha pagtambal han stomach ailments ha rural nga mga komunidad.",
         "detailed_description": "An Tsaang Gubat (Ehretia microphylla) in gin-endorso han Philippine DOH para ha pagtambal han diarrhea ngan stomach problems. Mayda ini anti-spasmodic ngan anti-diarrheal nga mga kabtang."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Alagaw": {
     "name": "Alagaw",
@@ -591,7 +603,9 @@
         "cultural_relevance": "An Alagaw in gingagamit ha traditional nga tambal para ha respiratory problems.",
         "detailed_description": "An Alagaw (Premna odorata) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtag upod an Treats cough, Relieves asthma, Expectorant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Avocado": {
     "name": "Avocado",
@@ -685,7 +699,9 @@
         "cultural_relevance": "An Balanoi in gingagamit ha Filipino cooking ngan para ha pagtambal han ubo ngan sip-on.",
         "detailed_description": "An Basil (Ocimum basilicum) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Relieves cough, Digestive aid, Anti-stress. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Bignay": {
     "name": "Bignay",
@@ -724,7 +740,9 @@
         "cultural_relevance": "An Bignay nga mga prutas in kaonon ha fresh ngan gingagamit ha traditional nga tambal para ha lagnat.",
         "detailed_description": "An Bignay (Antidesma bunius) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats fever, Anti-inflammatory, Rich in antioxidants. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Calamansi": {
     "name": "Calamansi",
@@ -765,7 +783,9 @@
         "cultural_relevance": "An Calamansi in usa nga essential ingredient ha Filipino cuisine ngan home remedies.",
         "detailed_description": "An Calamansi (Citrus microcarpa) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Treats cough, Bleaching agent. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Carrot": {
     "name": "Carrot",
@@ -805,7 +825,9 @@
         "cultural_relevance": "An mga carrot in popular komo usa nga healthy snack ngan ingredient ha Filipino dishes.",
         "detailed_description": "An Carrot (Daucus carota) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin A, Good for eye health, Antioxidant properties. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cassava": {
     "name": "Cassava",
@@ -844,7 +866,9 @@
         "cultural_relevance": "An Cassava in importante nga staple food, labi na ha rural nga mga lugar.",
         "detailed_description": "An Cassava (Manihot esculenta) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy source, Gluten-free, Starchy food. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Coconut": {
     "name": "Coconut",
@@ -929,7 +953,9 @@
         "cultural_relevance": "An mga cucumber in gingagamit ha fresh ha salads ngan komo usa nga natural beauty remedy.",
         "detailed_description": "An Cucumber (Cucumis sativus) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Hydrating, Skin health, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Dalandan": {
     "name": "Dalandan",
@@ -968,7 +994,9 @@
         "cultural_relevance": "An Dalandan juice in usa nga popular nga refreshment ngan traditional remedy.",
         "detailed_description": "An Dalandan (Citrus aurantium) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Digestive aid, Appetite stimulant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Dayap": {
     "name": "Dayap",
@@ -1007,7 +1035,9 @@
         "cultural_relevance": "An Dayap in ginkikilala para ha iya aromatic nga mga kabtang ha cooking ngan tambal.",
         "detailed_description": "An Dayap (Citrus hystrix) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Digestive aid, Cough remedy, Skin care. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Duhat": {
     "name": "Duhat",
@@ -1046,7 +1076,9 @@
         "cultural_relevance": "An Duhat nga mga prutas in kaonon ha fresh ngan gingagamit ha traditional nga paagi para ha diabetes.",
         "detailed_description": "An Duhat (Syzygium cumini) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats diabetes, Anti-diarrheal, Controls blood sugar. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Eucalyptus": {
     "name": "Eucalyptus",
@@ -1086,7 +1118,9 @@
         "cultural_relevance": "An Eucalyptus in gingagamit para ha respiratory problems ngan komo usa nga natural decongestant.",
         "detailed_description": "An Eucalyptus (Eucalyptus globulus) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Relieves cough, Decongestant, Antiseptic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Ginger": {
     "name": "Ginger",
@@ -1126,7 +1160,9 @@
         "cultural_relevance": "An Luya in usa nga essential ingredient ha Filipino cuisine ngan home remedies.",
         "detailed_description": "An Ginger (Zingiber officinale) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Relieves nausea, Aids digestion, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Gumamela": {
     "name": "Gumamela",
@@ -1165,7 +1201,9 @@
         "cultural_relevance": "An Gumamela nga mga burak in gingagamit para ha tsaa ngan komo usa nga natural hair conditioner.",
         "detailed_description": "An Gumamela (Hibiscus rosa-sinensis) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Lowers blood pressure, Cough remedy, Hair conditioner. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Ipil-ipil": {
     "name": "Ipil-ipil",
@@ -1204,7 +1242,9 @@
         "cultural_relevance": "An Ipil-ipil nga mga seeds in gingagamit ha traditional nga paagi para ha deworming, bisan nga may caution.",
         "detailed_description": "An Ipil-ipil (Leucaena leucocephala) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Intestinal worm expeller, Protein source, Fodder. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Jackfruit": {
     "name": "Jackfruit",
@@ -1242,7 +1282,9 @@
         "cultural_relevance": "An Langka in ginkikala pareho komo pagkaon ngan tambal ha Pilipinas.",
         "detailed_description": "An Jackfruit (Artocarpus heterophyllus) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Boosts immunity, Aids digestion, Rich in nutrients. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kakawate": {
     "name": "Kakawate",
@@ -1280,7 +1322,9 @@
         "cultural_relevance": "An Madre de cacao in gingagamit para ha skin problems ngan komo natural insecticide.",
         "detailed_description": "An Kakawate (Gliricidia sepium) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats skin diseases, Insecticide, Rodenticide. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kamias": {
     "name": "Kamias",
@@ -1319,7 +1363,9 @@
         "cultural_relevance": "An Kamias in gingagamit para ha iya sour taste ha cooking ngan para ha skin bleaching.",
         "detailed_description": "An Kamias (Averrhoa bilimbi) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats cough, Bleaching agent, Anti-diabetic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kamote": {
     "name": "Kamote",
@@ -1357,7 +1403,9 @@
         "cultural_relevance": "An Kamote in usa nga staple food ngan ginkikilala para ha iya nutritional benefits.",
         "detailed_description": "An Kamote (Ipomoea batatas) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy source, Rich in vitamins, Anti-diabetic potential. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Katakataka": {
     "name": "Katakataka",
@@ -1396,7 +1444,9 @@
         "cultural_relevance": "An Katakataka in gingagamit para ha ubo ngan komo usa nga poultice para ha mga wound.",
         "detailed_description": "An Katakataka (Kalanchoe pinnata) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats cough, Anti-inflammatory, Wound healing. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Lemon": {
     "name": "Lemon",
@@ -1436,7 +1486,9 @@
         "cultural_relevance": "An Lemon in gingagamit para ha iya health benefits ngan ha damo nga home remedies.",
         "detailed_description": "An Lemon (Citrus limon) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Aids digestion, Skin lightening. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Mango": {
     "name": "Mango",
@@ -1476,7 +1528,9 @@
         "cultural_relevance": "An Mango in an national fruit han Pilipinas ngan haluag nga ginhahalagad.",
         "detailed_description": "An Mango (Mangifera indica) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Anti-diabetic leaves, Treats cough. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Mango Ginger": {
     "name": "Mango Ginger",
@@ -1514,7 +1568,9 @@
         "cultural_relevance": "An mango ginger in gingagamit ha traditional nga tambal ngan komo usa nga spice.",
         "detailed_description": "An Mango Ginger (Curcuma amada) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-inflammatory, Aids digestion, Relieves pain. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Mangosteen": {
     "name": "Mangosteen",
@@ -1554,7 +1610,9 @@
         "cultural_relevance": "An Mangosteen in tawag nga 'queen of fruits' para ha iya health benefits.",
         "detailed_description": "An Mangosteen (Garcinia mangostana) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in antioxidants, Anti-inflammatory, Boosts immunity. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Oregano": {
     "name": "Oregano",
@@ -1595,7 +1653,9 @@
         "cultural_relevance": "An Oregano in usa nga popular nga home remedy para ha ubo ngan asthma ha Pilipinas.",
         "detailed_description": "An Oregano (Coleus amboinicus) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Relieves cough, Treats colds, Anti-asthmatic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Pandan": {
     "name": "Pandan",
@@ -1633,7 +1693,9 @@
         "cultural_relevance": "An Pandan in esensyal ha Filipino cooking para ha iya aromatic flavor.",
         "detailed_description": "An Pandan (Pandanus amaryllifolius) in usa nga medicinal nga tanom nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Mild laxative, Lowers blood pressure, Anti-rheumatic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Papaya": {
     "name": "Papaya",
@@ -1677,7 +1739,9 @@
         "cultural_relevance": "An Papaya in haluag nga ginkaon ngan gingagamit para ha digestive health.",
         "detailed_description": "An Papaya (Carica papaya) in nagpapakita hin papain enzyme nga nagtulong ha digestion ngan natutulungan pag-break down hin proteins. An prutas ngan mga bulong in pareho medicinal ngan gingagamit ha traditional nga paagi para ha digestive health."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Tanglad": {
     "name": "Tanglad",
@@ -1725,7 +1789,9 @@
         "cultural_relevance": "An Tanglad in esensyal ha Filipino cuisine, labi na ha sinigang ngan damo nga meat dishes. Ini gihapon in haluag nga gingagamit komo usa nga traditional remedy para ha fever ngan digestive problems ha Calbayog ngan bug-os nga Samar.",
         "detailed_description": "An Tanglad o Lemongrass (Cymbopogon citratus) in haluag nga gingagamit ha Philippine traditional nga tambal para ha iya calming, digestive, ngan fever-reducing properties. Ini in nagpapakita hin citral ngan geraniol nga may antimicrobial ngan anti-inflammatory effects."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Atis": {
     "name": "Atis",
@@ -1773,7 +1839,9 @@
         "cultural_relevance": "An Atis in paborito nga backyard fruit tree ha Calbayog ngan bug-os han Visayas. An mga bulong in gingagamit ha traditional nga paagi komo fever remedy para ha mga bata, ngan an sweet nga prutas in ginhahalagad han tanan nga edad.",
         "detailed_description": "An Atis (Annona squamosa) nga mga bulong in gingagamit ha traditional nga paagi ha Philippine folk medicine para ha pagtambal hin fever, diarrhea, ngan intestinal parasites. An prutas in rich ha Vitamin C ngan dietary fiber."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Gabi": {
     "name": "Gabi",
@@ -1820,7 +1888,9 @@
         "cultural_relevance": "An Gabi in usa nga staple root crop ha rural Samar ngan Calbayog. An mga bulong (laing) in ginaluto nga may coconut milk ha famous nga Bicol dish, bisan nga ini nga preparation in popular gihap ha Samar. Ini in nerepresenta hin resilience kay maupay ini magtubo ha wet conditions.",
         "detailed_description": "An Gabi o Taro (Colocasia esculenta) in importante nga root crop ha Pilipinas. An mga corms kinahanglan lutoon nga maupay para pagpalayas hin calcium oxalate crystals. An mga bulong in gingagamit ha laog para ha insect bites ngan ha sulod komo vegetable."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Sampaguita": {
     "name": "Sampaguita",
@@ -1867,7 +1937,9 @@
         "cultural_relevance": "An Sampaguita in an national flower han Pilipinas ngan mayda deep cultural significance. Ha Calbayog, ini in common nga gingagamit ha religious offerings, ginsusuot komo garlands (sampaguita necklaces), ngan gintatanim ha home gardens para ha iya fragrance ngan beauty.",
         "detailed_description": "An Sampaguita (Jasminum sambac) in an national flower han Pilipinas. An iya fragrant blooms in gingagamit ha traditional nga tambal para ha mga sakit han ulo, relaxation, ngan komo usa nga aromatic remedy para ha stress ngan anxiety."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Lanzones": {
     "name": "Lanzones",
@@ -1915,7 +1987,9 @@
         "cultural_relevance": "An Lanzones in gincelebrate ha Camiguin Lanzones Festival ngan common ha harani nga mga rehiyon upod an mga parte han Samar. Ha Calbayog, an prutas in ginhahalagad durante han harvest season ngan an kahoy in naghatag hin shade ha rural communities.",
         "detailed_description": "An Lanzones (Lansium parasiticum) in usa nga popular tropical fruit native ha Southeast Asia. An bark in mayda traditional uses para ha fever ngan malaria, samtang an prutas in rich ha vitamins ngan antioxidants."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Balimbing": {
     "name": "Balimbing",
@@ -1963,7 +2037,9 @@
         "cultural_relevance": "An Balimbing nga mga kahoy in common ha backyards bug-os han Calbayog ngan Samar. An sour nga variety in gingagamit ha cooking (sinigang, paksiw) samtang an sweet variety in ginkaon nga fresh. An star-shaped nga hiwa in naghihimo hini nga decorative garnish para ha drinks ngan dishes.",
         "detailed_description": "An Balimbing o Star Fruit (Averrhoa carambola) in ginkikilala para ha iya distinctive shape ngan health benefits. Ini in nagpapakita hin oxalates ngan kinahanglan konsumon ha moderation han mga mayda kidney issues. Rich ha Vitamin C ngan antioxidants."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kalabasa": {
     "name": "Kalabasa",
@@ -2011,7 +2087,9 @@
         "cultural_relevance": "An Kalabasa in usa nga staple vegetable ha Calbayog cuisine, gingagamit ha ginataang kalabasa, soups, ngan damo nga traditional dishes. An mga burak (bulaklak ng kalabasa) in haluag nga ginkikilala komo vegetable ngan ginihingagwaran nga maupay para ha mga baga.",
         "detailed_description": "An Kalabasa o Squash (Cucurbita maxima) in importante nga vegetable crop ha Pilipinas. An orange flesh in rich ha beta-carotene ngan vitamins. An mga burak, mga bulong, ngan mga seeds tanan in mayda traditional medicinal ngan culinary uses."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Alugbati": {
     "name": "Alugbati",
@@ -2060,7 +2138,9 @@
         "cultural_relevance": "An Alugbati in usa nga common backyard vegetable ha Calbayog households. Ini in dali magtubo waray damo nga care ngan naghatag hin nutritious greens year-round. An purple juice tikang ha berries in minsan gingagamit komo natural food coloring.",
         "detailed_description": "An Alugbati (Basella alba) in usa nga popular leafy vegetable ha Pilipinas, pareho ha spinach pero mas heat-tolerant. Ini in rich ha iron, calcium, ngan vitamins A ngan C. An mucilaginous texture in pareho ha spinach nga ginaluto."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kangkong": {
     "name": "Kangkong",
@@ -2108,7 +2188,9 @@
         "cultural_relevance": "An Kangkong in an 'poor man's vegetable' ha Pilipinas tungod ha iya affordability ngan dali nga pagtubo. Ha Calbayog, ini in magtubo wild ha rice paddies, streams, ngan wetlands. An Adobong kangkong in usa nga beloved dish bug-os han rehiyon.",
         "detailed_description": "An Kangkong (Ipomoea aquatica) in usa nga popular leafy vegetable ha Southeast Asia. Ini in magtubo rapidly ha aquatic o moist environments. Rich ha iron, vitamins, ngan minerals. Ini in usa nga staple green vegetable ha Filipino cuisine."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Neem": {
     "name": "Neem",
@@ -2153,7 +2235,9 @@
         "cultural_relevance": "An Neem in ginhahangaad ha traditional nga tambal ngan common nga makita ha Indian ngan Southeast Asian communities.",
         "detailed_description": "An Neem (Azadirachta indica) in usa nga trees plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats skin diseases, Antibacterial, Antifungal. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Acacia": {
     "name": "Acacia",
@@ -2196,7 +2280,9 @@
         "cultural_relevance": "An Acacia nga mga kahoy in common ha Pilipinas ngan gingagamit para ha damo nga mga katuyoan upod an shade ngan timber.",
         "detailed_description": "An Acacia (Acacia auriculiformis) in usa nga trees plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats diarrhea, Sore throat remedy, Antiseptic. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Mahogany": {
     "name": "Mahogany",
@@ -2234,7 +2320,9 @@
         "cultural_relevance": "An Mahogany in ginkikilala para ha iya timber ngan haluag nga gintatanim bug-os han tropics.",
         "detailed_description": "An Mahogany (Swietenia macrophylla) in usa nga trees plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats diarrhea, Fever reducer, Antimalarial properties. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Narra": {
     "name": "Narra",
@@ -2276,7 +2364,9 @@
         "cultural_relevance": "An Narra in an national tree han Pilipinas, ginkilala para ha iya beautiful timber ngan medicinal red sap.",
         "detailed_description": "An Narra (Pterocarpus indicus) in usa nga trees plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats mouth sores, Sore throat remedy, Antiseptic wash. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Rosal": {
     "name": "Rosal",
@@ -2319,7 +2409,9 @@
         "cultural_relevance": "An Rosal nga mga burak in ginkikilala para ha iya sweet fragrance ngan gingagamit ha garlands ngan religious offerings.",
         "detailed_description": "An Rosal (Gardenia jasminoides) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Calming sedative, Treats headaches, Reduces fever. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Champaca": {
     "name": "Champaca",
@@ -2362,7 +2454,9 @@
         "cultural_relevance": "An Champaca nga mga burak in haluag nga ginkikilala para ha iya exquisite fragrance ngan gingagamit ha perfumery.",
         "detailed_description": "An Champaca (Magnolia champaca) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Stress relief, Antidepressant, Aphrodisiac. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Ylang-ylang": {
     "name": "Ylang-ylang",
@@ -2405,7 +2499,9 @@
         "cultural_relevance": "An Ylang-ylang in ginkilala para ha iya essential oil nga gingagamit ha aromatherapy ngan perfumery, labi na ha Chanel No. 5.",
         "detailed_description": "An Ylang-ylang (Cananga odorata) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Reduces stress and anxiety, Lowers blood pressure, Aphrodisiac. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Bougainvillea": {
     "name": "Bougainvillea",
@@ -2448,7 +2544,9 @@
         "cultural_relevance": "An Bougainvillea in haluag nga gintatanim para ha iya colorful display ngan in usa nga common ornamental plant ha tropical gardens.",
         "detailed_description": "An Bougainvillea (Bougainvillea spectabilis) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antidiabetic, Anti-inflammatory, Antibacterial. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Orchid": {
     "name": "Orchid",
@@ -2490,7 +2588,9 @@
         "cultural_relevance": "An mga Orchid in ginkikilala para ha iya beauty ngan an iba nga species in gingagamit ha traditional Chinese medicine.",
         "detailed_description": "An Orchid (Dendrobium spp.) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Boosts immunity, Anti-aging, Improves eyesight. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Sunflower": {
     "name": "Sunflower",
@@ -2532,7 +2632,9 @@
         "cultural_relevance": "An mga Sunflower in gintatanim para ha iya beautiful nga mga burak ngan nutritious nga mga seeds.",
         "detailed_description": "An Sunflower (Helianthus annuus) in usa nga ornamental/nutritional plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin E, Anti-inflammatory, Good for heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Marigold": {
     "name": "Marigold",
@@ -2575,7 +2677,9 @@
         "cultural_relevance": "An Marigold nga mga burak in gingagamit ha traditional nga tambal ngan komo offerings ha Day of the Dead celebrations.",
         "detailed_description": "An Marigold (Tagetes erecta) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antiseptic, Wound healing, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Daisy": {
     "name": "Daisy",
@@ -2618,7 +2722,9 @@
         "cultural_relevance": "An mga Daisy in common nga wildflowers nga may traditional medicinal uses ha Europe.",
         "detailed_description": "An Daisy (Bellis perennis) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Cough remedy, Digestive aid, Wound healing. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Ixora": {
     "name": "Ixora",
@@ -2662,7 +2768,9 @@
         "cultural_relevance": "An Ixora in usa nga common ornamental shrub ha tropical gardens nga may significant medicinal value ha Ayurveda.",
         "detailed_description": "An Ixora (Ixora coccinea) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats diarrhea, Reduces fever, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Rose": {
     "name": "Rose",
@@ -2704,7 +2812,9 @@
         "cultural_relevance": "An mga Rose in ginhahangaad worldwide para ha iya beauty ngan fragrance, ngan an rose products in gingagamit ha cosmetics ngan tambal.",
         "detailed_description": "An Rose (Rosa damascena) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Stress relief, Skin care, Digestive aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Chrysanthemum": {
     "name": "Chrysanthemum",
@@ -2747,7 +2857,9 @@
         "cultural_relevance": "An Chrysanthemum tea in popular ha East Asia para ha iya cooling properties ngan health benefits.",
         "detailed_description": "An Chrysanthemum (Chrysanthemum morifolium) in usa nga ornamental plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Reduces fever, Improves eyesight, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Pineapple": {
     "name": "Pineapple",
@@ -2789,7 +2901,9 @@
         "cultural_relevance": "An Pineapple in usa nga dako nga tropical fruit crop ngan an simbolo hin hospitality.",
         "detailed_description": "An Pineapple (Ananas comosus) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Anti-inflammatory, Boosts immunity. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Watermelon": {
     "name": "Watermelon",
@@ -2831,7 +2945,9 @@
         "cultural_relevance": "An Watermelon in usa nga refreshing summer fruit nga ginhahalagad para ha iya sweetness ngan hydration.",
         "detailed_description": "An Watermelon (Citrullus lanatus) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Hydrating, Rich in lycopene, Good for heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Strawberry": {
     "name": "Strawberry",
@@ -2873,7 +2989,9 @@
         "cultural_relevance": "An mga Strawberry in ginhahalagad para ha iya sweet flavor ngan gintatanim ha cool climates.",
         "detailed_description": "An Strawberry (Fragaria × ananassa) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Antioxidant, Good for heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Orange": {
     "name": "Orange",
@@ -2915,7 +3033,9 @@
         "cultural_relevance": "An mga Orange in usa ha mga popular nga fruits globally, ginkikilala para ha iya vitamin C content.",
         "detailed_description": "An Orange (Citrus sinensis) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Boosts immunity, Good for skin health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Rambutan": {
     "name": "Rambutan",
@@ -2957,7 +3077,9 @@
         "cultural_relevance": "An Rambutan in usa nga popular Southeast Asian fruit nga may relasyon ha lychee, ginngaran para ha iya hairy appearance.",
         "detailed_description": "An Rambutan (Nephelium lappaceum) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Iron source, Antioxidant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Durian": {
     "name": "Durian",
@@ -2999,7 +3121,9 @@
         "cultural_relevance": "An Durian in ginkilala komo an 'king of fruits' ha Southeast Asia, ginhahalagad hin iba ngan ginpapabayaan hin iba para ha iya strong smell.",
         "detailed_description": "An Durian (Durio zibethinus) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy booster, Rich in nutrients, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Soursop": {
     "name": "Soursop",
@@ -3043,7 +3167,9 @@
         "cultural_relevance": "An Soursop in haluag nga gingagamit ha traditional nga tambal, ngan an iya prutas in popular ha tropical regions.",
         "detailed_description": "An Soursop (Annona muricata) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-cancer potential, Boosts immunity, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Dragon Fruit": {
     "name": "Dragon Fruit",
@@ -3086,7 +3212,9 @@
         "cultural_relevance": "An Dragon fruit in visually striking ngan nagin popular worldwide para ha iya health benefits.",
         "detailed_description": "An Dragon Fruit (Hylocereus undatus) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in antioxidants, Good for digestion, Boosts immunity. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Pomegranate": {
     "name": "Pomegranate",
@@ -3129,7 +3257,9 @@
         "cultural_relevance": "An Pomegranate in gintatanim para hin mga ribo nga tuig ngan nagsisimbolo hin fertility ngan prosperity.",
         "detailed_description": "An Pomegranate (Punica granatum) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in antioxidants, Good for heart health, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Kiwi": {
     "name": "Kiwi",
@@ -3172,7 +3302,9 @@
         "cultural_relevance": "An Kiwi in ginkilala para ha iya unique appearance ngan dako nga vitamin C content.",
         "detailed_description": "An Kiwi (Actinidia deliciosa) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Good for digestion, Boosts immunity. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Blueberry": {
     "name": "Blueberry",
@@ -3214,7 +3346,9 @@
         "cultural_relevance": "An mga Blueberry in ginkikilala komo superfood tungod ha iya dako nga antioxidant content.",
         "detailed_description": "An Blueberry (Vaccinium corymbosum) in usa nga fruits plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in antioxidants, Good for brain health, Supports heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cabbage": {
     "name": "Cabbage",
@@ -3257,7 +3391,9 @@
         "cultural_relevance": "An Cabbage in usa nga staple vegetable nga gingagamit ha cuisines worldwide, tikang ha salads kutob ha kimchi.",
         "detailed_description": "An Cabbage (Brassica oleracea var. capitata) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C and K, Anti-inflammatory, Good for digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Okra": {
     "name": "Okra",
@@ -3300,7 +3436,9 @@
         "cultural_relevance": "An Okra in esensyal ha Southern US cuisine ngan popular ha Asian ngan African cooking.",
         "detailed_description": "An Okra (Abelmoschus esculentus) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Good for digestion, Rich in fiber, Supports blood sugar control. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "String Beans": {
     "name": "String Beans",
@@ -3343,7 +3481,9 @@
         "cultural_relevance": "An String Beans in usa nga common garden vegetable nga ginhahalagad worldwide para ha iya crunch ngan nutrition.",
         "detailed_description": "An String Beans (Phaseolus vulgaris) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in fiber, Good source of vitamins, Supports bone health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Winged Bean": {
     "name": "Winged Bean",
@@ -3386,7 +3526,9 @@
         "cultural_relevance": "An Winged bean in usa nga nutritious tropical crop nga nagpupugar ha mainit, humid climates.",
         "detailed_description": "An Winged Bean (Psophocarpus tetragonolobus) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an High protein content, Rich in vitamins, Good for digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Chayote": {
     "name": "Chayote",
@@ -3429,7 +3571,9 @@
         "cultural_relevance": "An Chayote in popular ha Latin American ngan Asian cuisines para ha iya mild flavor.",
         "detailed_description": "An Chayote (Sechium edule) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Low calorie, Rich in fiber, Good for heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Corn": {
     "name": "Corn",
@@ -3471,7 +3615,9 @@
         "cultural_relevance": "An Corn in usa nga staple food ha damo nga cultures ngan gingagamit ha countless products.",
         "detailed_description": "An Corn (Zea mays) in usa nga vegetables/grains plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Energy source, Rich in fiber, Supports eye health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Eggplant": {
     "name": "Eggplant",
@@ -3514,7 +3660,9 @@
         "cultural_relevance": "An Eggplant in esensyal ha Mediterranean ngan Asian cuisines, tikang ha ratatouille kutob ha adobo.",
         "detailed_description": "An Eggplant (Solanum melongena) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in fiber, Supports heart health, Brain food. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Pechay": {
     "name": "Pechay",
@@ -3557,7 +3705,9 @@
         "cultural_relevance": "An Pechay in usa nga staple vegetable ha East Asian cuisine ngan haluag nga gintatanim ha Philippines.",
         "detailed_description": "An Pechay (Brassica rapa subsp. pekinensis) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Low calorie, Supports digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Mustasa": {
     "name": "Mustasa",
@@ -3600,7 +3750,9 @@
         "cultural_relevance": "An Mustasa nga mga bulong in gingagamit ha sinigang ngan iba nga Filipino dishes para ha ira tangy flavor.",
         "detailed_description": "An Mustasa (Brassica juncea) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Detoxifying, Supports digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Bell Pepper": {
     "name": "Bell Pepper",
@@ -3643,7 +3795,9 @@
         "cultural_relevance": "An mga Bell peppers in nagdudugang hin color, crunch, ngan nutrition ha dishes worldwide.",
         "detailed_description": "An Bell Pepper (Capsicum annuum) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in Vitamin C, Antioxidant, Supports eye health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cauliflower": {
     "name": "Cauliflower",
@@ -3685,7 +3839,9 @@
         "cultural_relevance": "An Cauliflower in versatile ngan nagkaada hin popularity komo healthy alternative ha grains.",
         "detailed_description": "An Cauliflower (Brassica oleracea var. botrytis) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Supports brain health, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Broccoli": {
     "name": "Broccoli",
@@ -3727,7 +3883,9 @@
         "cultural_relevance": "An Broccoli in ginkikilala komo superfood para ha iya dense nutrient content.",
         "detailed_description": "An Broccoli (Brassica oleracea var. italica) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins and minerals, Supports heart health, Anti-cancer properties. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Lettuce": {
     "name": "Lettuce",
@@ -3769,7 +3927,9 @@
         "cultural_relevance": "An Lettuce in an foundation hin salads worldwide ngan nagpapakita hin hydration.",
         "detailed_description": "An Lettuce (Lactuca sativa) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Hydrating, Low calorie, Sleep aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Spinach": {
     "name": "Spinach",
@@ -3811,7 +3971,9 @@
         "cultural_relevance": "An Spinach in nagkaada hin fame tikang ha Popeye ngan nagpapabilin nga popular para ha iya nutritional value.",
         "detailed_description": "An Spinach (Spinacia oleracea) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in iron, Good for eyes, Bone health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Celery": {
     "name": "Celery",
@@ -3853,7 +4015,9 @@
         "cultural_relevance": "An Celery in popular komo diet food ngan nagdudugang hin crunch ha dishes.",
         "detailed_description": "An Celery (Apium graveolens) in usa nga vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Low calorie, Hydrating, Supports digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cilantro": {
     "name": "Cilantro",
@@ -3896,7 +4060,9 @@
         "cultural_relevance": "An Cilantro in esensyal ha Mexican, Indian, ngan Southeast Asian cuisines.",
         "detailed_description": "An Cilantro (Coriandrum sativum) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Detoxifying, Antibacterial, Digestive aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Mint": {
     "name": "Mint",
@@ -3938,7 +4104,9 @@
         "cultural_relevance": "An Mint in versatile, gingagamit ha ngatanan tikang ha tea kutob ha toothpaste kutob ha cocktails.",
         "detailed_description": "An Mint (Mentha spicata) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Freshens breath, Relieves headaches. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Thyme": {
     "name": "Thyme",
@@ -3980,7 +4148,9 @@
         "cultural_relevance": "An Thyme in gingagamit since ancient times para ha iya culinary ngan medicinal properties.",
         "detailed_description": "An Thyme (Thymus vulgaris) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antibacterial, Rich in antioxidants, Supports respiratory health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Parsley": {
     "name": "Parsley",
@@ -4022,7 +4192,9 @@
         "cultural_relevance": "An Parsley in an world's most popular garnish ngan nagdudugang hin fresh flavor ha dishes.",
         "detailed_description": "An Parsley (Petroselinum crispum) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Supports bone health, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Chives": {
     "name": "Chives",
@@ -4064,7 +4236,9 @@
         "cultural_relevance": "An Chives in nagdudugang hin mild onion flavor ngan visual appeal ha dishes.",
         "detailed_description": "An Chives (Allium schoenoprasum) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Rich in vitamins, Antioxidant, Digestive aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Dill": {
     "name": "Dill",
@@ -4106,7 +4280,9 @@
         "cultural_relevance": "An Dill in esensyal ha pickling ngan Scandinavian cuisine.",
         "detailed_description": "An Dill (Anethum graveolens) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Anti-inflammatory, Calming effect. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Fennel": {
     "name": "Fennel",
@@ -4148,7 +4324,9 @@
         "cultural_relevance": "An Fennel in gingagamit ha Italian cooking ngan traditional medicine para ha digestion.",
         "detailed_description": "An Fennel (Foeniculum vulgare) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Anti-inflammatory, Supports heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Laurel": {
     "name": "Laurel",
@@ -4191,7 +4369,9 @@
         "cultural_relevance": "An Bay leaves in esensyal ha bouquet garni ngan damo nga slow-cooked dishes.",
         "detailed_description": "An Laurel (Laurus nobilis) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-inflammatory, Aids digestion, Supports respiratory health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Rosemary": {
     "name": "Rosemary",
@@ -4233,7 +4413,9 @@
         "cultural_relevance": "An Rosemary in associated ha memory ngan in popular ha Mediterranean cuisine.",
         "detailed_description": "An Rosemary (Rosmarinus officinalis) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Improves memory, Anti-inflammatory, Antioxidant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Sage": {
     "name": "Sage",
@@ -4276,7 +4458,9 @@
         "cultural_relevance": "An Sage in gingagamit para ha centuries para ha iya medicinal ngan culinary properties.",
         "detailed_description": "An Sage (Salvia officinalis) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Cognitive benefits, Anti-inflammatory, Supports oral health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Tarragon": {
     "name": "Tarragon",
@@ -4318,7 +4502,9 @@
         "cultural_relevance": "An Tarragon in usa ha mga fines herbes han French cuisine.",
         "detailed_description": "An Tarragon (Artemisia dracunculus) in usa nga herbs plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Anti-inflammatory, Supports heart health. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Turmeric": {
     "name": "Turmeric",
@@ -4361,7 +4547,9 @@
         "cultural_relevance": "An Turmeric in usa nga staple ha Indian cuisine ngan Ayurvedic medicine.",
         "detailed_description": "An Turmeric (Curcuma longa) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-inflammatory, Antioxidant, Supports brain function. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Onion": {
     "name": "Onion",
@@ -4404,7 +4592,9 @@
         "cultural_relevance": "An mga onions in fundamental ha cooking worldwide ngan nagpapakita hin flavor base para ha countless dishes.",
         "detailed_description": "An Onion (Allium cepa) in usa nga spices/vegetables plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Anti-inflammatory, Supports heart health, Antioxidant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": true,
+    "local_to_calbayog": true
   },
   "Cinnamon": {
     "name": "Cinnamon",
@@ -4447,7 +4637,9 @@
         "cultural_relevance": "An Cinnamon in usa ha mga oldest known spices ngan nagpapabilin nga popular worldwide.",
         "detailed_description": "An Cinnamon (Cinnamomum verum) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antioxidant, Anti-inflammatory, Lowers blood sugar. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Black Pepper": {
     "name": "Black Pepper",
@@ -4489,7 +4681,9 @@
         "cultural_relevance": "An Black pepper in an world's most traded spice ngan esensyal ha damo nga cuisines.",
         "detailed_description": "An Black Pepper (Piper nigrum) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Improves digestion, Anti-inflammatory, Antioxidant. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cayenne Pepper": {
     "name": "Cayenne Pepper",
@@ -4532,7 +4726,9 @@
         "cultural_relevance": "An Cayenne in nagdudugang hin heat ha dishes ngan may medicinal uses.",
         "detailed_description": "An Cayenne Pepper (Capsicum annuum) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Boosts metabolism, Pain relief, Digestive aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Clove": {
     "name": "Clove",
@@ -4574,7 +4770,9 @@
         "cultural_relevance": "An mga cloves in gingagamit ha cuisines worldwide ngan traditional medicine.",
         "detailed_description": "An Clove (Syzygium aromaticum) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antimicrobial, Pain relief for teeth, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Cardamom": {
     "name": "Cardamom",
@@ -4617,7 +4815,9 @@
         "cultural_relevance": "An Cardamom in esensyal ha Indian cuisine ngan Scandinavian baking.",
         "detailed_description": "An Cardamom (Elettaria cardamomum) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Freshens breath, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Nutmeg": {
     "name": "Nutmeg",
@@ -4659,7 +4859,9 @@
         "cultural_relevance": "An Nutmeg in gingagamit ha sweet ngan savory dishes worldwide.",
         "detailed_description": "An Nutmeg (Myristica fragrans) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Aids digestion, Brain health, Anti-inflammatory. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Saffron": {
     "name": "Saffron",
@@ -4702,7 +4904,9 @@
         "cultural_relevance": "An Saffron in ginkilala para ha iya unique flavor, color, ngan medicinal properties.",
         "detailed_description": "An Saffron (Crocus sativus) in usa nga spices plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Antioxidant, Mood enhancer, Aids digestion. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Tawa-tawa": {
     "name": "Tawa-tawa",
@@ -4745,7 +4949,9 @@
         "cultural_relevance": "An Tawa-tawa in haluag nga gingagamit ha Philippines para ha dengue fever ngan respiratory problems.",
         "detailed_description": "An Tawa-tawa (Euphorbia hirta) in usa nga medicinal plant DOH-endorsed ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Treats dengue fever, Asthma relief, Anti-diarrheal. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Noni": {
     "name": "Noni",
@@ -4788,7 +4994,9 @@
         "cultural_relevance": "An Noni in gingagamit ha Polynesian traditional medicine para labaw 2,000 ka tuig.",
         "detailed_description": "An Noni (Morinda citrifolia) in usa nga medicinal plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Boosts immunity, Anti-inflammatory, Pain relief. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   },
   "Aloe Vera": {
     "name": "Aloe Vera",
@@ -4831,6 +5039,8 @@
         "cultural_relevance": "An Aloe vera in usa ha mga pinaka haluag nga gingagamit nga medicinal plants para ha skin care.",
         "detailed_description": "An Aloe Vera (Aloe barbadensis miller) in usa nga medicinal plant nga gingagamit ha traditional nga paagi ha Philippine traditional nga tambal. Ginkilala ini para ha iya medicinal nga mga kabtang upod an Heals burns and wounds, Skin moisturizer, Digestive aid. Ini nga tanom in gingagamit han Filipino communities para ha mga henerasyon ngan nagpapabilin nga importante nga parte han traditional healing practices."
       }
-    }
+    },
+    "is_herbal": false,
+    "local_to_calbayog": true
   }
 }

@@ -132,6 +132,21 @@ const ScanResultPage = () => {
               <span className="info-label">Category</span>
               <span className="info-value">{plantInfo?.category || plantDetails.category || 'Medicinal Plant'}</span>
             </div>
+            <div className={`info-card ${(plantInfo?.is_herbal || plantDetails.is_herbal) ? 'herbal-card' : 'non-herbal-card'}`}>
+              {(plantInfo?.is_herbal || plantDetails.is_herbal) ? (
+                <>
+                  <span className="herbal-icon">🌿</span>
+                  <span className="info-label">Type</span>
+                  <span className="info-value herbal-value">Herbal</span>
+                </>
+              ) : (
+                <>
+                  <span className="herbal-icon">🍎</span>
+                  <span className="info-label">Type</span>
+                  <span className="info-value">Non-Herbal</span>
+                </>
+              )}
+            </div>
             <div className="info-card">
               <Heart size={24} className="info-icon" />
               <span className="info-label">{t('scanResult.medicinalUses')}</span>

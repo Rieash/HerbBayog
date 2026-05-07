@@ -1,20 +1,37 @@
 import React, { useState } from 'react';
 import { CheckCircle, Clock, AlertCircle, Leaf, Loader2 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-
-const t = (key) => {
-  const { language } = useLanguage();
-  const translationKey = language === 'war' ? 'waray' : null;
-  if (translationKey && translations?.[translationKey]?.[key]) {
-    return translations[translationKey][key];
-  }
-  return key;
-};
+import { translations } from '../translations';
 
 const PlantCard = ({ plant, confidence, isVisible, onClose }) => {
   const [imageLoading, setImageLoading] = useState(true);
   const [imageError, setImageError] = useState(false);
   const { language } = useLanguage();
+
+  // Translation function
+  const t = (key) => {
+    const keys = key.split('.');
+    let value = translations[language];
+    
+    for (const k of keys) {
+      if (value && value[k]) {
+        value = value[k];
+      } else {
+        // Fallback to English if translation not found
+        value = translations['en'];
+        for (const k2 of keys) {
+          if (value && value[k2]) {
+            value = value[k2];
+          } else {
+            return key; // Return key if translation not found
+          }
+        }
+        break;
+      }
+    }
+    
+    return value;
+  };
 
   // Helper function to get translated content
   const getTranslatedContent = (field) => {

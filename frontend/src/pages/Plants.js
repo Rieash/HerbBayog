@@ -33,17 +33,19 @@ const Plants = () => {
     return plant[field];
   };
 
+  // Compute dynamic counts based on actual plant data
+  const categoryCounts = {
+    all: plants.length,
+    herbal: plants.filter(p => p.is_herbal === true).length,
+    nonHerbal: plants.filter(p => p.is_herbal === false).length,
+    calbayog: plants.filter(p => p.local_to_calbayog === true).length
+  };
+
   const categories = [
-    { id: 'all', label: t('plants.categories.all'), icon: '🌿', count: 10 },
-    { id: 'respiratory', label: t('plants.categories.respiratory'), icon: '🫁', count: 3 },
-    { id: 'digestive', label: t('plants.categories.digestive'), icon: '🍃', count: 5 },
-    { id: 'pain', label: t('plants.categories.pain'), icon: '💊', count: 1 },
-    { id: 'diabetes', label: t('plants.categories.diabetes'), icon: '🩺', count: 1 },
-    { id: 'kidney', label: t('plants.categories.kidney'), icon: '🏥', count: 1 },
-    { id: 'skin', label: t('plants.categories.skin'), icon: '✨', count: 1 },
-    { id: 'cardiovascular', label: t('plants.categories.cardiovascular'), icon: '❤️', count: 1 },
-    { id: 'nutritional', label: t('plants.categories.nutritional'), icon: '🥗', count: 1 },
-    { id: 'calbayog', label: t('plants.categories.calbayog'), icon: '🏘', count: 1 }
+    { id: 'all', label: t('plants.categories.all'), icon: '🌿', count: categoryCounts.all },
+    { id: 'herbal', label: t('plants.categories.herbal'), icon: '🌱', count: categoryCounts.herbal },
+    { id: 'nonHerbal', label: t('plants.categories.nonHerbal'), icon: '🍎', count: categoryCounts.nonHerbal },
+    { id: 'calbayog', label: t('plants.categories.calbayog'), icon: '🏘', count: categoryCounts.calbayog }
   ];
 
   useEffect(() => {
@@ -72,13 +74,12 @@ const Plants = () => {
       if (selectedCategory === 'calbayog') {
         // Filter for Calbayog local plants
         filtered = filtered.filter(plant => plant.local_to_calbayog === true);
-      } else {
-        // Filter by medicinal category
-        filtered = filtered.filter(plant => 
-          plant.medicinal_uses?.some(use => 
-            use.toLowerCase().includes(selectedCategory)
-          )
-        );
+      } else if (selectedCategory === 'herbal') {
+        // Filter for herbal plants
+        filtered = filtered.filter(plant => plant.is_herbal === true);
+      } else if (selectedCategory === 'nonHerbal') {
+        // Filter for non-herbal plants
+        filtered = filtered.filter(plant => plant.is_herbal === false);
       }
     }
 
@@ -92,19 +93,21 @@ const Plants = () => {
       const response = await axios.get(API_ENDPOINTS.PLANTS);
       const plantData = response.data.plants || response.data;
       
-      // Filter for DOH-approved plants only
-      const dohApprovedPlants = plantData.filter(plant => plant.doh_approved === true);
+      // Show ALL plants (both DOH-approved and non-DOH)
+      const allPlants = plantData;
       
       // Transform backend data to frontend format
-      const transformedPlants = dohApprovedPlants.map((plant, index) => ({
+      const transformedPlants = allPlants.map((plant, index) => ({
         id: plant.id || index + 1,
         name: plant.name,
         scientific_name: plant.scientific_name || '',
         image: plant.image_url || plant.image || '🌿',
         medicinal_uses: plant.medicinal_uses || plant.properties || [],
         description: plant.description || plant.medicinal_value || '',
-        category: plant.category || 'general',
-        translations: plant.translations || {},
+        doh_approved: plant.doh_approved || false,
+        category: plant.category || 'General',
+        is_herbal: plant.is_herbal !== undefined ? plant.is_herbal : true,
+        local_to_calbayog: plant.local_to_calbayog || false,
         featured: plant.featured || index < 6 // First 6 are featured
       }));
       
@@ -232,7 +235,7 @@ const Plants = () => {
           </div>
           <div className="stat-item-plants">
             <BookOpen size={20} />
-            <span>10 DOH-approved plants</span>
+            <span>{plants.filter(p => p.doh_approved).length} DOH-approved plants</span>
           </div>
           <div className="stat-item-plants">
             <Shield size={20} />

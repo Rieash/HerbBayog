@@ -89,14 +89,9 @@ export const translations = {
       search: 'Search plants, ailments, or remedies...',
       categories: {
         all: 'All Plants',
-        respiratory: 'Respiratory',
-        digestive: 'Digestive',
-        pain: 'Pain Relief',
-        diabetes: 'Diabetes',
-        kidney: 'Kidney/UTI',
-        skin: 'Skin Care',
-        cardiovascular: 'Heart Health',
-        nutritional: 'Nutritional'
+        herbal: 'Herbal Plants',
+        nonHerbal: 'Non-Herbal Plants',
+        calbayog: 'Calbayog Local Plants'
       },
       loading: 'Loading herbal library...',
       error: 'Failed to load plants. Please try again.',
@@ -305,14 +300,8 @@ export const translations = {
       search: 'Baklayon an mga tanom, sakit, o tambal...',
       categories: {
         all: 'Tanan nga Tanom',
-        respiratory: 'Respiratory',
-        digestive: 'Digestive',
-        pain: 'Pang-relieve hin Sakit',
-        diabetes: 'Diabetes',
-        kidney: 'Kidney/UTI',
-        skin: 'Pag-ampot han Balat',
-        cardiovascular: 'Kaluwasan han Kasingkasing',
-        nutritional: 'Nutritional',
+        herbal: 'Herbal nga Tanom',
+        nonHerbal: 'Diri-Herbal nga Tanom',
         calbayog: 'Mga Tanom ha Calbayog'
       },
       loading: 'Nag-load han herbal library...',
