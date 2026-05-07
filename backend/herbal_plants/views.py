@@ -446,7 +446,9 @@ def list_plants(request):
                     'doh_approved': info.get('doh_approved', False),
                     'translations': info.get('translations', {}),
                     'detailed_description': info.get('detailed_description', info['description']),
-                    'local_names': info.get('local_names', [])
+                    'local_names': info.get('local_names', []),
+                    'is_herbal': info.get('is_herbal', False),
+                    'local_to_calbayog': info.get('local_to_calbayog', False)
                 })
             
             return JsonResponse({'plants': plants_data})
