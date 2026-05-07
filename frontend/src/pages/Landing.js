@@ -102,7 +102,6 @@ const Landing = () => {
 
   const highlights = [
     { icon: <Zap />, text: t('landing.hero.highlights.accuracy') },
-    { icon: <Globe />, text: t('landing.hero.highlights.offline') },
     { icon: <Award />, text: t('landing.hero.highlights.doh') },
     { icon: <Users />, text: t('landing.hero.highlights.free') }
   ];

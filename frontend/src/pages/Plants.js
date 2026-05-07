@@ -42,7 +42,8 @@ const Plants = () => {
     { id: 'kidney', label: t('plants.categories.kidney'), icon: '🏥', count: 1 },
     { id: 'skin', label: t('plants.categories.skin'), icon: '✨', count: 1 },
     { id: 'cardiovascular', label: t('plants.categories.cardiovascular'), icon: '❤️', count: 1 },
-    { id: 'nutritional', label: t('plants.categories.nutritional'), icon: '🥗', count: 1 }
+    { id: 'nutritional', label: t('plants.categories.nutritional'), icon: '🥗', count: 1 },
+    { id: 'calbayog', label: t('plants.categories.calbayog'), icon: '🏘', count: 1 }
   ];
 
   useEffect(() => {
@@ -68,11 +69,17 @@ const Plants = () => {
 
     // Category filter
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(plant => 
-        plant.medicinal_uses?.some(use => 
-          use.toLowerCase().includes(selectedCategory)
-        )
-      );
+      if (selectedCategory === 'calbayog') {
+        // Filter for Calbayog local plants
+        filtered = filtered.filter(plant => plant.local_to_calbayog === true);
+      } else {
+        // Filter by medicinal category
+        filtered = filtered.filter(plant => 
+          plant.medicinal_uses?.some(use => 
+            use.toLowerCase().includes(selectedCategory)
+          )
+        );
+      }
     }
 
     setFilteredPlants(filtered);

@@ -286,10 +286,6 @@ const About = () => {
               </div>
               <h4>Instant Plant ID</h4>
               <p>Snap a photo and our AI identifies the plant in seconds with confidence scores.</p>
-              <div className="feature-highlight">
-                <Zap size={16} />
-                <span>Works offline</span>
-              </div>
             </div>
 
             <div className="feature-card-enhanced">

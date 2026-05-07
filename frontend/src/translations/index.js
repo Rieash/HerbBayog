@@ -17,8 +17,9 @@ export const translations = {
         highlights: {
           accuracy: '98.6% AI Accuracy',
           free: '100% Free',
-          offline: 'Works Offline',
-          doh: 'DOH Approved'
+          doh: 'DOH Approved',
+          herbal: 'Herbal Medicine',
+          nonHerbal: 'Non-Herbal Plant'
         },
         cta: {
           primary: 'Start Scanning Free',
@@ -232,8 +233,9 @@ export const translations = {
         highlights: {
           accuracy: '98.6% AI nga Karahasaan',
           free: '100% Libre',
-          offline: 'Ginagamit Waray Internet',
-          doh: 'DOH Ginpaborohan'
+          doh: 'DOH Ginpaborohan',
+          herbal: 'Herbal nga Tambal',
+          nonHerbal: 'Diri-Herbal nga Tanom'
         },
         cta: {
           primary: 'Mag-Scan Na Libre',
@@ -310,7 +312,8 @@ export const translations = {
         kidney: 'Kidney/UTI',
         skin: 'Pag-ampot han Balat',
         cardiovascular: 'Kaluwasan han Kasingkasing',
-        nutritional: 'Nutritional'
+        nutritional: 'Nutritional',
+        calbayog: 'Mga Tanom ha Calbayog'
       },
       loading: 'Nag-load han herbal library...',
       error: 'Diri ma-load an mga tanom. Palihug sulayi liwat.',

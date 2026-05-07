@@ -36,26 +36,26 @@ HerbBayog is a web-based medicinal plant identification system that uses AI to i
 ```
 frontend/
 ├── public/
-│   └── index.html          # Main HTML with viewport meta tag
+│   └── [index.html](./frontend/public/index.html)          # Main HTML with viewport meta tag
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.js       # Navigation bar component
-│   │   ├── Scanner.js      # Camera/upload component
-│   │   └── PhotoSubmission.js
+│   │   ├── [Navbar.js](./frontend/src/components/Navbar.js)       # Navigation bar component
+│   │   ├── [Scanner.js](./frontend/src/components/Scanner.js)      # Camera/upload component
+│   │   └── [PhotoSubmission.js](./frontend/src/components/PhotoSubmission.js)
 │   ├── pages/
-│   │   ├── LandingNew.js   # Landing page
-│   │   ├── About.js        # About page
-│   │   ├── Scan.js         # Scan page
-│   │   ├── ScanResultPage.js  # Results display
-│   │   ├── Plants.js       # Plant database
-│   │   └── PlantDetails.js # Individual plant details
+│   │   ├── [LandingNew.js](./frontend/src/pages/LandingNew.js)   # Landing page
+│   │   ├── [About.js](./frontend/src/pages/About.js)        # About page
+│   │   ├── [Scan.js](./frontend/src/pages/Scan.js)         # Scan page
+│   │   ├── [ScanResultPage.js](./frontend/src/pages/ScanResultPage.js)  # Results display
+│   │   ├── [Plants.js](./frontend/src/pages/Plants.js)       # Plant database
+│   │   └── [PlantDetails.js](./frontend/src/pages/PlantDetails.js) # Individual plant details
 │   ├── data/
-│   │   └── dohPlantDatabase.js  # Plant information database
+│   │   └── [dohPlantDatabase.js](./frontend/src/data/dohPlantDatabase.js)  # Plant information database
 │   ├── utils/
-│   │   └── plantNameMapping.js # Plant name normalization
-│   ├── App.js              # Main app component with routing
-│   └── index.js            # Entry point
-└── package.json
+│   │   └── [plantNameMapping.js](./frontend/src/utils/plantNameMapping.js) # Plant name normalization
+│   ├── [App.js](./frontend/src/App.js)              # Main app component with routing
+│   └── [index.js](./frontend/src/index.js)            # Entry point
+└── [package.json](./frontend/package.json)
 ```
 
 ## Backend Code Structure
@@ -63,18 +63,18 @@ frontend/
 ```
 backend/
 ├── herbbayog/
-│   ├── settings.py         # Development settings
-│   ├── settings_prod.py    # Production settings
-│   ├── urls.py             # URL routing
-│   └── wsgi.py             # WSGI configuration
+│   ├── [settings.py](./backend/herbbayog/settings.py)         # Development settings
+│   ├── [settings_prod.py](./backend/herbbayog/settings_prod.py)    # Production settings
+│   ├── [urls.py](./backend/herbbayog/urls.py)             # URL routing
+│   └── [wsgi.py](./backend/herbbayog/wsgi.py)             # WSGI configuration
 ├── herbal_plants/
-│   ├── views.py            # API view functions
-│   ├── urls.py             # API URL patterns
-│   ├── plant_data.py       # Plant data management
-│   └── admin.py            # Django admin
-├── manage.py               # Django management script
-├── requirements.txt        # Python dependencies
-└── build.sh                # Build script for deployment
+│   ├── [views.py](./backend/herbal_plants/views.py)            # API view functions
+│   ├── [urls.py](./backend/herbal_plants/urls.py)             # API URL patterns
+│   ├── [plant_data.py](./backend/herbal_plants/plant_data.py)       # Plant data management
+│   └── [admin.py](./backend/herbal_plants/admin.py)            # Django admin
+├── [manage.py](./backend/manage.py)               # Django management script
+├── [requirements.txt](./backend/requirements.txt)        # Python dependencies
+└── [build.sh](./backend/build.sh)                # Build script for deployment
 ```
 
 ---

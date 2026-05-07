@@ -30,7 +30,9 @@
     "image_url": "/images/plants/lagundi.jpg",
     "doh_approved": true,
     "category": "Respiratory",
-    "detailed_description": "Lagundi (Vitex negundo) is one of the ten medicinal plants officially endorsed by the Philippine Department of Health (DOH) for its proven effectiveness in treating respiratory ailments including cough, asthma, and pharyngitis.",
+    "is_herbal": true,
+    "local_to_calbayog": true,
+    "detailed_description": "Lagundi (Vitex negundo) is one of ten medicinal plants officially endorsed by the Philippine Department of Health (DOH) for its proven effectiveness in treating respiratory ailments including cough, asthma, and pharyngitis.",
     "translations": {
       "waray": {
         "description": "An Lagundi in usa nga shrub nga nagtubo tubtob 5 metros kahitaas. Mayda ini nga talagsa nga lima nga mga bulong (palmate compound leaves) ngan mga gagmay nga azul ngan lavender nga mga burak. Ini in usa ha mga gigamit nga medicinal nga tanom ha Pilipinas, ginkilala han Department of Health para ha iya pagka-epektibo.",
@@ -77,7 +79,9 @@
     "image_url": "/images/plants/sambong.jpg",
     "doh_approved": true,
     "category": "Urinary/Kidney",
-    "detailed_description": "Sambong (Blumea balsamifera) is officially recognized by the Philippine DOH for its diuretic properties and effectiveness in dissolving kidney stones and treating urinary tract infections.",
+    "is_herbal": true,
+    "local_to_calbayog": true,
+    "detailed_description": "Sambong (Blumea balsamifera) is officially recognized by Philippine DOH for its diuretic properties and effectiveness in dissolving kidney stones and treating urinary tract infections.",
     "translations": {
       "waray": {
         "description": "An Sambong in usa nga coarse erect annual herb nga nagtubo tubtob 1.5 metros kahitaas. Mayda ini nga maupay, hairy nga mga bulong nga nagpapakita hin camphor-like nga scent pagkatapos gindurog. An tanom nagprodyus hin mga pula nga burak ha mga clusters ha ibabaw. Nagtubo ini ha open grasslands ngan waste places ha bug-os nga Pilipinas.",
@@ -128,6 +132,8 @@
     "image_url": "/images/plants/bayabas.jpg",
     "doh_approved": true,
     "category": "Digestive",
+    "is_herbal": true,
+    "local_to_calbayog": true,
     "detailed_description": "Bayabas or Guava (Psidium guajava) is endorsed by the Philippine DOH as an effective treatment for diarrhea and amebiasis. The leaves contain tannins that provide antimicrobial and anti-inflammatory effects.",
     "translations": {
       "waray": {
@@ -180,7 +186,10 @@
     "image_url": "/images/plants/ampalaya.jpg",
     "doh_approved": true,
     "category": "Diabetes",
-    "detailed_description": "Ampalaya or Bitter Melon (Momordica charantia) is recognized by the Philippine DOH for its anti-diabetic properties. It contains charantin and momordicin which help lower blood glucose levels.",
+    "herbal_classification": "Bitter",
+    "is_herbal": true,
+    "local_to_calbayog": true,
+    "detailed_description": "Ampalaya or Bitter Melon (Momordica charantia) is recognized by Philippine DOH for its anti-diabetic properties. It contains charantin and momordicin which help lower blood glucose levels.",
     "translations": {
       "waray": {
         "description": "An Ampalaya in usa nga climbing vine nga may mga stems nga nagtubo tubtob 5 metros kahilaba. Mayda ini nga mga naglaba, flat, grass-like nga mga bulong ngan nagprodyus hin mga gagmay nga pula nga mga burak. An bulb in naglalaman hin 4-20 nga cloves nga na-enclose ha usa nga puti o pinkish papery skin. Mayda ini nga pungent, characteristic nga odor.",
@@ -232,7 +241,10 @@
     "image_url": "/images/plants/malunggay.jpg",
     "doh_approved": true,
     "category": "Nutritional",
-    "detailed_description": "Malunggay (Moringa oleifera) is called the 'Miracle Tree' and is endorsed by the DOH as a nutritional supplement. It contains 7x more Vitamin C than oranges and 4x more Vitamin A than carrots.",
+    "herbal_classification": "Nutritive",
+    "is_herbal": true,
+    "local_to_calbayog": true,
+    "detailed_description": "Malunggay (Moringa oleifera) is called 'Miracle Tree' and is endorsed by DOH as a nutritional supplement. It contains 7x more Vitamin C than oranges and 4x more Vitamin A than carrots.",
     "translations": {
       "waray": {
         "description": "An Malunggay in usa nga fast-growing, drought-resistant nga kahoy nga maabot tubtob 10 metros kahitaas. Mayda ini nga compound nga mga bulong nga may mga gagmay nga oval nga leaflets, pula nga fragrant nga mga burak, ngan mga naglaba, slender nga seed pods (drumsticks). Tagsa nga parte han kahoy in edible ngan nutritious.",
@@ -609,6 +621,8 @@
     "image_url": "/images/plants/avocado.jpg",
     "doh_approved": false,
     "category": "Nutrition",
+    "is_herbal": false,
+    "local_to_calbayog": true,
     "detailed_description": "Avocado (Persea americana) is valued for its nutrient-rich fruit containing healthy fats, fiber, and vitamins. The leaves are used in traditional medicine for treating kidney stones and respiratory issues, containing beneficial flavonoids and phenolic compounds.",
     "translations": {
       "waray": {
@@ -853,6 +867,10 @@
     ],
     "cultural_relevance": "Coconut is called the 'Tree of Life' in the Philippines for its many uses.",
     "image_url": "/images/plants/coconut.jpg",
+    "doh_approved": false,
+    "category": "Nutrition",
+    "is_herbal": false,
+    "local_to_calbayog": true,
     "detailed_description": "Coconut (Cocos nucifera) is a medicinal plant traditionally used in Philippine traditional medicine. It is known for its medicinal properties including Hydration, Rich in electrolytes, Antibacterial. This plant has been used by Filipino communities for generations and continues to be an important part of traditional healing practices.",
     "translations": {
       "waray": {
